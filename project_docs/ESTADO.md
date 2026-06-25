@@ -75,6 +75,8 @@ Archivos generados:
 
 `docs/transnational_bibliography.html` agrega una primera exploracion de bibliografia extraida de PDFs disponibles para articulos que mencionan multilatinas, transnacionales o trasnacionales.
 
+`docs/data/transnational_analysis.json` agrega una capa analitica del segmento: revistas, decadas, familias tematicas, dimensiones, paises/espacios, autores citados, palabras en referencias y articulos pivote.
+
 ## Revistas excluidas del corte inicial
 
 | Revista | Estado | Proximo paso |

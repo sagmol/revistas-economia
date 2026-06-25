@@ -1,0 +1,5030 @@
+{
+  "source": "docs/data/transnational_bibliography.json",
+  "total_articles": 66,
+  "articles_with_pdf_text": 43,
+  "total_references": 317,
+  "by_journal": [
+    {
+      "name": "Problemas del Desarrollo",
+      "count": 43
+    },
+    {
+      "name": "Estudios Latinoamericanos",
+      "count": 12
+    },
+    {
+      "name": "Ola Financiera",
+      "count": 11
+    }
+  ],
+  "by_decade": [
+    {
+      "name": "2010s",
+      "count": 22
+    },
+    {
+      "name": "1980s",
+      "count": 14
+    },
+    {
+      "name": "1990s",
+      "count": 10
+    },
+    {
+      "name": "2000s",
+      "count": 8
+    },
+    {
+      "name": "2020s",
+      "count": 7
+    },
+    {
+      "name": "1970s",
+      "count": 5
+    }
+  ],
+  "by_status": [
+    {
+      "name": "ok",
+      "count": 43
+    },
+    {
+      "name": "no_pdf",
+      "count": 23
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "global_value_chains_power",
+      "count": 62
+    },
+    {
+      "name": "wealth",
+      "count": 22
+    },
+    {
+      "name": "extractivism_environment",
+      "count": 13
+    },
+    {
+      "name": "finance",
+      "count": 13
+    },
+    {
+      "name": "space",
+      "count": 9
+    },
+    {
+      "name": "conflict_dispossession",
+      "count": 7
+    },
+    {
+      "name": "dependency_periphery",
+      "count": 5
+    },
+    {
+      "name": "land_housing",
+      "count": 2
+    }
+  ],
+  "dimension_pairs": [
+    {
+      "name": "global_value_chains_power + wealth",
+      "count": 21
+    },
+    {
+      "name": "finance + global_value_chains_power",
+      "count": 11
+    },
+    {
+      "name": "extractivism_environment + global_value_chains_power",
+      "count": 10
+    },
+    {
+      "name": "finance + wealth",
+      "count": 9
+    },
+    {
+      "name": "global_value_chains_power + space",
+      "count": 8
+    },
+    {
+      "name": "conflict_dispossession + global_value_chains_power",
+      "count": 7
+    },
+    {
+      "name": "dependency_periphery + global_value_chains_power",
+      "count": 5
+    },
+    {
+      "name": "conflict_dispossession + extractivism_environment",
+      "count": 3
+    },
+    {
+      "name": "conflict_dispossession + space",
+      "count": 3
+    },
+    {
+      "name": "dependency_periphery + wealth",
+      "count": 3
+    },
+    {
+      "name": "space + wealth",
+      "count": 3
+    },
+    {
+      "name": "extractivism_environment + finance",
+      "count": 3
+    },
+    {
+      "name": "extractivism_environment + space",
+      "count": 2
+    },
+    {
+      "name": "extractivism_environment + land_housing",
+      "count": 2
+    },
+    {
+      "name": "global_value_chains_power + land_housing",
+      "count": 2
+    },
+    {
+      "name": "conflict_dispossession + finance",
+      "count": 2
+    },
+    {
+      "name": "conflict_dispossession + wealth",
+      "count": 2
+    },
+    {
+      "name": "dependency_periphery + finance",
+      "count": 2
+    },
+    {
+      "name": "extractivism_environment + wealth",
+      "count": 2
+    },
+    {
+      "name": "conflict_dispossession + land_housing",
+      "count": 1
+    }
+  ],
+  "term_families_articles": [
+    {
+      "name": "empresas_transnacionales",
+      "count": 64
+    },
+    {
+      "name": "trabajo",
+      "count": 39
+    },
+    {
+      "name": "capital_extranjero",
+      "count": 36
+    },
+    {
+      "name": "finanzas",
+      "count": 34
+    },
+    {
+      "name": "dependencia_periferia",
+      "count": 27
+    },
+    {
+      "name": "energia_hidrocarburos",
+      "count": 26
+    },
+    {
+      "name": "conflictos_territorio",
+      "count": 26
+    },
+    {
+      "name": "extractivismo_mineria",
+      "count": 20
+    },
+    {
+      "name": "agricultura_alimentacion",
+      "count": 15
+    },
+    {
+      "name": "cadenas_valor",
+      "count": 6
+    },
+    {
+      "name": "multilatinas",
+      "count": 2
+    }
+  ],
+  "term_families_mentions": [
+    {
+      "name": "empresas_transnacionales",
+      "count": 1573
+    },
+    {
+      "name": "trabajo",
+      "count": 833
+    },
+    {
+      "name": "finanzas",
+      "count": 652
+    },
+    {
+      "name": "extractivismo_mineria",
+      "count": 617
+    },
+    {
+      "name": "capital_extranjero",
+      "count": 605
+    },
+    {
+      "name": "agricultura_alimentacion",
+      "count": 448
+    },
+    {
+      "name": "energia_hidrocarburos",
+      "count": 427
+    },
+    {
+      "name": "conflictos_territorio",
+      "count": 407
+    },
+    {
+      "name": "dependencia_periferia",
+      "count": 249
+    },
+    {
+      "name": "cadenas_valor",
+      "count": 80
+    },
+    {
+      "name": "multilatinas",
+      "count": 18
+    }
+  ],
+  "term_families_by_journal": {
+    "agricultura_alimentacion": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 15
+      }
+    ],
+    "cadenas_valor": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 4
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 1
+      },
+      {
+        "name": "Estudios Latinoamericanos",
+        "count": 1
+      }
+    ],
+    "capital_extranjero": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 35
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 1
+      }
+    ],
+    "conflictos_territorio": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 22
+      },
+      {
+        "name": "Estudios Latinoamericanos",
+        "count": 3
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 1
+      }
+    ],
+    "dependencia_periferia": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 25
+      },
+      {
+        "name": "Estudios Latinoamericanos",
+        "count": 2
+      }
+    ],
+    "empresas_transnacionales": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 43
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 11
+      },
+      {
+        "name": "Estudios Latinoamericanos",
+        "count": 10
+      }
+    ],
+    "energia_hidrocarburos": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 26
+      }
+    ],
+    "extractivismo_mineria": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 20
+      }
+    ],
+    "finanzas": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 27
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 6
+      },
+      {
+        "name": "Estudios Latinoamericanos",
+        "count": 1
+      }
+    ],
+    "multilatinas": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 2
+      }
+    ],
+    "trabajo": [
+      {
+        "name": "Problemas del Desarrollo",
+        "count": 38
+      },
+      {
+        "name": "Ola Financiera",
+        "count": 1
+      }
+    ]
+  },
+  "countries": [
+    {
+      "name": "Mexico",
+      "count": 800
+    },
+    {
+      "name": "Estados Unidos",
+      "count": 262
+    },
+    {
+      "name": "Brasil",
+      "count": 151
+    },
+    {
+      "name": "Argentina",
+      "count": 131
+    },
+    {
+      "name": "Chile",
+      "count": 116
+    },
+    {
+      "name": "Ecuador",
+      "count": 79
+    },
+    {
+      "name": "Peru",
+      "count": 71
+    },
+    {
+      "name": "Colombia",
+      "count": 68
+    },
+    {
+      "name": "Venezuela",
+      "count": 48
+    },
+    {
+      "name": "Bolivia",
+      "count": 27
+    },
+    {
+      "name": "Corea",
+      "count": 22
+    },
+    {
+      "name": "South Korea",
+      "count": 1
+    }
+  ],
+  "references_by_journal": [
+    {
+      "name": "Problemas del Desarrollo",
+      "count": 317
+    },
+    {
+      "name": "Ola Financiera",
+      "count": 0
+    },
+    {
+      "name": "Estudios Latinoamericanos",
+      "count": 0
+    }
+  ],
+  "cited_authors": [
+    {
+      "name": "Harvey, David",
+      "count": 3
+    },
+    {
+      "name": "Composto, Claudia",
+      "count": 2
+    },
+    {
+      "name": "De Angelis, Massimo",
+      "count": 2
+    },
+    {
+      "name": "Wallerstein, Immanuel",
+      "count": 2
+    },
+    {
+      "name": "Ceceña, Ana Esther",
+      "count": 2
+    },
+    {
+      "name": "Arceo, E",
+      "count": 2
+    },
+    {
+      "name": "Caballero, José Luis",
+      "count": 1
+    },
+    {
+      "name": "Camimex (Cámara Minera de México)",
+      "count": 1
+    },
+    {
+      "name": "Minera de México",
+      "count": 1
+    },
+    {
+      "name": "Aid Christian",
+      "count": 1
+    },
+    {
+      "name": "Dirección General de Promoción Minera",
+      "count": 1
+    },
+    {
+      "name": "Dresser, Denise",
+      "count": 1
+    },
+    {
+      "name": "García, Fermín Alejandro",
+      "count": 1
+    },
+    {
+      "name": "Garduño, Roberto",
+      "count": 1
+    },
+    {
+      "name": "Enrique Méndez",
+      "count": 1
+    },
+    {
+      "name": "Garibay, Claudio",
+      "count": 1
+    },
+    {
+      "name": "Alejandra Balzaretti",
+      "count": 1
+    },
+    {
+      "name": "González, José de Jesús",
+      "count": 1
+    },
+    {
+      "name": "González, Susana",
+      "count": 1
+    },
+    {
+      "name": "Huerta, Verónica",
+      "count": 1
+    },
+    {
+      "name": "Jiménez, Paulina",
+      "count": 1
+    },
+    {
+      "name": "López Bárcenas, Francisco",
+      "count": 1
+    },
+    {
+      "name": "Mayra Montserrat Eslava",
+      "count": 1
+    },
+    {
+      "name": "Méndez, Enrique",
+      "count": 1
+    },
+    {
+      "name": "Roberto Garduño",
+      "count": 1
+    },
+    {
+      "name": "Meyer, Lorenzo",
+      "count": 1
+    },
+    {
+      "name": "Panico, Francesco",
+      "count": 1
+    },
+    {
+      "name": "Claudio Garibay",
+      "count": 1
+    },
+    {
+      "name": "Presidencia de la República",
+      "count": 1
+    },
+    {
+      "name": "Puga, Javier",
+      "count": 1
+    },
+    {
+      "name": "Ramírez, Peniley",
+      "count": 1
+    },
+    {
+      "name": "Saade, Miryam",
+      "count": 1
+    },
+    {
+      "name": "Congreso de los Estados Unidos Mexicanos",
+      "count": 1
+    },
+    {
+      "name": "Valadez, Alfredo",
+      "count": 1
+    },
+    {
+      "name": "Aponte García, M",
+      "count": 1
+    },
+    {
+      "name": "Bernal-Meza, R",
+      "count": 1
+    },
+    {
+      "name": "Briceño Ruiz, J",
+      "count": 1
+    },
+    {
+      "name": "Bruckmann, M",
+      "count": 1
+    },
+    {
+      "name": "Cepal. División de Comercio Internacional e Integración",
+      "count": 1
+    },
+    {
+      "name": "Composto, C. & Navarro, M. L",
+      "count": 1
+    }
+  ],
+  "cited_years": [
+    {
+      "name": "2012",
+      "count": 41
+    },
+    {
+      "name": "2013",
+      "count": 40
+    },
+    {
+      "name": "2014",
+      "count": 33
+    },
+    {
+      "name": "2011",
+      "count": 28
+    },
+    {
+      "name": "2016",
+      "count": 27
+    },
+    {
+      "name": "2015",
+      "count": 26
+    },
+    {
+      "name": "2001",
+      "count": 22
+    },
+    {
+      "name": "2009",
+      "count": 20
+    },
+    {
+      "name": "2010",
+      "count": 20
+    },
+    {
+      "name": "2008",
+      "count": 16
+    },
+    {
+      "name": "2000",
+      "count": 16
+    },
+    {
+      "name": "2007",
+      "count": 12
+    },
+    {
+      "name": "2018",
+      "count": 12
+    },
+    {
+      "name": "2017",
+      "count": 12
+    },
+    {
+      "name": "2002",
+      "count": 12
+    },
+    {
+      "name": "1999",
+      "count": 11
+    },
+    {
+      "name": "2004",
+      "count": 10
+    },
+    {
+      "name": "2005",
+      "count": 9
+    },
+    {
+      "name": "2006",
+      "count": 8
+    },
+    {
+      "name": "1996",
+      "count": 8
+    },
+    {
+      "name": "1994",
+      "count": 7
+    },
+    {
+      "name": "1997",
+      "count": 7
+    },
+    {
+      "name": "1991",
+      "count": 7
+    },
+    {
+      "name": "1995",
+      "count": 7
+    },
+    {
+      "name": "1992",
+      "count": 6
+    },
+    {
+      "name": "1990",
+      "count": 6
+    },
+    {
+      "name": "1998",
+      "count": 6
+    },
+    {
+      "name": "2003",
+      "count": 4
+    },
+    {
+      "name": "1993",
+      "count": 4
+    },
+    {
+      "name": "1988",
+      "count": 4
+    },
+    {
+      "name": "1989",
+      "count": 4
+    },
+    {
+      "name": "1980",
+      "count": 4
+    },
+    {
+      "name": "1981",
+      "count": 4
+    },
+    {
+      "name": "1976",
+      "count": 4
+    },
+    {
+      "name": "1965",
+      "count": 3
+    },
+    {
+      "name": "1973",
+      "count": 3
+    },
+    {
+      "name": "1970",
+      "count": 3
+    },
+    {
+      "name": "1986",
+      "count": 3
+    },
+    {
+      "name": "1944",
+      "count": 2
+    },
+    {
+      "name": "1977",
+      "count": 2
+    }
+  ],
+  "reference_keywords": [
+    {
+      "name": "america",
+      "count": 59
+    },
+    {
+      "name": "latina",
+      "count": 43
+    },
+    {
+      "name": "mineria",
+      "count": 42
+    },
+    {
+      "name": "argentina",
+      "count": 37
+    },
+    {
+      "name": "cepal",
+      "count": 27
+    },
+    {
+      "name": "politica",
+      "count": 27
+    },
+    {
+      "name": "jornada",
+      "count": 23
+    },
+    {
+      "name": "global",
+      "count": 23
+    },
+    {
+      "name": "press",
+      "count": 23
+    },
+    {
+      "name": "mining",
+      "count": 22
+    },
+    {
+      "name": "economia",
+      "count": 21
+    },
+    {
+      "name": "university",
+      "count": 21
+    },
+    {
+      "name": "siglo",
+      "count": 21
+    },
+    {
+      "name": "unam",
+      "count": 21
+    },
+    {
+      "name": "clacso",
+      "count": 20
+    },
+    {
+      "name": "chile",
+      "count": 20
+    },
+    {
+      "name": "economica",
+      "count": 19
+    },
+    {
+      "name": "estado",
+      "count": 19
+    },
+    {
+      "name": "economic",
+      "count": 19
+    },
+    {
+      "name": "minera",
+      "count": 18
+    },
+    {
+      "name": "informe",
+      "count": 18
+    },
+    {
+      "name": "sociales",
+      "count": 17
+    },
+    {
+      "name": "ecuador",
+      "count": 17
+    },
+    {
+      "name": "madrid",
+      "count": 17
+    },
+    {
+      "name": "buenos",
+      "count": 16
+    },
+    {
+      "name": "aires",
+      "count": 16
+    },
+    {
+      "name": "guatemala",
+      "count": 16
+    },
+    {
+      "name": "nuevo",
+      "count": 15
+    },
+    {
+      "name": "diciembre",
+      "count": 15
+    },
+    {
+      "name": "santiago",
+      "count": 15
+    },
+    {
+      "name": "unidas",
+      "count": 15
+    },
+    {
+      "name": "minero",
+      "count": 14
+    },
+    {
+      "name": "estudios",
+      "count": 14
+    },
+    {
+      "name": "social",
+      "count": 14
+    },
+    {
+      "name": "naciones",
+      "count": 14
+    },
+    {
+      "name": "capital",
+      "count": 14
+    },
+    {
+      "name": "mexicana",
+      "count": 13
+    },
+    {
+      "name": "acumulacion",
+      "count": 13
+    },
+    {
+      "name": "enero",
+      "count": 13
+    },
+    {
+      "name": "york",
+      "count": 13
+    },
+    {
+      "name": "chains",
+      "count": 13
+    },
+    {
+      "name": "proyecto",
+      "count": 13
+    },
+    {
+      "name": "istmo",
+      "count": 13
+    },
+    {
+      "name": "california",
+      "count": 13
+    },
+    {
+      "name": "octubre",
+      "count": 12
+    },
+    {
+      "name": "files",
+      "count": 12
+    },
+    {
+      "name": "espana",
+      "count": 12
+    },
+    {
+      "name": "angeles",
+      "count": 12
+    },
+    {
+      "name": "agosto",
+      "count": 11
+    },
+    {
+      "name": "business",
+      "count": 11
+    }
+  ],
+  "text_keywords": [
+    {
+      "name": "empresas",
+      "count": 767
+    },
+    {
+      "name": "capital",
+      "count": 674
+    },
+    {
+      "name": "esta",
+      "count": 573
+    },
+    {
+      "name": "este",
+      "count": 563
+    },
+    {
+      "name": "paises",
+      "count": 551
+    },
+    {
+      "name": "trasnacionales",
+      "count": 384
+    },
+    {
+      "name": "trabajo",
+      "count": 368
+    },
+    {
+      "name": "estado",
+      "count": 358
+    },
+    {
+      "name": "mercado",
+      "count": 322
+    },
+    {
+      "name": "parte",
+      "count": 313
+    },
+    {
+      "name": "estados",
+      "count": 293
+    },
+    {
+      "name": "recursos",
+      "count": 291
+    },
+    {
+      "name": "proceso",
+      "count": 284
+    },
+    {
+      "name": "economia",
+      "count": 276
+    },
+    {
+      "name": "nacional",
+      "count": 267
+    },
+    {
+      "name": "produccion",
+      "count": 260
+    },
+    {
+      "name": "pais",
+      "count": 252
+    },
+    {
+      "name": "america",
+      "count": 244
+    },
+    {
+      "name": "gran",
+      "count": 233
+    },
+    {
+      "name": "estos",
+      "count": 231
+    },
+    {
+      "name": "unidos",
+      "count": 229
+    },
+    {
+      "name": "mundial",
+      "count": 228
+    },
+    {
+      "name": "sector",
+      "count": 227
+    },
+    {
+      "name": "empresa",
+      "count": 221
+    },
+    {
+      "name": "pero",
+      "count": 219
+    },
+    {
+      "name": "tanto",
+      "count": 218
+    },
+    {
+      "name": "internacional",
+      "count": 217
+    },
+    {
+      "name": "industria",
+      "count": 217
+    },
+    {
+      "name": "crisis",
+      "count": 216
+    },
+    {
+      "name": "tambien",
+      "count": 215
+    },
+    {
+      "name": "estas",
+      "count": 210
+    },
+    {
+      "name": "caso",
+      "count": 201
+    },
+    {
+      "name": "mayor",
+      "count": 198
+    },
+    {
+      "name": "millones",
+      "count": 195
+    },
+    {
+      "name": "politica",
+      "count": 191
+    },
+    {
+      "name": "social",
+      "count": 190
+    },
+    {
+      "name": "puede",
+      "count": 189
+    },
+    {
+      "name": "transnacionales",
+      "count": 188
+    },
+    {
+      "name": "otros",
+      "count": 185
+    },
+    {
+      "name": "grandes",
+      "count": 178
+    },
+    {
+      "name": "hacia",
+      "count": 178
+    },
+    {
+      "name": "latina",
+      "count": 174
+    },
+    {
+      "name": "producci",
+      "count": 174
+    },
+    {
+      "name": "cual",
+      "count": 170
+    },
+    {
+      "name": "crecimiento",
+      "count": 166
+    },
+    {
+      "name": "mundo",
+      "count": 163
+    },
+    {
+      "name": "region",
+      "count": 162
+    },
+    {
+      "name": "valor",
+      "count": 161
+    },
+    {
+      "name": "inversion",
+      "count": 161
+    },
+    {
+      "name": "anos",
+      "count": 159
+    }
+  ],
+  "top_reference_articles": [
+    {
+      "article_id": "8eba9ddf8f7951ef",
+      "title": "Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/63175/62054",
+      "score": 8,
+      "reference_count": 45,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 71
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 36
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 102
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "land_housing"
+      ],
+      "snippets": [
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analyze",
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analy",
+        "sa índole y, consecuente- mente, modifican el paisaje original de las tierras, así como contaminan las fuentes de agua (López y Eslava, 2011). En Ecuador, la continua presencia de empresas transnacionales mineras, ha puesto a los recursos naturales en situación de análisis tanto en espacios académicos como sociales. Las actividades de exploración y explotación se realizan en medio"
+      ]
+    },
+    {
+      "article_id": "62f5f676378f11d6",
+      "title": "A Historical Review of Mining Automation in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2019",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/64750/61968",
+      "score": 5,
+      "reference_count": 41,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 23
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 5
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 23
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 179
+        },
+        {
+          "name": "trabajo",
+          "count": 25
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical period",
+        "ales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical peri",
+        "e los metales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical period"
+      ]
+    },
+    {
+      "article_id": "5f177e7cfcbac8b6",
+      "title": "Government Policy vs. Public Policy: Avatars for the Wind Farms on the Isthmus of Tehuantepec",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/61586/62042",
+      "score": 3,
+      "reference_count": 38,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 10
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 90
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 77
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 67
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 3
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "a instalación de parques eólicos, argumentando que es una energía limpia (cualidad, parcialmente cierta). La estrategia gubernamental de implantación ha favorecido a corporaciones transnacionales, en con- tra de las comunidades originarias que están perdiendo el control sobre sus territorios, mismos que han sido ocupados por estas empresas, provocando un deterioro ecológic",
+        "a instalación de parques eólicos, argumentando que es una energía limpia (cualidad, parcialmente cierta). La estrategia gubernamental de implantación ha favorecido a corporaciones transnacionales, en con- tra de las comunidades originarias que están perdiendo el control sobre sus territorios, mismos que han sido ocupados por estas empresas, provocando un deterioro ecológ",
+        "el juez Carlos Alberto Osogobio Barón, un jurista sin experiencia en casos de controversia presentados por pueblos originarios y, por los hechos, con la voluntad de apo- yar a las empresas transnacionales, ya que sin recabar las pruebas que se suelen presentar de oficio, consideró improcedentes los actos reclamados por 1 165 integrantes de los pueblos Ikoot y Binnizá, mismos que sí"
+      ]
+    },
+    {
+      "article_id": "8fa2bb260f13e012",
+      "title": "The Role of Foreign Capital and its Insertion in South America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/48185/63238",
+      "score": 5,
+      "reference_count": 32,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 89
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 37
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 38
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 28
+        },
+        {
+          "name": "finanzas",
+          "count": 5
+        },
+        {
+          "name": "multilatinas",
+          "count": 4
+        },
+        {
+          "name": "trabajo",
+          "count": 24
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "un esquema basado, fundamentalmente, en la apropiación de la naturaleza, escasamente diversificado y cada vez más dependiente de una in- 13 Cabe destacar que para 2011 de las 500 multilatinas más grandes según su tamaño medido en volumen de ventas, 43% eran de origen brasileño. Entre las firmas brasileras que operan en la región sudamericana destacan: Petrobras (con ac",
+        "orías que sostienen que con la globalización se diluyen las diferencias nacio- nales. El libre comercio, la acelerada movilidad del capital y la fuerte expan- sión de las empresas trasnacionales (et) generaron nuevas oportunidades de desarrollo para los países atrasados que tornarían superflua la distinción entre centro y periferia. La eliminación de las barreras comercia",
+        "posneoliberal. Contudo, essa nova etapa se construiu sobre as bases criadas pelo neoliberalismo. Entre elas se destacam: a grande concen- tração do capital, a hegemonia do capital transnacional e uma crescente dependência da produção de commodities para a exportação. O presente trabalho tem por objetivo analisar o perfil da inserção da América do Sul no mercado mundial e"
+      ]
+    },
+    {
+      "article_id": "0eda74130a7448f2",
+      "title": "The Mexican Transnational Ethnic Economy: Los Angeles, California",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/58714/61907",
+      "score": 1,
+      "reference_count": 32,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 14
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 38
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 35
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment"
+      ],
+      "snippets": [
+        "a Peraza y Blas Valenzuela El presente trabajo sostiene que las conceptualizaciones tradicionales de la “economía étnica” han sido rebasadas debido a que no proyectan los aspectos transnacionales inherentes a este tipo de economías. Los negocios ubicados en la zona de estudio responden a la demanda de productos étnicos, la cual se fortalece generalmente con la nostalgia qu",
+        "Revista Problemas del Desarrollo, 192 (49), enero-marzo 2018, http://probdes.iiec.unam.mx Economía étnica transnacional mexicana: Los Ángeles, California Brianda Peraza y Blas Valenzuela1 Fecha de recepción: 10 de enero de 2017. Fecha de aceptación: 28 de junio de 2017. Resumen La presente investig"
+      ]
+    },
+    {
+      "article_id": "0dcb81961e0fa69f",
+      "title": "Rural Social Actors and Mining Mega-Projects in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47505/63189",
+      "score": 10,
+      "reference_count": 24,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 28
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 80
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 41
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 86
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": [
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a",
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado",
+        "de julio de 2014. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a"
+      ]
+    },
+    {
+      "article_id": "cc17799cdacda1cf",
+      "title": "The State and Energy Reform in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2015",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/52627/46829",
+      "score": 7,
+      "reference_count": 23,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 34
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 54
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 49
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 50
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 19
+        },
+        {
+          "name": "finanzas",
+          "count": 14
+        },
+        {
+          "name": "trabajo",
+          "count": 13
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space",
+        "wealth"
+      ],
+      "snippets": [
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del c",
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del",
+        "petróleo y otros recursos geoestratégicos de México, incluida la tierra como mercancía, están incluidos en- tre los objetivos neocoloniales de Washington y el capital corporativo trasnacional, plasmados en la Alianza para la Seguridad y la Prosperidad de América del Norte (Merchand, 2012b: 37-38). 125 Marco A. Merchand Se ha dicho de una y otra forma que la acumulación"
+      ]
+    },
+    {
+      "article_id": "32889353b7968cbe",
+      "title": "Capital flows and financial development: a view from developing countries",
+      "journal": "Problemas del Desarrollo",
+      "year": "2022",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/69785/62187",
+      "score": 4,
+      "reference_count": 20,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 52
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 161
+        },
+        {
+          "name": "multilatinas",
+          "count": 14
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "ante el periodo de globalización, con la peculiaridad de que el mercado de capitales no se desarrolló a la par, ya que las opera- ciones de las grandes empresas (multinacionales y multilatinas) no se realizaron a través de las instituciones financieras domésticas, sino vía la emisión de bonos en los centros financieros internacionales. A partir de esta idea es que se re",
+        "ntecedido por el periodo de desregulación (1980) y globalización (1990). El periodo de análisis se divide en tres etapas: la primera se ubica entre 2000-2007 y se distingue por la transnacionalización de las economías, donde las corporaciones locales se funden con las extranjeras mediante alianzas es- tratégicas. Una segunda, abarca 2008-2014, inicia con el estallamiento"
+      ]
+    },
+    {
+      "article_id": "30bfdd931523c339",
+      "title": "Extractivism and Development: Mineral Resources in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47504/63187",
+      "score": 6,
+      "reference_count": 19,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 21
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 39
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 107
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 19
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos de",
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos"
+      ]
+    },
+    {
+      "article_id": "83dcf323d9384272",
+      "title": "Towards a Political Economy of Competition: Transnational Companies",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/57224/52080",
+      "score": 4,
+      "reference_count": 19,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 43
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 10
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 47
+        },
+        {
+          "name": "trabajo",
+          "count": 25
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "el poder que implica la acción de las empresas, en particular la de las grandes corporaciones que mo- delan el mundo contemporáneo. Palabras clave: competencia económica, empresas transnacionales, cadenas globales de valor, costos de transacción, teoría de la empresa. Clasificación JEL: D23, D46, F23, K21, L41. Towards a Political Economy of Competition: Transnational Comp",
+        "Revista Problemas del Desarrollo, 189 (48), abril-junio 2017, http://probdes.iiec.unam.mx Hacia una economía política de la competencia. La empresa transnacional Raúl Ornelas1 Fecha de recepción: 21 de septiembre de 2016. Fecha de aceptación: 08 de febrero de 2017. Resumen En el presente trabajo se establece un diálogo entre tres propuesta",
+        "ercicio del poder que implica la acción de las empresas, en particular la de las grandes corporaciones que mo- delan el mundo contemporáneo. Palabras clave: competencia económica, empresas transnacionales, cadenas globales de valor, costos de transacción, teoría de la empresa. Clasificación JEL: D23, D46, F23, K21, L41. Towards a Political Economy of Competition: Transnational Comp"
+      ]
+    },
+    {
+      "article_id": "e247e36bb2a574d3",
+      "title": "Strategic Regionalisms and Domestic and Transnational Hydrocarbon Companies in the United States and Latin America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/57480/62327",
+      "score": 9,
+      "reference_count": 14,
+      "status": "ok",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 25
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 13
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 7
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 67
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 123
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 68
+        },
+        {
+          "name": "trabajo",
+          "count": 20
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el estud",
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el est",
+        "mpresas a través de la minería de datos (data mining). El diseño de la investigación es cuantitativo descriptivo. El análisis de los conceptos (regionalismo, recursos naturales, y empresas transnacionales) se operacionaliza vinculando el constructo con la información disponible en las bases de datos. Palabras clave: hidrocarburos, petróleo, cadena de valor, Alianza del Pacífico, Al"
+      ]
+    },
+    {
+      "article_id": "d5bd93a7cfc9a898",
+      "title": "Efectos de la expansión de empresas transnacionales en el sector eléctrico en Guatemala",
+      "journal": "Problemas del Desarrollo",
+      "year": "2004",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7526/7015",
+      "score": 3,
+      "reference_count": 7,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 14
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 57
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 79
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        },
+        {
+          "name": "trabajo",
+          "count": 16
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha de",
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha",
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha de"
+      ]
+    },
+    {
+      "article_id": "2ac382f12ccf8d28",
+      "title": "Latin america: the new pattern of industrial colonialism",
+      "journal": "Problemas del Desarrollo",
+      "year": "2001",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7395/6890",
+      "score": 2,
+      "reference_count": 2,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 30
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 23
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 3
+        },
+        {
+          "name": "finanzas",
+          "count": 6
+        },
+        {
+          "name": "trabajo",
+          "count": 47
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": [
+        "abiertas para aquellos países donde el agotamiento del actual patrón de colonialismo industrial se ha hecho ya evidente. Palabras clave: subdesarrollo, colonialismo, conocimiento, trasnacionales. LATIN AMERICA: THE NEW PATTERN OF INDUSTRIAL COLONIALISM ABSTRACT This article provides an interpretation of the processes underway in the region in relation to the theoretical p",
+        "abiertas para aquellos países donde el agotamiento del actual patrón de colonialismo industrial se ha hecho ya evidente. Palabras clave: subdesarrollo, colonialismo, conocimiento, trasnacionales. LATIN AMERICA: THE NEW PATTERN OF INDUSTRIAL COLONIALISM ABSTRACT This article provides an interpretation of the processes underway in the region in relation to the theoretical",
+        "el capital extranjero. En condiciones de apertura se debe irradiar competiti- vidad, y ello demanda la intervención de la capacidad tecnológica controlada por las grandes empresas trasnacionales (ETN), así como facilidades para el acceso a los mercados. Por eso los estados, en sus esfuerzos por atraer recursos externos, se ven envueltos en una verdadera competencia por crear las"
+      ]
+    },
+    {
+      "article_id": "762f1b85419b802d",
+      "title": "The hegemonic discourse of the free market and the vulnerability of large countries on the periphery",
+      "journal": "Problemas del Desarrollo",
+      "year": "2002",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7427/6922",
+      "score": 5,
+      "reference_count": 1,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 34
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 45
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 9
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 6
+        },
+        {
+          "name": "finanzas",
+          "count": 7
+        },
+        {
+          "name": "trabajo",
+          "count": 8
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the in",
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the",
+        "ente la naturaleza de esa tan alabada explosión, exótica para la macroeconomía, su fundamento está simplemente en el intenso fraccionamiento de la producción global de las grandes empresas trasnacionales, posibilitado por la tecnología de la infor- mación, por la búsqueda de factores de producción más baratos y por la proximidad de los mercados consumidores. Se trata, pues, de un"
+      ]
+    },
+    {
+      "article_id": "dcd9b13e1bb54019",
+      "title": "Financial dimensions of transnational corporations: global value chain and technological innovation",
+      "journal": "Ola Financiera",
+      "year": "2009",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/23055/21864",
+      "score": 8,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    }
+  ],
+  "top_score_articles": [
+    {
+      "article_id": "0dcb81961e0fa69f",
+      "title": "Rural Social Actors and Mining Mega-Projects in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47505/63189",
+      "score": 10,
+      "reference_count": 24,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 28
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 80
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 41
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 86
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": [
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a",
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado",
+        "de julio de 2014. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a"
+      ]
+    },
+    {
+      "article_id": "e247e36bb2a574d3",
+      "title": "Strategic Regionalisms and Domestic and Transnational Hydrocarbon Companies in the United States and Latin America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/57480/62327",
+      "score": 9,
+      "reference_count": 14,
+      "status": "ok",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 25
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 13
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 7
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 67
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 123
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 68
+        },
+        {
+          "name": "trabajo",
+          "count": 20
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el estud",
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el est",
+        "mpresas a través de la minería de datos (data mining). El diseño de la investigación es cuantitativo descriptivo. El análisis de los conceptos (regionalismo, recursos naturales, y empresas transnacionales) se operacionaliza vinculando el constructo con la información disponible en las bases de datos. Palabras clave: hidrocarburos, petróleo, cadena de valor, Alianza del Pacífico, Al"
+      ]
+    },
+    {
+      "article_id": "dcd9b13e1bb54019",
+      "title": "Financial dimensions of transnational corporations: global value chain and technological innovation",
+      "journal": "Ola Financiera",
+      "year": "2009",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/23055/21864",
+      "score": 8,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "8eba9ddf8f7951ef",
+      "title": "Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/63175/62054",
+      "score": 8,
+      "reference_count": 45,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 71
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 36
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 102
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "land_housing"
+      ],
+      "snippets": [
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analyze",
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analy",
+        "sa índole y, consecuente- mente, modifican el paisaje original de las tierras, así como contaminan las fuentes de agua (López y Eslava, 2011). En Ecuador, la continua presencia de empresas transnacionales mineras, ha puesto a los recursos naturales en situación de análisis tanto en espacios académicos como sociales. Las actividades de exploración y explotación se realizan en medio"
+      ]
+    },
+    {
+      "article_id": "06b02a7fd66d8e22",
+      "title": "La crisis alimentaria en la periferia: un enfoque alternativo",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36970/33520",
+      "score": 7,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 77
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 8
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 77
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 50
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 38
+        },
+        {
+          "name": "trabajo",
+          "count": 93
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "dependency_periphery",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "el capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1ses",
+        "el capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1s",
+        "ionalizaci6n del capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1ses"
+      ]
+    },
+    {
+      "article_id": "cc17799cdacda1cf",
+      "title": "The State and Energy Reform in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2015",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/52627/46829",
+      "score": 7,
+      "reference_count": 23,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 34
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 54
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 49
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 50
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 19
+        },
+        {
+          "name": "finanzas",
+          "count": 14
+        },
+        {
+          "name": "trabajo",
+          "count": 13
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space",
+        "wealth"
+      ],
+      "snippets": [
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del c",
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del",
+        "petróleo y otros recursos geoestratégicos de México, incluida la tierra como mercancía, están incluidos en- tre los objetivos neocoloniales de Washington y el capital corporativo trasnacional, plasmados en la Alianza para la Seguridad y la Prosperidad de América del Norte (Merchand, 2012b: 37-38). 125 Marco A. Merchand Se ha dicho de una y otra forma que la acumulación"
+      ]
+    },
+    {
+      "article_id": "a68f86e210316d50",
+      "title": "The financial roots of global industrial groups",
+      "journal": "Ola Financiera",
+      "year": "2016",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/56458/50107",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 7
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "finance",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "64ae5891d1e01732",
+      "title": "Public welfare or financialization: contracts, consultancies, public-private partnerships and public purchases. (Colonization of the government)",
+      "journal": "Ola Financiera",
+      "year": "2017",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/69306/61123",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0693bf78666c80dd",
+      "title": "Global supply chains and intangible assets in the automotive and aeronautical industries",
+      "journal": "Ola Financiera",
+      "year": "2019",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/70180/62020",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 7
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "30bfdd931523c339",
+      "title": "Extractivism and Development: Mineral Resources in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47504/63187",
+      "score": 6,
+      "reference_count": 19,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 21
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 39
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 107
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 19
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos de",
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos"
+      ]
+    },
+    {
+      "article_id": "72df7a8b7a157e44",
+      "title": "Vânia Bambirra, El capitalismo dependiente latinoamericano",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2024",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/91740/80272",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "dependencia_periferia",
+          "count": 6
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "33bd4df4dff37306",
+      "title": "Current capitalism and monopoly prices",
+      "journal": "Ola Financiera",
+      "year": "2011",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/23111/21919",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0f538fae5765a5b4",
+      "title": "The transnational private industry: supply of services, programs and public policies to governments",
+      "journal": "Ola Financiera",
+      "year": "2015",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/50568/45357",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 10
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "762f1b85419b802d",
+      "title": "The hegemonic discourse of the free market and the vulnerability of large countries on the periphery",
+      "journal": "Problemas del Desarrollo",
+      "year": "2002",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7427/6922",
+      "score": 5,
+      "reference_count": 1,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 34
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 45
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 9
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 6
+        },
+        {
+          "name": "finanzas",
+          "count": 7
+        },
+        {
+          "name": "trabajo",
+          "count": 8
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the in",
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the",
+        "ente la naturaleza de esa tan alabada explosión, exótica para la macroeconomía, su fundamento está simplemente en el intenso fraccionamiento de la producción global de las grandes empresas trasnacionales, posibilitado por la tecnología de la infor- mación, por la búsqueda de factores de producción más baratos y por la proximidad de los mercados consumidores. Se trata, pues, de un"
+      ]
+    },
+    {
+      "article_id": "8fa2bb260f13e012",
+      "title": "The Role of Foreign Capital and its Insertion in South America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/48185/63238",
+      "score": 5,
+      "reference_count": 32,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 89
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 37
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 38
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 28
+        },
+        {
+          "name": "finanzas",
+          "count": 5
+        },
+        {
+          "name": "multilatinas",
+          "count": 4
+        },
+        {
+          "name": "trabajo",
+          "count": 24
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "un esquema basado, fundamentalmente, en la apropiación de la naturaleza, escasamente diversificado y cada vez más dependiente de una in- 13 Cabe destacar que para 2011 de las 500 multilatinas más grandes según su tamaño medido en volumen de ventas, 43% eran de origen brasileño. Entre las firmas brasileras que operan en la región sudamericana destacan: Petrobras (con ac",
+        "orías que sostienen que con la globalización se diluyen las diferencias nacio- nales. El libre comercio, la acelerada movilidad del capital y la fuerte expan- sión de las empresas trasnacionales (et) generaron nuevas oportunidades de desarrollo para los países atrasados que tornarían superflua la distinción entre centro y periferia. La eliminación de las barreras comercia",
+        "posneoliberal. Contudo, essa nova etapa se construiu sobre as bases criadas pelo neoliberalismo. Entre elas se destacam: a grande concen- tração do capital, a hegemonia do capital transnacional e uma crescente dependência da produção de commodities para a exportação. O presente trabalho tem por objetivo analisar o perfil da inserção da América do Sul no mercado mundial e"
+      ]
+    }
+  ],
+  "article_summaries": [
+    {
+      "article_id": "0dcb81961e0fa69f",
+      "title": "Rural Social Actors and Mining Mega-Projects in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47505/63189",
+      "score": 10,
+      "reference_count": 24,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 28
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 80
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 41
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 86
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": [
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a",
+        "14. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado",
+        "de julio de 2014. Resumen Este trabajo aborda el tema del proceso de acumulación por desposesión por medio del cual las tierras de los campesinos e indígenas son usufructuadas por corporaciones trasnacionales que llevan a cabo actividades de minería a cielo abierto. Asimismo, se argumenta sobre los factores legislativos, político ideológicos y de abuso de autoridad que han conllevado a"
+      ]
+    },
+    {
+      "article_id": "e247e36bb2a574d3",
+      "title": "Strategic Regionalisms and Domestic and Transnational Hydrocarbon Companies in the United States and Latin America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/57480/62327",
+      "score": 9,
+      "reference_count": 14,
+      "status": "ok",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 25
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 13
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 7
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 67
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 123
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 68
+        },
+        {
+          "name": "trabajo",
+          "count": 20
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el estud",
+        "Revista Problemas del Desarrollo, 191 (48), octubre-diciembre 2017, http://probdes.iiec.unam.mx Regionalismos estratégicos, empresas nacionales y transnacionales de hidrocarburos en Estados Unidos y América Latina Maribel Aponte García1 Fecha de recepción: 12 de octubre de 2016. Fecha de aceptación: 24 de abril de 2017. Resumen En el est",
+        "mpresas a través de la minería de datos (data mining). El diseño de la investigación es cuantitativo descriptivo. El análisis de los conceptos (regionalismo, recursos naturales, y empresas transnacionales) se operacionaliza vinculando el constructo con la información disponible en las bases de datos. Palabras clave: hidrocarburos, petróleo, cadena de valor, Alianza del Pacífico, Al"
+      ]
+    },
+    {
+      "article_id": "dcd9b13e1bb54019",
+      "title": "Financial dimensions of transnational corporations: global value chain and technological innovation",
+      "journal": "Ola Financiera",
+      "year": "2009",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/23055/21864",
+      "score": 8,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "8eba9ddf8f7951ef",
+      "title": "Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/63175/62054",
+      "score": 8,
+      "reference_count": 45,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 71
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 36
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 5
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 102
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "land_housing"
+      ],
+      "snippets": [
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analyze",
+        "presencia de conflictos sociales y la inconformidad de los pobladores al no ser tomados en cuenta en los procesos de toma de decisiones. Palabras clave: minería; proyecto Mirador; transnacionales; legislación minera; con- flictos sociales. Clasificación JEL: L71, L72, L78. Large-Scale Mining and Social Conflicts: Analysis of Southern Ecuador AbstRAct. This research analy",
+        "sa índole y, consecuente- mente, modifican el paisaje original de las tierras, así como contaminan las fuentes de agua (López y Eslava, 2011). En Ecuador, la continua presencia de empresas transnacionales mineras, ha puesto a los recursos naturales en situación de análisis tanto en espacios académicos como sociales. Las actividades de exploración y explotación se realizan en medio"
+      ]
+    },
+    {
+      "article_id": "06b02a7fd66d8e22",
+      "title": "La crisis alimentaria en la periferia: un enfoque alternativo",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36970/33520",
+      "score": 7,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 77
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 8
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 77
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 50
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 38
+        },
+        {
+          "name": "trabajo",
+          "count": 93
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "dependency_periphery",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "el capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1ses",
+        "el capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1s",
+        "ionalizaci6n del capital y las diferentes estrategias de do­ minaci6n de los Estados Unidos,asi como idel capital fiMn.. ciero !internaciona:l (en especial del Banco MundiaI y las corporaciones trasnacionales en el ambito agr£cola). En lo. ultima parte, el autor debate a nivel teOrico-metodologico lo. existencia de una nueva modalidad de relaci6n o.griculturfl-o industria en los pa1ses"
+      ]
+    },
+    {
+      "article_id": "cc17799cdacda1cf",
+      "title": "The State and Energy Reform in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2015",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/52627/46829",
+      "score": 7,
+      "reference_count": 23,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 4
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 34
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 54
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 49
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 50
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 19
+        },
+        {
+          "name": "finanzas",
+          "count": 14
+        },
+        {
+          "name": "trabajo",
+          "count": 13
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "extractivism_environment",
+        "global_value_chains_power",
+        "space",
+        "wealth"
+      ],
+      "snippets": [
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del c",
+        "que no está interesado en salvaguardar el patrimonio territorial. Es el propio Estado, que aplica la acumulación por despojo para beneficio de los particulares, sobre todo de las transnacionales que ganan licitaciones en megaproyectos energéticos –termoeléctricas– (petroleras, mineras, telecomunicaciones, etcétera). El Estado favorece el despliegue de la acumulación del",
+        "petróleo y otros recursos geoestratégicos de México, incluida la tierra como mercancía, están incluidos en- tre los objetivos neocoloniales de Washington y el capital corporativo trasnacional, plasmados en la Alianza para la Seguridad y la Prosperidad de América del Norte (Merchand, 2012b: 37-38). 125 Marco A. Merchand Se ha dicho de una y otra forma que la acumulación"
+      ]
+    },
+    {
+      "article_id": "a68f86e210316d50",
+      "title": "The financial roots of global industrial groups",
+      "journal": "Ola Financiera",
+      "year": "2016",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/56458/50107",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 7
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "finance",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "64ae5891d1e01732",
+      "title": "Public welfare or financialization: contracts, consultancies, public-private partnerships and public purchases. (Colonization of the government)",
+      "journal": "Ola Financiera",
+      "year": "2017",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/69306/61123",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0693bf78666c80dd",
+      "title": "Global supply chains and intangible assets in the automotive and aeronautical industries",
+      "journal": "Ola Financiera",
+      "year": "2019",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/70180/62020",
+      "score": 6,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 7
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "30bfdd931523c339",
+      "title": "Extractivism and Development: Mineral Resources in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/47504/63187",
+      "score": 6,
+      "reference_count": 19,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 21
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 39
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 107
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 19
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos de",
+        "ica es una de las regiones con mayor abundancia de recursos naturales y se constituye como uno de los principales destinos de privatización y mercantilización de bienes a manos de trasnacionales con la anuencia de los propios estados. En el presente siglo se ha fortalecido la extracción desmedida de minerales por medio de empresas orientadas a la exportación que, lejos"
+      ]
+    },
+    {
+      "article_id": "72df7a8b7a157e44",
+      "title": "Vânia Bambirra, El capitalismo dependiente latinoamericano",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2024",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/91740/80272",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "dependencia_periferia",
+          "count": 6
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "33bd4df4dff37306",
+      "title": "Current capitalism and monopoly prices",
+      "journal": "Ola Financiera",
+      "year": "2011",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/23111/21919",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0f538fae5765a5b4",
+      "title": "The transnational private industry: supply of services, programs and public policies to governments",
+      "journal": "Ola Financiera",
+      "year": "2015",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/50568/45357",
+      "score": 5,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 10
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "762f1b85419b802d",
+      "title": "The hegemonic discourse of the free market and the vulnerability of large countries on the periphery",
+      "journal": "Problemas del Desarrollo",
+      "year": "2002",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7427/6922",
+      "score": 5,
+      "reference_count": 1,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 17
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 34
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 45
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 9
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 6
+        },
+        {
+          "name": "finanzas",
+          "count": 7
+        },
+        {
+          "name": "trabajo",
+          "count": 8
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the in",
+        "ue la población pueda entender. Palabras clave: reformas neoliberales, crisis en la gran periferia, discur- so hegemónico, proyecto nacional, vulnerabilidad externa, corporaciones trasnacionales, libre mercado. THE HEGEMONIC DISCOURSE OF THE FREE MARKET AND THE VULNERABILITY OF LARGE COUNTRIES ON THE PERIPHERY ABSTRACT The cycle of neo-liberal reforms that hastened the",
+        "ente la naturaleza de esa tan alabada explosión, exótica para la macroeconomía, su fundamento está simplemente en el intenso fraccionamiento de la producción global de las grandes empresas trasnacionales, posibilitado por la tecnología de la infor- mación, por la búsqueda de factores de producción más baratos y por la proximidad de los mercados consumidores. Se trata, pues, de un"
+      ]
+    },
+    {
+      "article_id": "8fa2bb260f13e012",
+      "title": "The Role of Foreign Capital and its Insertion in South America",
+      "journal": "Problemas del Desarrollo",
+      "year": "2014",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/48185/63238",
+      "score": 5,
+      "reference_count": 32,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 89
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 37
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 38
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 8
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 28
+        },
+        {
+          "name": "finanzas",
+          "count": 5
+        },
+        {
+          "name": "multilatinas",
+          "count": 4
+        },
+        {
+          "name": "trabajo",
+          "count": 24
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "un esquema basado, fundamentalmente, en la apropiación de la naturaleza, escasamente diversificado y cada vez más dependiente de una in- 13 Cabe destacar que para 2011 de las 500 multilatinas más grandes según su tamaño medido en volumen de ventas, 43% eran de origen brasileño. Entre las firmas brasileras que operan en la región sudamericana destacan: Petrobras (con ac",
+        "orías que sostienen que con la globalización se diluyen las diferencias nacio- nales. El libre comercio, la acelerada movilidad del capital y la fuerte expan- sión de las empresas trasnacionales (et) generaron nuevas oportunidades de desarrollo para los países atrasados que tornarían superflua la distinción entre centro y periferia. La eliminación de las barreras comercia",
+        "posneoliberal. Contudo, essa nova etapa se construiu sobre as bases criadas pelo neoliberalismo. Entre elas se destacam: a grande concen- tração do capital, a hegemonia do capital transnacional e uma crescente dependência da produção de commodities para a exportação. O presente trabalho tem por objetivo analisar o perfil da inserção da América do Sul no mercado mundial e"
+      ]
+    },
+    {
+      "article_id": "62f5f676378f11d6",
+      "title": "A Historical Review of Mining Automation in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "2019",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/64750/61968",
+      "score": 5,
+      "reference_count": 41,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 23
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 5
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 23
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 179
+        },
+        {
+          "name": "trabajo",
+          "count": 25
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical period",
+        "ales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical peri",
+        "e los metales y la política económica en el sector para entender el contexto actual. Palabras clave: minería; automatización; explotación de oro y plata; desarrollo tecno- lógico; empresas transnacionales; inversión extranjera. Clasificación jel: F21; F23; L72; O33; P12. A Historical Review of Mining Automation in Mexico Abstract. The increase of mining in certain historical period"
+      ]
+    },
+    {
+      "article_id": "7a3dbce408d1d03e",
+      "title": "The Multilateral Agreement on Investment ( MAI). Capital designs a Universal Constitution",
+      "journal": "Estudios Latinoamericanos",
+      "year": "1999",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/70490/62295",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 5
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "06b01dc9edec39ff",
+      "title": "The tension between local and global: neoliberal modernization and Central resistors",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2003",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/50608/45380",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "conflictos_territorio",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "915655bb523f306d",
+      "title": "TeleSUR. Construyendo una televisión para la integración latinoamericana",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2009",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/20253/19236",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "space",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "6fd2a65c09793950",
+      "title": "The discussions on the Latin American countryside to light fifty years of publications",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2010",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/49506/44541",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [],
+      "dimensions": [
+        "space",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "dccbe721f49cc490",
+      "title": "The Role of Communication Business Services in Latin America's Global Cities",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2015",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/46974/42293",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "cadenas_valor",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "56c9acd7bc4a421f",
+      "title": "Restructuring labor in Mexico under the USMCA",
+      "journal": "Ola Financiera",
+      "year": "2021",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/80080/70560",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "trabajo",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "4a2ac6bbc7fee668",
+      "title": "Political Economy of the Global Bank-State Relationship: Mexico",
+      "journal": "Ola Financiera",
+      "year": "2022",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/83495/73167",
+      "score": 4,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0300a41941115c2b",
+      "title": "Hambre y desnutrición en el Tercer Mundo; mitos y realidades",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36966/33510",
+      "score": 4,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 104
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 15
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 10
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 22
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 5
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 8
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power",
+        "land_housing"
+      ],
+      "snippets": [
+        "n un tercer cap;,tulo se :estudian las causas estructurales basicas Ide estos feiWmenos: ia concentraci6n de la tierra y los medios de ipToduccion, la p'enetraci6n de las Empresas Trasnacionales y la ado/J'­ cion incontrolada de tecnologias inadecuadas. Se propone por ultimo, el estudio minucioso de las experiencias transforma.­ doras del agro, realizadas en distintos pai",
+        "n un tercer cap;,tulo se :estudian las causas estructurales basicas Ide estos feiWmenos: ia concentraci6n de la tierra y los medios de ipToduccion, la p'enetraci6n de las Empresas Trasnacionales y la ado/J'­ cion incontrolada de tecnologias inadecuadas. Se propone por ultimo, el estudio minucioso de las experiencias transforma.­ doras del agro, realizadas en distintos p",
+        "Mundo. En un tercer cap;,tulo se :estudian las causas estructurales basicas Ide estos feiWmenos: ia concentraci6n de la tierra y los medios de ipToduccion, la p'enetraci6n de las Empresas Trasnacionales y la ado/J'­ cion incontrolada de tecnologias inadecuadas. Se propone por ultimo, el estudio minucioso de las experiencias transforma.­ doras del agro, realizadas en distintos pai"
+      ]
+    },
+    {
+      "article_id": "c13da276d1907567",
+      "title": "La empresa trasnacional en la reestructuración del capital, la producción y el trabajo, Angelina Gutiérrez Arriola",
+      "journal": "Problemas del Desarrollo",
+      "year": "2007",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7671/7160",
+      "score": 4,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 22
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        },
+        {
+          "name": "trabajo",
+          "count": 26
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "resenta algunos neoliberalismo para destacar algunos de elementos importantes para el análisis de los mecanismos que las grandes empre- las nuevas formas de organización de la sas trasnacionales imponen con el fin de empresa y de la fuerza de trabajo en el incrementar sus ganancias tanto en los contexto del mercado mundial. Sin em- ámbitos de la producción, la distribu- b",
+        "267 Vol. 38, núm. 150, julio-septiembre / 2007 ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ LA EMPRESA TRASNACIONAL EN LA REESTRUCTURACIÓN DEL CAPITAL, LA PRODUCCIÓN Y EL TRABAJO R ESEÑAS La empresa trasnacional en la reestructuración del capital, la producción y el trabajo, Angelina Gutiérrez",
+        "267 Vol. 38, núm. 150, julio-septiembre / 2007 ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ LA EMPRESA TRASNACIONAL EN LA REESTRUCTURACIÓN DEL CAPITAL, LA PRODUCCIÓN Y EL TRABAJO R ESEÑAS La empresa trasnacional en la reestructuración del capital, la producción y el trabajo, Angelina Gutiérrez"
+      ]
+    },
+    {
+      "article_id": "83dcf323d9384272",
+      "title": "Towards a Political Economy of Competition: Transnational Companies",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/57224/52080",
+      "score": 4,
+      "reference_count": 19,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "cadenas_valor",
+          "count": 43
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 10
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 47
+        },
+        {
+          "name": "trabajo",
+          "count": 25
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "el poder que implica la acción de las empresas, en particular la de las grandes corporaciones que mo- delan el mundo contemporáneo. Palabras clave: competencia económica, empresas transnacionales, cadenas globales de valor, costos de transacción, teoría de la empresa. Clasificación JEL: D23, D46, F23, K21, L41. Towards a Political Economy of Competition: Transnational Comp",
+        "Revista Problemas del Desarrollo, 189 (48), abril-junio 2017, http://probdes.iiec.unam.mx Hacia una economía política de la competencia. La empresa transnacional Raúl Ornelas1 Fecha de recepción: 21 de septiembre de 2016. Fecha de aceptación: 08 de febrero de 2017. Resumen En el presente trabajo se establece un diálogo entre tres propuesta",
+        "ercicio del poder que implica la acción de las empresas, en particular la de las grandes corporaciones que mo- delan el mundo contemporáneo. Palabras clave: competencia económica, empresas transnacionales, cadenas globales de valor, costos de transacción, teoría de la empresa. Clasificación JEL: D23, D46, F23, K21, L41. Towards a Political Economy of Competition: Transnational Comp"
+      ]
+    },
+    {
+      "article_id": "32889353b7968cbe",
+      "title": "Capital flows and financial development: a view from developing countries",
+      "journal": "Problemas del Desarrollo",
+      "year": "2022",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/69785/62187",
+      "score": 4,
+      "reference_count": 20,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 52
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 161
+        },
+        {
+          "name": "multilatinas",
+          "count": 14
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "ante el periodo de globalización, con la peculiaridad de que el mercado de capitales no se desarrolló a la par, ya que las opera- ciones de las grandes empresas (multinacionales y multilatinas) no se realizaron a través de las instituciones financieras domésticas, sino vía la emisión de bonos en los centros financieros internacionales. A partir de esta idea es que se re",
+        "ntecedido por el periodo de desregulación (1980) y globalización (1990). El periodo de análisis se divide en tres etapas: la primera se ubica entre 2000-2007 y se distingue por la transnacionalización de las economías, donde las corporaciones locales se funden con las extranjeras mediante alianzas es- tratégicas. Una segunda, abarca 2008-2014, inicia con el estallamiento"
+      ]
+    },
+    {
+      "article_id": "e7714f102a2eba1b",
+      "title": "Latin America: count events and trends , 2010",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2012",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/47810/42995",
+      "score": 3,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "dependency_periphery",
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "568362ac9ec0ce36",
+      "title": "The social representations in the transcultural discourse of transnational organizations in Mexico",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2018",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/64142/56279",
+      "score": 3,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "conflict_dispossession",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "b21523ffede76bb8",
+      "title": "La internacionalización del capital en América Latina: Notas para un interpretación de las políticas gubernamentales frente a las empresas trasnacionales",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37741/34306",
+      "score": 3,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 23
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 63
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 4
+        },
+        {
+          "name": "trabajo",
+          "count": 10
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "AL EN A. L. 35 mas En este marco no resulta extrafio que la actitud del gobierno el pais. El criterio predominante parece ser bien elque establece brasilefio frente a las empresas transnacionales sea tan franca y que las aportaciones tecnol6gicas son funci6n del capital extranjero abierta como 10 es en general la de la propia burguesia. El capital y que es de el, en consec",
+        "~:. ­ f lATINA: NOTAS PARA UNA INTERPRETACION DE LAS PRESENTACION t POLlTICAS GUBERNAMENTALES FRENTE A LAS Apertura democratica y proyectos politico en America Latina, , EMPRESAS TRASNACIONALES i,: Adolfo Perez Piera, I '.: .:~;\" .:r \". / ¥ , ~ . Alvaro BRIONES* Eoo,0<£6n de Mao;'oin, Joo< Anibal Cagnon' '. \"·\": ~ !. . t : : ' : \" :/~~ RESUMEN: En este articulo se analiz",
+        "AL EN A. L. 35 mas En este marco no resulta extrafio que la actitud del gobierno el pais. El criterio predominante parece ser bien elque establece brasilefio frente a las empresas transnacionales sea tan franca y que las aportaciones tecnol6gicas son funci6n del capital extranjero abierta como 10 es en general la de la propia burguesia. El capital y que es de el, en cons"
+      ]
+    },
+    {
+      "article_id": "7dbc020350cfe4af",
+      "title": "Reflections on changes in the restructuring of capital and international work",
+      "journal": "Problemas del Desarrollo",
+      "year": "1994",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/29783/27689",
+      "score": 3,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "45bd961851ea7edd",
+      "title": "The long cycle of falling wages in Mexico",
+      "journal": "Problemas del Desarrollo",
+      "year": "1995",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/29304/27239",
+      "score": 3,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 2
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 9
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        },
+        {
+          "name": "trabajo",
+          "count": 87
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "al de trabajo ajeno no remunerado. La diferencia estriba en que aho­ Introducci6n ra la Revoluci6n Cientifico-Tecnica ha permitido que la acumula­ cion Begue a grados tan altos de trasnacionalizaci6n que ese capital Desde que las economias del mundo se enfrentan a la mas severa esta exigiendo que sean nuevamente las fuerzas libres del mercado crisis de su historia -fine",
+        "e de la empresa los trabajadores, son casi nulas las posibilidades de ascenso escalafo­ Fundidora Monterrey y la represi6n al Sindicato de Trabajadores nario. Independientes de la empresa trasnacional de Babcok and Wilcox Otro rasgo caracteristico del sexenio de Miguel de la Madrid en Ecatepec en 1986, asi como la declaraci6n de inexistencia de la Hurtado consiste en que, dada",
+        "estabilidad econ6mica para \"hacer mas con menos\" y cODlpetir asi 3 sindicales y de otros movimientos sociales con el Estado. en el mercado mundial. Mexico es un ejemplo de como el capital trasnacional, con la En la reducci6n del costa de la mana de obra mexicana el prin­ ayuda del capital monopolista nacional, remonta la crisis a costa de cipal blanco de acci6n 10 constituyen l"
+      ]
+    },
+    {
+      "article_id": "326d5722e4631d13",
+      "title": "Los brebajes amargos del Tío Sam. Las trasnacionales estadounidenses de la agroindustria y el uso de pesticidas en México",
+      "journal": "Problemas del Desarrollo",
+      "year": "1999",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/28166/25999",
+      "score": 3,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "d5bd93a7cfc9a898",
+      "title": "Efectos de la expansión de empresas transnacionales en el sector eléctrico en Guatemala",
+      "journal": "Problemas del Desarrollo",
+      "year": "2004",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7526/7015",
+      "score": 3,
+      "reference_count": 7,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 14
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 1
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 4
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 57
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 79
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        },
+        {
+          "name": "trabajo",
+          "count": 16
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha de",
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha",
+        "E FECTOS DE LA EXPANSIÓN DE EMPRESAS TRANSNACIONALES G EN EL SECTOR ELÉCTRICO EN UATEMALA MMMMMaaaaa..... JJJJJooooosssssééééé PPPPPaaaaazzzzz AAAAAnnnnntttttooooolllllííííínnnnn***** Fecha de recepción: 9 de junio de 2003. Fecha de"
+      ]
+    },
+    {
+      "article_id": "5f177e7cfcbac8b6",
+      "title": "Government Policy vs. Public Policy: Avatars for the Wind Farms on the Isthmus of Tehuantepec",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/61586/62042",
+      "score": 3,
+      "reference_count": 38,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 10
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 90
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 77
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 67
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 3
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "a instalación de parques eólicos, argumentando que es una energía limpia (cualidad, parcialmente cierta). La estrategia gubernamental de implantación ha favorecido a corporaciones transnacionales, en con- tra de las comunidades originarias que están perdiendo el control sobre sus territorios, mismos que han sido ocupados por estas empresas, provocando un deterioro ecológic",
+        "a instalación de parques eólicos, argumentando que es una energía limpia (cualidad, parcialmente cierta). La estrategia gubernamental de implantación ha favorecido a corporaciones transnacionales, en con- tra de las comunidades originarias que están perdiendo el control sobre sus territorios, mismos que han sido ocupados por estas empresas, provocando un deterioro ecológ",
+        "el juez Carlos Alberto Osogobio Barón, un jurista sin experiencia en casos de controversia presentados por pueblos originarios y, por los hechos, con la voluntad de apo- yar a las empresas transnacionales, ya que sin recabar las pruebas que se suelen presentar de oficio, consideró improcedentes los actos reclamados por 1 165 integrantes de los pueblos Ikoot y Binnizá, mismos que sí"
+      ]
+    },
+    {
+      "article_id": "515255baa0f6ef44",
+      "title": "Forms of business organization that promote globalization of economies",
+      "journal": "Estudios Latinoamericanos",
+      "year": "1996",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/51498/45997",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "finance",
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "53ede4b09bf076bb",
+      "title": "Neoliberalism and procedures Mexican business groups and South Korean chaebols",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2008",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/49444/44473",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "40f8e4c2d92bed28",
+      "title": "Transnational gangs: territorial overflows",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2019",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/72809/64261",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "d58de0e546a8d423",
+      "title": "The Argentine military dictatorship and the United States in El Salvador (1980): the dynamics of repressive commensalism",
+      "journal": "Estudios Latinoamericanos",
+      "year": "2020",
+      "url": "https://revistas.unam.mx/index.php/rel/article/view/81221/71416",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [],
+      "dimensions": [
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "beba9a87aedb31ae",
+      "title": "The empire of transnationals",
+      "journal": "Ola Financiera",
+      "year": "2015",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/52863/47018",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "d9aa2673e008c30e",
+      "title": "National capitalism, transnationalization and the fall of Bretton Woods: Topics for discussion based on Celso Furtado",
+      "journal": "Ola Financiera",
+      "year": "2026",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/95347/83451",
+      "score": 2,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "b7944461273f41fe",
+      "title": "Las empresas transnacionales en México: punto de vista oficial. F. Fajnzylber y T. Martínez Tarragó",
+      "journal": "Problemas del Desarrollo",
+      "year": "1976",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/42956/38977",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 2
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 43
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 11
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "124 PROBLEMAS DEL DESARROLLO I r meUle pa.....~ __ Las ernpresas transnacionales en ~exico: un punto de vista oficial * Este trabajo tiene pOl' objeto gubernamentales (cuatro fuentes profundizar en el conocimiento oficiales bastaron para satisfacer de una real",
+        "iales bastaron para satisfacer de una realidad en la industria y la necesidad de datos a nivel na­ en la vida economica de Mexi­ cional) y vel', comparativamente, co: las empresas trasnacionales· y las dificultades con que tropieza el papel que desempeiian. Al un investigador universitario 0 igual que muchos otros trabajos ind'ependiente cuando requiere de caracter oficia",
+        "124 PROBLEMAS DEL DESARROLLO I r meUle pa.....~ __ Las ernpresas transnacionales en ~exico: un punto de vista oficial * Este trabajo tiene pOl' objeto gubernamentales (cuatro fuentes profundizar en el conocimiento oficiales bastaron para satisfacer de una re"
+      ]
+    },
+    {
+      "article_id": "19f46ca72de7ca77",
+      "title": "Inversiones extranjeras y empresas trasnacionales",
+      "journal": "Problemas del Desarrollo",
+      "year": "1979",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/38315/34833",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 9
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 39
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 16
+        },
+        {
+          "name": "trabajo",
+          "count": 16
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        ",. T DOCUMENTOS Y REUNIONES INVERSIONES EXTRANJERAS Y EMPRESAS TRASNACIONALES* Bernardo OLMEDO CARRANZA** El Departamento de Producei6n Economica de la Divisi6n de Ciencias Sociales y Humanas de la Universidad Autonoma Metropo­ litana (UAM), Unidad Xochimil",
+        ",. T DOCUMENTOS Y REUNIONES INVERSIONES EXTRANJERAS Y EMPRESAS TRASNACIONALES* Bernardo OLMEDO CARRANZA** El Departamento de Producei6n Economica de la Divisi6n de Ciencias Sociales y Humanas de la Universidad Autonoma Metropo­ litana (UAM), Unidad Xochim",
+        ",. T DOCUMENTOS Y REUNIONES INVERSIONES EXTRANJERAS Y EMPRESAS TRASNACIONALES* Bernardo OLMEDO CARRANZA** El Departamento de Producei6n Economica de la Divisi6n de Ciencias Sociales y Humanas de la Universidad Autonoma Metropo­ litana (UAM), Unidad Xochimil"
+      ]
+    },
+    {
+      "article_id": "af3308998c8d9bca",
+      "title": "La división internacional del trabajo de la empresas trasnacionales y los convenios de complementación de ALALC",
+      "journal": "Problemas del Desarrollo",
+      "year": "1979",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/39972/36374",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 89
+        },
+        {
+          "name": "trabajo",
+          "count": 18
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "r t TESTIMONIOS LA DIVISION INTERNACIONAL DEL. TRABAJO DE LAS EMPRESAS TRASNACIONALES Y LOS CONVENIOS DE COMPLEMENTACION DE ALALC* ** Eugenio LAHE,Rl\\ Las Empresas Trasnacionales son, por definicion, firmas que operan en varios proses, aunque mantienen concentrada",
+        "r t TESTIMONIOS LA DIVISION INTERNACIONAL DEL. TRABAJO DE LAS EMPRESAS TRASNACIONALES Y LOS CONVENIOS DE COMPLEMENTACION DE ALALC* ** Eugenio LAHE,Rl\\ Las Empresas Trasnacionales son, por definicion, firmas que operan en varios proses, aunque mantienen concentrad",
+        "r t TESTIMONIOS LA DIVISION INTERNACIONAL DEL. TRABAJO DE LAS EMPRESAS TRASNACIONALES Y LOS CONVENIOS DE COMPLEMENTACION DE ALALC* ** Eugenio LAHE,Rl\\ Las Empresas Trasnacionales son, por definicion, firmas que operan en varios proses, aunque mantienen concentrada"
+      ]
+    },
+    {
+      "article_id": "d6983f8ab8eba27f",
+      "title": "Dos empresas trasnacionales en México. Rémy Montavon, Miguel Wionczek y Francis Piquerez",
+      "journal": "Problemas del Desarrollo",
+      "year": "1980",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37725/34292",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 15
+        },
+        {
+          "name": "trabajo",
+          "count": 8
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "T I .- -_. -- J -_•• _-- ..., ...... Dos empresas trasnacionales en Mexico* EI trabajo al que haremos refe· nismo interesado en el analisis del rencia es el resultado de una in· funcionamiento y el impacto de vestigaci6n realizada ,por un grupo",
+        "T I .- -_. -- J -_•• _-- ..., ...... Dos empresas trasnacionales en Mexico* EI trabajo al que haremos refe· nismo interesado en el analisis del rencia es el resultado de una in· funcionamiento y el impacto de vestigaci6n realizada ,por un gru",
+        "T I .- -_. -- J -_•• _-- ..., ...... Dos empresas trasnacionales en Mexico* EI trabajo al que haremos refe· nismo interesado en el analisis del rencia es el resultado de una in· funcionamiento y el impacto de vestigaci6n realizada ,por un grupo"
+      ]
+    },
+    {
+      "article_id": "d9e679f77b881a4a",
+      "title": "Movimiento sindical y empresas trasnacionales. Juan Somavia, Raúl Trajtenberg y Juan Gabriel Valdés (comps.)",
+      "journal": "Problemas del Desarrollo",
+      "year": "1980",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/38296/34818",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 6
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 20
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 37
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "L B R 0 5 Movimie'nto sindical y empresas trasnacionales* Esta obra representa un con­ icontradicciones y los problemas junto de trabajos que dehe'n ser quecalifican el accionar sindical vistos como material basico so­ frente a las ET,",
+        "L B R 0 5 Movimie'nto sindical y empresas trasnacionales* Esta obra representa un con­ icontradicciones y los problemas junto de trabajos que dehe'n ser quecalifican el accionar sindical vistos como material basico so­ frente a las ET",
+        "L B R 0 5 Movimie'nto sindical y empresas trasnacionales* Esta obra representa un con­ icontradicciones y los problemas junto de trabajos que dehe'n ser quecalifican el accionar sindical vistos como material basico so­ frente a las ET,"
+      ]
+    },
+    {
+      "article_id": "8d52eed881f2d61d",
+      "title": "Corporaciones trasnacionales y fuerza de trabajo en el mundo subdesarrollado: El caso de las maquiladoras de exportación",
+      "journal": "Problemas del Desarrollo",
+      "year": "1981",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/38285/34807",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 4
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 7
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 48
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 119
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "CORPORACIONES TRASNACIONALES Y FUERZA DE TRABAJO EN EL MUNDO SUBDESARROLLADO: EL CASO DE LAS MAQUILADORAS DE EXPORTACION* Veronica VILLARESPE** RESUMEN: La nueva division internacional del trabajo se sustenta",
+        "CORPORACIONES TRASNACIONALES Y FUERZA DE TRABAJO EN EL MUNDO SUBDESARROLLADO: EL CASO DE LAS MAQUILADORAS DE EXPORTACION* Veronica VILLARESPE** RESUMEN: La nueva division internacional del trabajo se susten",
+        "Investigadora del IIEc-UNAM. 146 PROBLEMAS DEL DESARROLLO LAS M~QUILADORAS DE EXPORTAGION 147 reposici6n del capital fijo y oblig6 a la exportaci6n de maquinaria multinacionales 0 empresas trasnacionales, celulas de ese pro­ y equipo que, si bien eran obsoletos en las economias centrales, fue­ ceso, y en el aumento y profundizaci6n del vinculo entre el ron aplicados en la producci"
+      ]
+    },
+    {
+      "article_id": "d3226b98100d8360",
+      "title": "Agricultura e intervencion estatal",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36958/33488",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 45
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 7
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 3
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 13
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 4
+        },
+        {
+          "name": "finanzas",
+          "count": 32
+        },
+        {
+          "name": "trabajo",
+          "count": 21
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "ndo para Tabaco 1.143 1.000 1.358 1.860 1.900 satisfacer 'la demanda norteamericana de frutas y legumbres, abas­ Garbanzo 0.660 0.700 0.779 0.797 1.112 teciendode insumos a firmas trasnacionales e importando como Cacao en grano 0.142 0.300 0.425 0.454 0.419 contrapartida cereales basicos. La intemacionalizaci6n de la agricul­ Orientados a la producci6n tura mexicana es p~",
+        "inversion -la pUblica en espe­ cial- desde la persp>ectiva de sus orientaciones ~mplfcitas y' explifcitas en el desarrollo agricola y sus modalidades de vinculacion con el capital trasnacional. Segtin algunos, el Estado cumple el deber impostergable' de garanti­ zar el desarrollo arm6nico de la sociedad. Ahi tenemos UIia mues­ tra de 10 ideologico, donde son los interes",
+        "l de la inversion -la pUblica en espe­ cial- desde la persp>ectiva de sus orientaciones ~mplfcitas y' explifcitas en el desarrollo agricola y sus modalidades de vinculacion con el capital trasnacional. Segtin algunos, el Estado cumple el deber impostergable' de garanti­ zar el desarrollo arm6nico de la sociedad. Ahi tenemos UIia mues­ tra de 10 ideologico, donde son los interes"
+      ]
+    },
+    {
+      "article_id": "d67b43dc86670c29",
+      "title": "La mala alimentación y las empresas trasnacionales. Rosa Elena Montes de Oca y Gerardo Escudero Luján",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37077/33667",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 21
+        },
+        {
+          "name": "trabajo",
+          "count": 3
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "anteamientos sin sen­ de la producci6n es la ganancia tido se llega, cuando se intenta y no el consumo personal. * Rosa Elena Montes de Dca y Gerardo Escudero Lujan. \"Las empresas trasnacionales en la industria alimenticia\". Revista de Comercio Exterior. Banco Nacional de Comerclo Exterior. Mexico, Septiembre de 1981. 987 a 1009 pp. . 188 PROBLEMAS DEL DESARROLLO Dentto d",
+        "anteamientos sin sen­ de la producci6n es la ganancia tido se llega, cuando se intenta y no el consumo personal. * Rosa Elena Montes de Dca y Gerardo Escudero Lujan. \"Las empresas trasnacionales en la industria alimenticia\". Revista de Comercio Exterior. Banco Nacional de Comerclo Exterior. Mexico, Septiembre de 1981. 987 a 1009 pp. . 188 PROBLEMAS DEL DESARROLLO Dentto",
+        "estos planteamientos sin sen­ de la producci6n es la ganancia tido se llega, cuando se intenta y no el consumo personal. * Rosa Elena Montes de Dca y Gerardo Escudero Lujan. \"Las empresas trasnacionales en la industria alimenticia\". Revista de Comercio Exterior. Banco Nacional de Comerclo Exterior. Mexico, Septiembre de 1981. 987 a 1009 pp. . 188 PROBLEMAS DEL DESARROLLO Dentto d"
+      ]
+    },
+    {
+      "article_id": "3b55c9056e1ae2bc",
+      "title": "Las empresas trasnacionales y el patentamiento de invenciones en México",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37742/34307",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 22
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 52
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "\" I ;l~ LAS EMPRESAS TRASNACIONALES YEL PATENTAMIENTO DE INYENCIONES EN MEXICO * Pedro GONzALEZ OLVERA RESUMEN: El autor aborda el problema ados niveles: por un lado analiza el papel que juega la «tecnologza, supro­",
+        "\" I ;l~ LAS EMPRESAS TRASNACIONALES YEL PATENTAMIENTO DE INYENCIONES EN MEXICO * Pedro GONzALEZ OLVERA RESUMEN: El autor aborda el problema ados niveles: por un lado analiza el papel que juega la «tecnologza, supr",
+        "\" I ;l~ LAS EMPRESAS TRASNACIONALES YEL PATENTAMIENTO DE INYENCIONES EN MEXICO * Pedro GONzALEZ OLVERA RESUMEN: El autor aborda el problema ados niveles: por un lado analiza el papel que juega la «tecnologza, supro­"
+      ]
+    },
+    {
+      "article_id": "996f1524110acc04",
+      "title": "Las semillas, el Estado y las trasnacionales",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36955/33486",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 206
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 95
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 79
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 3
+        },
+        {
+          "name": "trabajo",
+          "count": 33
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "LAS SEMILLAS, EL ESTADO YLAS TRASNACIONALES Blanca SUAREZ* RESUMEN: La autortl examina en este trabajo la importan­ cia de las semillas mejoradas dentra del proceso de desarrollo agricola) y su creciente producci6n comercia",
+        "LAS SEMILLAS, EL ESTADO YLAS TRASNACIONALES Blanca SUAREZ* RESUMEN: La autortl examina en este trabajo la importan­ cia de las semillas mejoradas dentra del proceso de desarrollo agricola) y su creciente producci6n comerc",
+        "de La conservaci6n de los recursos gene­ ticas. Se analiza tambien La posicion\" el p'apel desempenado I,or el Estado mexicano en la materia) ad como lQ.l fuerte penetracion de las Empresas Trasnacionales en este insumo estrategico para tada La estructura agroindustrial ,del pais. 1. lntroduccion Desde haee cuatro decadas, la producci6n comercial de semillas me­ Joradas adquiere gr"
+      ]
+    },
+    {
+      "article_id": "88a9dfce5cba89b9",
+      "title": "Crisis y empresas trasnacionales: Problemas del Desarrollo",
+      "journal": "Problemas del Desarrollo",
+      "year": "1983",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37020/33614",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 12
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 17
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 57
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 2
+        },
+        {
+          "name": "finanzas",
+          "count": 8
+        },
+        {
+          "name": "trabajo",
+          "count": 12
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "I , ENSAYOS Y ARTICULOS CRISIS Y EMPRESAS TRASNACIONALES: PROBLEMAS DEL DESARROLLO Victor M. BERNAL SAHAGUN* RESUMEN: A dife rencia, de 10 que sucede con la investiga­ ci6n llamada cientifica, existe un cierto menosprecio a la realizada",
+        "I , ENSAYOS Y ARTICULOS CRISIS Y EMPRESAS TRASNACIONALES: PROBLEMAS DEL DESARROLLO Victor M. BERNAL SAHAGUN* RESUMEN: A dife rencia, de 10 que sucede con la investiga­ ci6n llamada cientifica, existe un cierto menosprecio a la realiza",
+        "I , ENSAYOS Y ARTICULOS CRISIS Y EMPRESAS TRASNACIONALES: PROBLEMAS DEL DESARROLLO Victor M. BERNAL SAHAGUN* RESUMEN: A dife rencia, de 10 que sucede con la investiga­ ci6n llamada cientifica, existe un cierto menosprecio a la realizada"
+      ]
+    },
+    {
+      "article_id": "070579b570015ae8",
+      "title": "Las empresas trasnacionales y el entrenamiento de personal para el desarrollo. Organización Internacional del Trabajo (OIT)",
+      "journal": "Problemas del Desarrollo",
+      "year": "1983",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37033/33627",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 26
+        },
+        {
+          "name": "trabajo",
+          "count": 10
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "n un que se concentra el interes y los analisis acerca del impacto que mayores recursos de la empresa ejerce sobre los trabajadores de trasnacional, par considerarlos las empresas trasnacionales, la personal clave en el funciona­ formaci6n profesional impartida miento 6ptimo de la empresa. y su impacto en el desarrollo Asi, gran parte de esta for­ economico, de tres paise",
+        "e direcci6n- en los El estudio se completa con un que se concentra el interes y los analisis acerca del impacto que mayores recursos de la empresa ejerce sobre los trabajadores de trasnacional, par considerarlos las empresas trasnacionales, la personal clave en el funciona­ formaci6n profesional impartida miento 6ptimo de la empresa. y su impacto en el desarrollo Asi, g",
+        "mpleta con un que se concentra el interes y los analisis acerca del impacto que mayores recursos de la empresa ejerce sobre los trabajadores de trasnacional, par considerarlos las empresas trasnacionales, la personal clave en el funciona­ formaci6n profesional impartida miento 6ptimo de la empresa. y su impacto en el desarrollo Asi, gran parte de esta for­ economico, de tres paise"
+      ]
+    },
+    {
+      "article_id": "c33b61b8fc27bba3",
+      "title": "La Banca trasnacional y el petróleo en México",
+      "journal": "Problemas del Desarrollo",
+      "year": "1985",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/36363/32954",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 7
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 6
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 54
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 38
+        },
+        {
+          "name": "finanzas",
+          "count": 245
+        },
+        {
+          "name": "trabajo",
+          "count": 5
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "finance"
+      ],
+      "snippets": [
+        "n de la producci6n y un mayor grado de concentraci6n y centralizacion de [ ... ] el gobierno de los Estados Unidos ha aceptado anticipar los recursos en manos de los conglomerados trasnacionales) como a Mexico mil millones de dolares a cuenta de petroleo ligero factor de un proceso de reproducci6n ampliada del capital: en la mexicano de alta calidad, para completar su res",
+        "LA BANCA TRASNACIONAL YEL PETROL EO EN MEXICO Alicia GIRON G.\" RESUMEN: El presente articulo intenta demostrar la estrategia geopolitica 'del p'etr61eo mexicano, as£ del por que de un fi­ namciamiento",
+        "icas. La primera, la que de­ ha estado conjugada con los line.amientos y politicas de expansion riva de la internacionalizaci6n de la economia mexicana, via el cre­ de las grandes empresas trasnacionales5 en el resto de los paises 4 Discurso de los Infunnes Presidenciales en Mexico a travis de los In­ 5 \"[ ••• ] conceptualizar a la Emprcsa Trasnacional como la expresion, formes, S"
+      ]
+    },
+    {
+      "article_id": "5557c6a70b47c1a5",
+      "title": "Las estrategias centrales del capital trasnacional",
+      "journal": "Problemas del Desarrollo",
+      "year": "1990",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/35082/31994",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 2
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 5
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 3
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 46
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 15
+        },
+        {
+          "name": "trabajo",
+          "count": 14
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": [
+        "producci6n industrial y del 3.5 al 7.2 de mada por el sistema bancario, induidos los organismos de finan­ las exportaciones capitalistas. ciamiento multilateral, los Conglomerados Trasnacionales (CTN) Para los siguientes siete anos, de 1975 a 1982, la CEE y EVA pierden -industriales, comerciales y de servicio- y los gobiernos de los paises dinamismo en ambos indicadores,",
+        "Las estrategias centrales del capital trasnacional* Victor M. Bernal Sahagun. Pocas veces puede hacerse frente, con tanta satisfacci6n como respon­ sabilidad a un compromiso como este, por el doble motivo de someter esta disertaci",
+        "reci6 de 8.1 por demo en 1962 a 13.2 mas recientemente, a la compra de paraestatales a precios de ganga por ciento en 1985, es todavia bastante bajo comparado con el y asociados a empresas trasnacionales. de otros paises desarrollados, donde varia desde 20 por ciento en Francia hasta mas de 50 por dento en los Paises Bajos. 12 Estudios t infoT11lts tit 14 CEPAL, num. 70, \"La evolu"
+      ]
+    },
+    {
+      "article_id": "2090a437779aa70f",
+      "title": "Oil in the apex of a crisis and strokes submitting to the transnational privatization",
+      "journal": "Problemas del Desarrollo",
+      "year": "1995",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/29306/27241",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 8
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 70
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 19
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 1
+        },
+        {
+          "name": "finanzas",
+          "count": 50
+        },
+        {
+          "name": "trabajo",
+          "count": 3
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment",
+        "finance"
+      ],
+      "snippets": [
+        "millones el subsuelo; extraer1o, transformarlo y venderlo requiere de la de d6lares, los efectos que tal carda provoc6 fueron incalculables, \"cooperaci6n\" y apoyo de las empresas trasnacionales (ET) petro­ a 10 que se sum6 la pesada carga de la deuda externa, aprovecha­ leras, elias, s610 ellas, seglin afirman los neoliberales, son las unicas da pOI' los acreedores e ins",
+        "de la industria petrolera mexicana, donde la inversi6n privada y extranjera estful penetrando en todas las Meas de actividad de la industria referida, EI que Pemex se privatice y transnacionalice podr~ significar la desaparici6n de toda actividad estrat~gica reservada por ley aI estado, con todas las consecuencias energ~ticas, econ6micas y polfticas que ello traer~ tras",
+        "EI petr61eo en el vertice de una crisis que somete y sus trazos privatizadores a 10 trasnacional Sergio Suarez Guevara- En mnnon\"a till maestro, colega y amigo VIctor Manlul Bernal Sahagun. La crisis financiera y canlbiaria que sacudi6 con fuerza a la econonlfa nlexicana haci"
+      ]
+    },
+    {
+      "article_id": "9e2935c38d308068",
+      "title": "The new micro-industries of Latin America as tools of the neoliberal contra-revolution",
+      "journal": "Problemas del Desarrollo",
+      "year": "1997",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/28775/26741",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 1
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "wealth"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "2ac382f12ccf8d28",
+      "title": "Latin america: the new pattern of industrial colonialism",
+      "journal": "Problemas del Desarrollo",
+      "year": "2001",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/7395/6890",
+      "score": 2,
+      "reference_count": 2,
+      "status": "ok",
+      "families": [
+        {
+          "name": "agricultura_alimentacion",
+          "count": 1
+        },
+        {
+          "name": "capital_extranjero",
+          "count": 30
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 2
+        },
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 23
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 2
+        },
+        {
+          "name": "extractivismo_mineria",
+          "count": 3
+        },
+        {
+          "name": "finanzas",
+          "count": 6
+        },
+        {
+          "name": "trabajo",
+          "count": 47
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power",
+        "space"
+      ],
+      "snippets": [
+        "abiertas para aquellos países donde el agotamiento del actual patrón de colonialismo industrial se ha hecho ya evidente. Palabras clave: subdesarrollo, colonialismo, conocimiento, trasnacionales. LATIN AMERICA: THE NEW PATTERN OF INDUSTRIAL COLONIALISM ABSTRACT This article provides an interpretation of the processes underway in the region in relation to the theoretical p",
+        "abiertas para aquellos países donde el agotamiento del actual patrón de colonialismo industrial se ha hecho ya evidente. Palabras clave: subdesarrollo, colonialismo, conocimiento, trasnacionales. LATIN AMERICA: THE NEW PATTERN OF INDUSTRIAL COLONIALISM ABSTRACT This article provides an interpretation of the processes underway in the region in relation to the theoretical",
+        "el capital extranjero. En condiciones de apertura se debe irradiar competiti- vidad, y ello demanda la intervención de la capacidad tecnológica controlada por las grandes empresas trasnacionales (ETN), así como facilidades para el acceso a los mercados. Por eso los estados, en sus esfuerzos por atraer recursos externos, se ven envueltos en una verdadera competencia por crear las"
+      ]
+    },
+    {
+      "article_id": "ca5914a84a50fc81",
+      "title": "¿Fin de un ciclo? De la globalización al proteccionismo y la nueva rearticulación geoestratégica",
+      "journal": "Problemas del Desarrollo",
+      "year": "2017",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/58189/51491",
+      "score": 2,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 12
+        },
+        {
+          "name": "finanzas",
+          "count": 6
+        },
+        {
+          "name": "trabajo",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ecir, que lo anterior, es el resultado de las políticas económicas implementa‑ das durante más de cuatro décadas: apertura comercial, alianzas estratégicas de las grandes empresas transnacionales y el financiamiento de los inversionistas institucionales a toda actividad económica de gobierno. Por otro lado, la democracia –como un régimen de gobernanza–, es en este momento,",
+        "ecir, que lo anterior, es el resultado de las políticas económicas implementa‑ das durante más de cuatro décadas: apertura comercial, alianzas estratégicas de las grandes empresas transnacionales y el financiamiento de los inversionistas institucionales a toda actividad económica de gobierno. Por otro lado, la democracia –como un régimen de gobernanza–, es en este moment",
+        "e puede decir, que lo anterior, es el resultado de las políticas económicas implementa‑ das durante más de cuatro décadas: apertura comercial, alianzas estratégicas de las grandes empresas transnacionales y el financiamiento de los inversionistas institucionales a toda actividad económica de gobierno. Por otro lado, la democracia –como un régimen de gobernanza–, es en este momento,"
+      ]
+    },
+    {
+      "article_id": "3012e3893fa691d0",
+      "title": "The Incentive Regime for Large Investments and the Taxation of Transnational Corporations",
+      "journal": "Ola Financiera",
+      "year": "2025",
+      "url": "https://revistas.unam.mx/index.php/ROF/article/view/93661/81708",
+      "score": 1,
+      "reference_count": 0,
+      "status": "no_pdf",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0ab3e39a1ac32d42",
+      "title": "Las transnacionales en Argentina. Carlos M. Villas",
+      "journal": "Problemas del Desarrollo",
+      "year": "1974",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/44683/40335",
+      "score": 1,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 8
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 22
+        },
+        {
+          "name": "finanzas",
+          "count": 5
+        },
+        {
+          "name": "trabajo",
+          "count": 6
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "r las transnacionales en Argentina· En este trabajo Carlos M. Vi­ como una de las repercusiones llas explica a partir de un enfo­ mas importantes de las transna­ que principalmente descriptivo cionales",
+        "r las transnacionales en Argentina· En este trabajo Carlos M. Vi­ como una de las repercusiones llas explica a partir de un enfo­ mas importantes de las transna­ que principalmente descriptivo cional"
+      ]
+    },
+    {
+      "article_id": "4c5a930aa8f9f2f0",
+      "title": "Mal de muchos…consuelo de trasnacionales. Esteban Santana Carrión",
+      "journal": "Problemas del Desarrollo",
+      "year": "1979",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/39993/36394",
+      "score": 1,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "dependencia_periferia",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 12
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ci6n (23.3% de los contratos) , piricamente que, a excepci6n del apropiaci6n de procesos tecnol6­ afiadido de «peruano» 0 «del gicos locales por parte de la ma­ Peru», los «aires trasnacionales» triz, indefinici6n en los plazos de sopIan tan fuertemente como en cobertura (75.7%) de los contra· toda America Latina y, en gene· tos, sobrefacturaci6n, todos ellos ral en tooo",
+        "ci6n (23.3% de los contratos) , piricamente que, a excepci6n del apropiaci6n de procesos tecnol6­ afiadido de «peruano» 0 «del gicos locales por parte de la ma­ Peru», los «aires trasnacionales» triz, indefinici6n en los plazos de sopIan tan fuertemente como en cobertura (75.7%) de los contra· toda America Latina y, en gene· tos, sobrefacturaci6n, todos ellos ral en to"
+      ]
+    },
+    {
+      "article_id": "cbd21a2c8b41af16",
+      "title": "¿Qué son las trasnacionales? Sánchez Carlos",
+      "journal": "Problemas del Desarrollo",
+      "year": "1982",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/37078/33668",
+      "score": 1,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 25
+        },
+        {
+          "name": "finanzas",
+          "count": 2
+        },
+        {
+          "name": "trabajo",
+          "count": 2
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "tividades inversiones norteamericanu en el Investigadora del IIEc-UNAM. , ** economicas de los palses capita­ extranjero fueron cinco veces rna­ Sanchez, Carlos, El imperio d~ las transnacionales, Editorial de Ciencias~ Sociales, La Habana, '1977, 59 pp. 190 PROBLEMAS DEL DESARROLLO yores que las salidas de capital\" dustrializados\", \"paises socialis­ (p. 25). tas\", \"paises",
+        "LIBROS 189 niveles te6ricos, que son las em­ listas, industrializados y subdesa­ presas trasnacionales (ETN) ; rrollados. ique significan -tanto en el con­ Hablando 'de esa gran fuerza, texto mundial como a nivel de se indican cinco elementos fun­ 'econom.las individuales-; como da",
+        "tividades inversiones norteamericanu en el Investigadora del IIEc-UNAM. , ** economicas de los palses capita­ extranjero fueron cinco veces rna­ Sanchez, Carlos, El imperio d~ las transnacionales, Editorial de Ciencias~ Sociales, La Habana, '1977, 59 pp. 190 PROBLEMAS DEL DESARROLLO yores que las salidas de capital\" dustrializados\", \"paises socialis­ (p. 25). tas\", \"pais"
+      ]
+    },
+    {
+      "article_id": "74622da726579bf5",
+      "title": "Las trasnacionales y los trabajadores. Gutiérrez Angelina",
+      "journal": "Problemas del Desarrollo",
+      "year": "1991",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/34715/31646",
+      "score": 1,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 1
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 21
+        },
+        {
+          "name": "trabajo",
+          "count": 9
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": [
+        "ionalizacion del capital y del sindicatos bajo la optica de las em­ de la economfa mexicana en el mar­ Por 10 que surgen algunas dudas trabajo, en el estudio se aporta gran presas trasnacionales, concreta­ co de las empresas trasnacionales, y preocupaciones, vistas en una cantidad de datos y cifras concre­ mente en palses como Mexico en tratando de profundizar en el ana­",
+        "'te y un gran desconocimiento de la procesosactuales. de monopoliza­ mo el desempleo y la organizacion autora, es el de avanzar en el co­ tradicion historica de lucha de los ci6n, trasnacionalizaci6n e interna­ gremial y el papel que juegan los nocimiento de la monopolizacion trabajadores mexicanos\". cionalizacion del capital y del sindicatos bajo la optica de las em­ d",
+        "catos bajo la optica de las em­ de la economfa mexicana en el mar­ Por 10 que surgen algunas dudas trabajo, en el estudio se aporta gran presas trasnacionales, concreta­ co de las empresas trasnacionales, y preocupaciones, vistas en una cantidad de datos y cifras concre­ mente en palses como Mexico en tratando de profundizar en el ana­ perspectiva defensora de la planta tos sobre"
+      ]
+    },
+    {
+      "article_id": "bfe3a7607270b2c5",
+      "title": "Trasnacionales e integración: un recuento de actualidad",
+      "journal": "Problemas del Desarrollo",
+      "year": "1991",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/34581/31513",
+      "score": 1,
+      "reference_count": 0,
+      "status": "ok",
+      "families": [
+        {
+          "name": "empresas_transnacionales",
+          "count": 4
+        }
+      ],
+      "dimensions": [
+        "global_value_chains_power"
+      ],
+      "snippets": []
+    },
+    {
+      "article_id": "0eda74130a7448f2",
+      "title": "The Mexican Transnational Ethnic Economy: Los Angeles, California",
+      "journal": "Problemas del Desarrollo",
+      "year": "2018",
+      "url": "https://www.probdes.iiec.unam.mx/index.php/pde/article/view/58714/61907",
+      "score": 1,
+      "reference_count": 32,
+      "status": "ok",
+      "families": [
+        {
+          "name": "capital_extranjero",
+          "count": 14
+        },
+        {
+          "name": "conflictos_territorio",
+          "count": 5
+        },
+        {
+          "name": "empresas_transnacionales",
+          "count": 38
+        },
+        {
+          "name": "energia_hidrocarburos",
+          "count": 1
+        },
+        {
+          "name": "trabajo",
+          "count": 35
+        }
+      ],
+      "dimensions": [
+        "extractivism_environment"
+      ],
+      "snippets": [
+        "a Peraza y Blas Valenzuela El presente trabajo sostiene que las conceptualizaciones tradicionales de la “economía étnica” han sido rebasadas debido a que no proyectan los aspectos transnacionales inherentes a este tipo de economías. Los negocios ubicados en la zona de estudio responden a la demanda de productos étnicos, la cual se fortalece generalmente con la nostalgia qu",
+        "Revista Problemas del Desarrollo, 192 (49), enero-marzo 2018, http://probdes.iiec.unam.mx Economía étnica transnacional mexicana: Los Ángeles, California Brianda Peraza y Blas Valenzuela1 Fecha de recepción: 10 de enero de 2017. Fecha de aceptación: 28 de junio de 2017. Resumen La presente investig"
+      ]
+    }
+  ],
+  "notes": [
+    "El conteo de familias usa coincidencias lexicas en titulo, terminos, fragmentos y texto completo local cuando existe.",
+    "Los autores citados se infieren de la parte anterior al primer ano en cada referencia; requiere revision manual.",
+    "Los PDFs/textos completos no se publican; solo se publican agregados, metadatos y referencias ya extraidas."
+  ]
+}

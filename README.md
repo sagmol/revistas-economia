@@ -60,6 +60,7 @@ scripts/
   05_normalize_subjects.py   # normaliza materias/keywords con alias
   06_wealth_space_lens.py    # candidatos para investigacion wealth and space
   07_transnational_bibliography.py # extrae PDFs/texto/bibliografia de transnacionales
+  08_transnational_segment_analysis.py # analiza el segmento transnacionales/multilatinas
 README.md
 ```
 
@@ -74,6 +75,7 @@ python scripts/05_normalize_subjects.py
 python scripts/04_descriptivos.py
 python scripts/06_wealth_space_lens.py
 python scripts/07_transnational_bibliography.py
+python scripts/08_transnational_segment_analysis.py
 ```
 
 Los scripts usan principalmente librerias de la biblioteca estandar de Python para arrancar sin friccion. Mas adelante se pueden agregar `pandas`, `plotly`, `networkx`, `sklearn`, `pdfplumber` y NLP, como en el proyecto Banxico.
@@ -93,6 +95,8 @@ El lente `wealth and space` se define en `config/research_lenses.json` y genera 
 El explorador dedicado esta en `docs/wealth_space.html` y permite filtrar candidatos por texto, revista, decada y dimension.
 
 La exploracion inicial de multilatinas/transnacionales esta en `docs/transnational_bibliography.html` y usa `docs/data/transnational_bibliography.json`.
+
+El analisis detallado de ese segmento se genera con `scripts/08_transnational_segment_analysis.py` y publica agregados en `docs/data/transnational_analysis.json`.
 
 ## Notas de diseno
 

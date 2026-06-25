@@ -89,6 +89,56 @@
       font-size: .88rem;
     }
 
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+
+    .analysis-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .analysis-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #12181b;
+      padding: 12px;
+      min-height: 180px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(105px, 1fr) 1.4fr auto;
+      gap: 8px;
+      align-items: center;
+      margin: 7px 0;
+      font-size: .84rem;
+    }
+
+    .track {
+      height: 9px;
+      background: #0d1113;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      width: var(--w);
+      background: linear-gradient(90deg, var(--cyan), var(--gold));
+    }
+
+    .compact-list {
+      margin: 0;
+      padding-left: 18px;
+      color: #cbd5d8;
+      font-size: .86rem;
+    }
+
+    .compact-list li { margin: 6px 0; }
+
     .filters {
       display: grid;
       grid-template-columns: 1.7fr repeat(4, minmax(130px, .7fr));
@@ -215,7 +265,7 @@
     }
 
     @media (max-width: 900px) {
-      .metrics, .filters { grid-template-columns: 1fr; }
+      .metrics, .filters, .analysis-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -234,6 +284,41 @@
       <div class="metric"><strong id="downloadedPdfs">0</strong><span>PDFs leidos</span></div>
       <div class="metric"><strong id="totalReferences">0</strong><span>referencias extraidas</span></div>
       <div class="metric"><strong id="visibleCount">0</strong><span>resultados visibles</span></div>
+    </section>
+
+    <section class="panel">
+      <h2>Lectura analitica del segmento</h2>
+      <div class="analysis-grid">
+        <div class="analysis-card">
+          <h2>Revistas y decadas</h2>
+          <div id="analysisJournals" class="muted">Cargando...</div>
+          <div id="analysisDecades"></div>
+        </div>
+        <div class="analysis-card">
+          <h2>Familias tematicas</h2>
+          <div id="analysisFamilies" class="muted">Cargando...</div>
+        </div>
+        <div class="analysis-card">
+          <h2>Dimensiones del lente</h2>
+          <div id="analysisDimensions" class="muted">Cargando...</div>
+        </div>
+        <div class="analysis-card">
+          <h2>Paises y espacios</h2>
+          <div id="analysisCountries" class="muted">Cargando...</div>
+        </div>
+        <div class="analysis-card">
+          <h2>Autores citados</h2>
+          <ol id="analysisAuthors" class="compact-list"></ol>
+        </div>
+        <div class="analysis-card">
+          <h2>Articulos pivote</h2>
+          <ol id="analysisPivots" class="compact-list"></ol>
+        </div>
+      </div>
+      <div class="summary">
+        <span class="tag" id="analysisLoaded">Analisis local</span>
+        <span class="tag">Los conteos tematicos usan coincidencias lexicas y sirven como guia de lectura.</span>
+      </div>
     </section>
 
     <section class="panel">
@@ -287,7 +372,7 @@
   </main>
 
   <script>
-    const state = { articles: [], filtered: [] };
+    const state = { articles: [], filtered: [], analysis: null };
 
     function escapeHtml(value) {
       return String(value || "")
@@ -366,6 +451,37 @@
       return snippets.slice(0, 2).map(s => `<div class="snippet">${highlight(s)}</div>`).join("");
     }
 
+    function barRows(rows, limit = 8) {
+      const max = Math.max(...(rows || []).slice(0, limit).map(row => Number(row.count)), 1);
+      return (rows || []).slice(0, limit).map(row => `
+        <div class="bar-row">
+          <span>${escapeHtml(row.name)}</span>
+          <div class="track"><div class="fill" style="--w:${Math.max(4, Number(row.count) / max * 100)}%"></div></div>
+          <span class="muted">${Number(row.count)}</span>
+        </div>
+      `).join("");
+    }
+
+    function simpleList(rows, limit = 8) {
+      return (rows || []).slice(0, limit).map(row => `<li>${escapeHtml(row.name)} <span class="muted">(${Number(row.count)})</span></li>`).join("");
+    }
+
+    function renderAnalysis(analysis) {
+      if (!analysis) return;
+      document.getElementById("analysisLoaded").textContent =
+        `${analysis.total_articles} articulos · ${analysis.articles_with_pdf_text} textos · ${analysis.total_references} referencias`;
+      document.getElementById("analysisJournals").innerHTML = barRows(analysis.by_journal, 4);
+      document.getElementById("analysisDecades").innerHTML = barRows(analysis.by_decade, 6);
+      document.getElementById("analysisFamilies").innerHTML = barRows(analysis.term_families_articles, 9);
+      document.getElementById("analysisDimensions").innerHTML = barRows(analysis.dimensions, 8);
+      document.getElementById("analysisCountries").innerHTML = barRows(analysis.countries, 8);
+      document.getElementById("analysisAuthors").innerHTML = simpleList(analysis.cited_authors, 10);
+      document.getElementById("analysisPivots").innerHTML = (analysis.top_reference_articles || []).slice(0, 7).map(row => `
+        <li><a href="${escapeHtml(row.url || "#")}" target="_blank" rel="noopener">${escapeHtml(row.title)}</a>
+        <span class="muted">(${Number(row.reference_count)} refs, ${escapeHtml(row.year)})</span></li>
+      `).join("");
+    }
+
     function render() {
       state.filtered = sortRows(state.articles.filter(matches));
       document.getElementById("visibleCount").textContent = state.filtered.length;
@@ -413,15 +529,19 @@
       });
     }
 
-    fetch(`data/transnational_bibliography.json?v=${Date.now()}`)
-      .then(r => r.json())
-      .then(data => {
+    Promise.all([
+      fetch(`data/transnational_bibliography.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`data/transnational_analysis.json?v=${Date.now()}`).then(r => r.json())
+    ])
+      .then(([data, analysis]) => {
         state.articles = data.articles || [];
+        state.analysis = analysis;
         document.getElementById("totalCandidates").textContent = data.total_candidates || 0;
         document.getElementById("downloadedPdfs").textContent = data.downloaded_pdfs || 0;
         document.getElementById("totalReferences").textContent = data.total_references_extracted || 0;
         document.getElementById("loadedAt").textContent = `JSON cargado: ${state.articles.length} articulos`;
         options("journal", [...new Set(state.articles.map(d => d.journal))].filter(Boolean).sort());
+        renderAnalysis(analysis);
         setupQuickSearches();
         ["q", "journal", "status", "minRefs", "sort"].forEach(id => {
           document.getElementById(id).addEventListener("input", render);
