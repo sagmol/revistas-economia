@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliografia transnacionales - revistas UNAM</title>
+  <style>
+    :root {
+      --bg: #0f1214;
+      --panel: #171d21;
+      --line: #2a343a;
+      --text: #edf2f4;
+      --muted: #9aa8ad;
+      --cyan: #59c3c3;
+      --gold: #e6b85c;
+      --green: #7bbf7a;
+      --rose: #d96c75;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+
+    header {
+      padding: 28px 20px;
+      background: #12181b;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .wrap {
+      width: min(1240px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1;
+    }
+
+    a { color: var(--cyan); }
+    main { padding: 18px 0 44px; }
+
+    .lead {
+      max-width: 940px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 82px;
+      background: #12181b;
+    }
+
+    .metric strong {
+      display: block;
+      color: var(--cyan);
+      font-size: clamp(1.7rem, 3vw, 2.8rem);
+      line-height: 1;
+    }
+
+    .metric span, .muted {
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: 1.7fr repeat(4, minmax(130px, .7fr));
+      gap: 10px;
+      align-items: end;
+    }
+
+    label {
+      display: block;
+      color: var(--muted);
+      font-size: .82rem;
+      margin-bottom: 4px;
+    }
+
+    input, select {
+      width: 100%;
+      min-height: 38px;
+      background: #0d1113;
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px 10px;
+      font: inherit;
+    }
+
+    .quick, .summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    button {
+      min-height: 32px;
+      background: #10161a;
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font: inherit;
+      font-size: .84rem;
+    }
+
+    button:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 9px;
+      color: var(--muted);
+      font-size: .84rem;
+    }
+
+    .result {
+      border-top: 1px solid var(--line);
+      padding: 14px 0;
+    }
+
+    .result:first-child { border-top: 0; }
+
+    .result h2 {
+      margin: 0 0 5px;
+      font-size: 1.02rem;
+      line-height: 1.3;
+    }
+
+    .result h2 a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .result h2 a:hover { color: var(--cyan); }
+
+    .meta {
+      color: var(--muted);
+      font-size: .83rem;
+      margin-bottom: 6px;
+    }
+
+    .status-ok { color: var(--green); }
+    .status-no_pdf { color: var(--rose); }
+    .score { color: var(--gold); font-weight: 700; }
+
+    details {
+      margin-top: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #10161a;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 9px 10px;
+      color: var(--cyan);
+    }
+
+    ol {
+      margin: 0;
+      padding: 0 16px 12px 32px;
+    }
+
+    li { margin: 8px 0; }
+
+    .snippet {
+      margin-top: 8px;
+      color: #cbd5d8;
+      font-size: .88rem;
+    }
+
+    mark {
+      background: rgba(230, 184, 92, .22);
+      color: var(--text);
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 22px 0;
+    }
+
+    @media (max-width: 900px) {
+      .metrics, .filters { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p><a href="index.html">Volver al tablero</a> · <a href="wealth_space.html">Wealth and space</a></p>
+      <h1>Bibliografia: multilatinas y transnacionales</h1>
+      <p class="lead">Exploracion inicial de articulos que mencionan multilatinas, transnacionales o trasnacionales. La bibliografia se extrae de los PDFs disponibles, por lo que los registros sin PDF quedan como candidatos pendientes.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel metrics">
+      <div class="metric"><strong id="totalCandidates">0</strong><span>articulos candidatos</span></div>
+      <div class="metric"><strong id="downloadedPdfs">0</strong><span>PDFs leidos</span></div>
+      <div class="metric"><strong id="totalReferences">0</strong><span>referencias extraidas</span></div>
+      <div class="metric"><strong id="visibleCount">0</strong><span>resultados visibles</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="filters">
+        <div>
+          <label for="q">Buscar en titulos, terminos, fragmentos y referencias</label>
+          <input id="q" type="search" placeholder="multilatinas, mineria, Arceo, Ecuador, capital extranjero..." />
+        </div>
+        <div>
+          <label for="journal">Revista</label>
+          <select id="journal"><option value="">Todas</option></select>
+        </div>
+        <div>
+          <label for="status">Estado</label>
+          <select id="status">
+            <option value="">Todos</option>
+            <option value="ok">PDF extraido</option>
+            <option value="no_pdf">Sin PDF</option>
+            <option value="extract_failed">Error extraccion</option>
+          </select>
+        </div>
+        <div>
+          <label for="minRefs">Referencias</label>
+          <select id="minRefs">
+            <option value="0">Todas</option>
+            <option value="1">1+</option>
+            <option value="10">10+</option>
+            <option value="25">25+</option>
+          </select>
+        </div>
+        <div>
+          <label for="sort">Orden</label>
+          <select id="sort">
+            <option value="refs">Mas referencias</option>
+            <option value="score">Score del lente</option>
+            <option value="year_desc">Ano reciente</option>
+            <option value="year_asc">Ano antiguo</option>
+          </select>
+        </div>
+      </div>
+      <div class="quick" id="quickSearches"></div>
+      <div class="summary">
+        <span class="tag" id="loadedAt">Datos locales</span>
+        <span class="tag">Los PDFs y textos completos no se publican; solo metadatos y referencias.</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <script>
+    const state = { articles: [], filtered: [] };
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function options(id, values) {
+      const el = document.getElementById(id);
+      el.innerHTML = `<option value="">Todas</option>` + values
+        .map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`)
+        .join("");
+    }
+
+    function haystack(row) {
+      return [
+        row.title,
+        row.journal,
+        row.year,
+        row.dimensions,
+        row.matched_terms,
+        ...(row.snippets || []),
+        ...(row.references || row.sample_references || [])
+      ].join(" ").toLowerCase();
+    }
+
+    function matches(row) {
+      const q = document.getElementById("q").value.trim().toLowerCase();
+      const journal = document.getElementById("journal").value;
+      const status = document.getElementById("status").value;
+      const minRefs = Number(document.getElementById("minRefs").value);
+      if (journal && row.journal !== journal) return false;
+      if (status && row.status !== status) return false;
+      if (Number(row.reference_count || 0) < minRefs) return false;
+      return !q || haystack(row).includes(q);
+    }
+
+    function sortRows(rows) {
+      const sort = document.getElementById("sort").value;
+      return [...rows].sort((a, b) => {
+        if (sort === "score") return Number(b.score) - Number(a.score) || Number(b.reference_count) - Number(a.reference_count);
+        if (sort === "year_desc") return Number(b.year) - Number(a.year) || Number(b.reference_count) - Number(a.reference_count);
+        if (sort === "year_asc") return Number(a.year) - Number(b.year) || Number(b.reference_count) - Number(a.reference_count);
+        return Number(b.reference_count) - Number(a.reference_count) || Number(b.score) - Number(a.score);
+      });
+    }
+
+    function escapeRegExp(value) {
+      return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function highlight(value) {
+      const safe = escapeHtml(value);
+      const q = document.getElementById("q").value.trim();
+      if (!q) return safe;
+      return safe.replace(new RegExp(`(${escapeRegExp(escapeHtml(q))})`, "ig"), "<mark>$1</mark>");
+    }
+
+    function renderReferences(row) {
+      const refs = row.references || row.sample_references || [];
+      if (!refs.length) return "";
+      return `
+        <details>
+          <summary>Ver ${refs.length} referencias extraidas</summary>
+          <ol>${refs.map(ref => `<li>${highlight(ref)}</li>`).join("")}</ol>
+        </details>
+      `;
+    }
+
+    function renderSnippets(row) {
+      const snippets = row.snippets || [];
+      if (!snippets.length) return "";
+      return snippets.slice(0, 2).map(s => `<div class="snippet">${highlight(s)}</div>`).join("");
+    }
+
+    function render() {
+      state.filtered = sortRows(state.articles.filter(matches));
+      document.getElementById("visibleCount").textContent = state.filtered.length;
+      const el = document.getElementById("results");
+      if (!state.filtered.length) {
+        el.innerHTML = `<div class="empty">No hay resultados con esos filtros.</div>`;
+        return;
+      }
+      el.innerHTML = state.filtered.map(row => `
+        <article class="result">
+          <h2><a href="${escapeHtml(row.url || "#")}" target="_blank" rel="noopener">${highlight(row.title)}</a></h2>
+          <div class="meta">
+            ${escapeHtml(row.journal)} · ${escapeHtml(row.year)} ·
+            <span class="score">score ${escapeHtml(row.score)}</span> ·
+            <span class="status-${escapeHtml(row.status)}">${escapeHtml(row.status)}</span> ·
+            ${Number(row.reference_count || 0)} referencias
+          </div>
+          <div class="meta">${highlight(row.matched_terms || "")}</div>
+          ${renderSnippets(row)}
+          ${renderReferences(row)}
+        </article>
+      `).join("");
+    }
+
+    function setupQuickSearches() {
+      const terms = [
+        "multilatinas",
+        "transnacionales",
+        "trasnacionales",
+        "capital extranjero",
+        "mineria",
+        "extractivismo",
+        "conflictos",
+        "hidrocarburos",
+        "cadenas globales",
+        "dependencia"
+      ];
+      const box = document.getElementById("quickSearches");
+      box.innerHTML = terms.map(term => `<button type="button" data-term="${term}">${term}</button>`).join("");
+      box.querySelectorAll("button").forEach(button => {
+        button.addEventListener("click", () => {
+          document.getElementById("q").value = button.dataset.term;
+          render();
+        });
+      });
+    }
+
+    fetch(`data/transnational_bibliography.json?v=${Date.now()}`)
+      .then(r => r.json())
+      .then(data => {
+        state.articles = data.articles || [];
+        document.getElementById("totalCandidates").textContent = data.total_candidates || 0;
+        document.getElementById("downloadedPdfs").textContent = data.downloaded_pdfs || 0;
+        document.getElementById("totalReferences").textContent = data.total_references_extracted || 0;
+        document.getElementById("loadedAt").textContent = `JSON cargado: ${state.articles.length} articulos`;
+        options("journal", [...new Set(state.articles.map(d => d.journal))].filter(Boolean).sort());
+        setupQuickSearches();
+        ["q", "journal", "status", "minRefs", "sort"].forEach(id => {
+          document.getElementById(id).addEventListener("input", render);
+          document.getElementById(id).addEventListener("change", render);
+        });
+        render();
+      });
+  </script>
+</body>
+</html>

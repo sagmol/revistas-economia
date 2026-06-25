@@ -69,8 +69,11 @@ Archivos generados:
 - temas frecuentes
 - temas frecuentes normalizados con alias español/ingles
 - lente de investigacion `wealth and space` con candidatos, dimensiones, terminos y ejemplos
+- explorador de bibliografia para articulos que mencionan multilatinas/transnacionales
 
 `docs/wealth_space.html` agrega un explorador dedicado con filtros por busqueda textual, revista, decada y dimension.
+
+`docs/transnational_bibliography.html` agrega una primera exploracion de bibliografia extraida de PDFs disponibles para articulos que mencionan multilatinas, transnacionales o trasnacionales.
 
 ## Revistas excluidas del corte inicial
 
@@ -90,4 +93,4 @@ La serie anual fue corregida para preferir el año editorial en `source` antes q
 
 Los temas frecuentes usan un vocabulario controlado inicial. Ya se consolidan variantes como `América Latina/Latin America`, `México/Mexico`, `Brasil/Brazil` y `financiarización/financialization`.
 
-El lente `wealth and space` identifica 497 articulos candidatos en el primer pase. La lista es amplia y debe leerse como herramienta exploratoria, no como corpus final.
+El lente `wealth and space` identifica 911 articulos candidatos despues de ampliar el vocabulario hacia dependencia, cadenas globales, extractivismo, conflictos socioambientales, mineria y empresas transnacionales. La lista es amplia y debe leerse como herramienta exploratoria, no como corpus final.

@@ -46,6 +46,7 @@ data/
 docs/
   index.html                 # sitio estatico publicable en GitHub Pages
   wealth_space.html          # explorador del lente de investigacion
+  transnational_bibliography.html # explorador de bibliografia extraida
   data/                      # datos livianos para visualizaciones
 project_docs/
   DECISIONES.md              # bitacora metodologica
@@ -58,6 +59,7 @@ scripts/
   04_descriptivos.py         # agregados para visualizaciones descriptivas
   05_normalize_subjects.py   # normaliza materias/keywords con alias
   06_wealth_space_lens.py    # candidatos para investigacion wealth and space
+  07_transnational_bibliography.py # extrae PDFs/texto/bibliografia de transnacionales
 README.md
 ```
 
@@ -71,6 +73,7 @@ python scripts/03_auditoria_corpus.py
 python scripts/05_normalize_subjects.py
 python scripts/04_descriptivos.py
 python scripts/06_wealth_space_lens.py
+python scripts/07_transnational_bibliography.py
 ```
 
 Los scripts usan principalmente librerias de la biblioteca estandar de Python para arrancar sin friccion. Mas adelante se pueden agregar `pandas`, `plotly`, `networkx`, `sklearn`, `pdfplumber` y NLP, como en el proyecto Banxico.
@@ -88,6 +91,8 @@ Los temas frecuentes usan un vocabulario controlado inicial definido en `config/
 El lente `wealth and space` se define en `config/research_lenses.json` y genera `docs/data/wealth_space.json`.
 
 El explorador dedicado esta en `docs/wealth_space.html` y permite filtrar candidatos por texto, revista, decada y dimension.
+
+La exploracion inicial de multilatinas/transnacionales esta en `docs/transnational_bibliography.html` y usa `docs/data/transnational_bibliography.json`.
 
 ## Notas de diseno
 

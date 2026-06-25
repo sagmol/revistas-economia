@@ -2,5 +2,7 @@ __pycache__/
 *.pyc
 logs/*.log
 data/raw/oai/*.json
+data/pdfs/
+data/texts/
 data/processed/*.csv
 data/processed/*.sqlite
