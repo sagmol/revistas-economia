@@ -139,6 +139,92 @@
 
     .compact-list li { margin: 6px 0; }
 
+    .network-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(260px, .7fr);
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .network-box {
+      min-height: 480px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #0d1113;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .network-box svg {
+      display: block;
+      width: 100%;
+      height: 480px;
+    }
+
+    .network-side {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #12181b;
+      padding: 12px;
+    }
+
+    .network-side h2 { margin-top: 0; }
+
+    .node {
+      cursor: pointer;
+      stroke: #0d1113;
+      stroke-width: 1.5;
+    }
+
+    .node.topic { fill: var(--gold); }
+    .node.article { fill: var(--cyan); opacity: .82; }
+    .node.active { stroke: var(--text); stroke-width: 3; }
+
+    .link {
+      stroke: #536067;
+      stroke-opacity: .42;
+    }
+
+    .link.active {
+      stroke: var(--gold);
+      stroke-opacity: .95;
+      stroke-width: 2.2;
+    }
+
+    .network-label {
+      fill: var(--text);
+      font-size: 11px;
+      pointer-events: none;
+    }
+
+    .network-hint {
+      color: var(--muted);
+      font-size: .88rem;
+      margin: 0 0 10px;
+    }
+
+    .topic-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 12px;
+    }
+
+    .topic-pill.active {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .network-selection {
+      color: #cbd5d8;
+      font-size: .9rem;
+    }
+
+    .network-fallback {
+      padding: 24px;
+      color: var(--muted);
+    }
+
     .filters {
       display: grid;
       grid-template-columns: 1.7fr repeat(4, minmax(130px, .7fr));
@@ -265,7 +351,8 @@
     }
 
     @media (max-width: 900px) {
-      .metrics, .filters, .analysis-grid { grid-template-columns: 1fr; }
+      .metrics, .filters, .analysis-grid, .network-layout { grid-template-columns: 1fr; }
+      .network-box, .network-box svg { min-height: 420px; height: 420px; }
     }
   </style>
 </head>
@@ -322,6 +409,18 @@
     </section>
 
     <section class="panel">
+      <h2>Red de topicos y articulos</h2>
+      <div class="network-layout">
+        <div class="network-box" id="topicNetwork"></div>
+        <div class="network-side">
+          <p class="network-hint">Selecciona un topico para filtrar la lista. Selecciona un articulo en la red para abrir el paper.</p>
+          <div id="topicPills" class="topic-list"></div>
+          <div id="networkSelection" class="network-selection">Sin topico seleccionado.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
       <div class="filters">
         <div>
           <label for="q">Buscar en titulos, terminos, fragmentos y referencias</label>
@@ -371,8 +470,9 @@
     </section>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script>
-    const state = { articles: [], filtered: [], analysis: null };
+    const state = { articles: [], filtered: [], analysis: null, selectedTopic: "" };
 
     function escapeHtml(value) {
       return String(value || "")
@@ -410,6 +510,11 @@
       if (journal && row.journal !== journal) return false;
       if (status && row.status !== status) return false;
       if (Number(row.reference_count || 0) < minRefs) return false;
+      if (state.selectedTopic) {
+        const summary = state.analysis?.article_summaries?.find(item => item.article_id === row.article_id);
+        const families = (summary?.families || []).map(item => item.name);
+        if (!families.includes(state.selectedTopic)) return false;
+      }
       return !q || haystack(row).includes(q);
     }
 
@@ -482,6 +587,158 @@
       `).join("");
     }
 
+    function topicLabel(value) {
+      return String(value || "")
+        .replaceAll("_", " ")
+        .replace("empresas transnacionales", "transnacionales")
+        .replace("extractivismo mineria", "extractivismo/mineria")
+        .replace("dependencia periferia", "dependencia/periferia");
+    }
+
+    function setTopic(topic) {
+      state.selectedTopic = state.selectedTopic === topic ? "" : topic;
+      document.querySelectorAll(".topic-pill").forEach(button => {
+        button.classList.toggle("active", button.dataset.topic === state.selectedTopic);
+      });
+      const selection = document.getElementById("networkSelection");
+      if (!state.selectedTopic) {
+        selection.textContent = "Sin topico seleccionado.";
+      } else {
+        const count = state.analysis.article_summaries
+          .filter(article => (article.families || []).some(family => family.name === state.selectedTopic))
+          .length;
+        selection.textContent = `${topicLabel(state.selectedTopic)}: ${count} articulos conectados.`;
+      }
+      render();
+      renderTopicNetwork();
+    }
+
+    function buildNetworkData() {
+      const summaries = state.analysis?.article_summaries || [];
+      const topicCounts = new Map((state.analysis?.term_families_articles || []).map(row => [row.name, Number(row.count)]));
+      const topTopics = [...topicCounts.entries()]
+        .filter(([, count]) => count >= 2)
+        .slice(0, 10)
+        .map(([name]) => name);
+      const articleIds = new Set();
+      const links = [];
+      summaries.forEach(article => {
+        (article.families || []).forEach(family => {
+          if (!topTopics.includes(family.name)) return;
+          articleIds.add(article.article_id);
+          links.push({
+            source: `topic:${family.name}`,
+            target: `article:${article.article_id}`,
+            value: Math.max(1, Number(family.count || 1))
+          });
+        });
+      });
+      const articleById = new Map(summaries.map(article => [article.article_id, article]));
+      const nodes = [
+        ...topTopics.map(topic => ({ id: `topic:${topic}`, type: "topic", name: topic, label: topicLabel(topic), count: topicCounts.get(topic) || 1 })),
+        ...[...articleIds].map(id => {
+          const article = articleById.get(id);
+          return {
+            id: `article:${id}`,
+            type: "article",
+            article_id: id,
+            label: article.title,
+            title: article.title,
+            url: article.url,
+            refs: Number(article.reference_count || 0),
+            year: article.year,
+            journal: article.journal
+          };
+        })
+      ];
+      return { nodes, links };
+    }
+
+    function renderTopicPills() {
+      const topics = (state.analysis?.term_families_articles || []).filter(row => Number(row.count) >= 2).slice(0, 10);
+      const box = document.getElementById("topicPills");
+      box.innerHTML = topics.map(row => `
+        <button type="button" class="topic-pill" data-topic="${escapeHtml(row.name)}">${escapeHtml(topicLabel(row.name))} (${Number(row.count)})</button>
+      `).join("");
+      box.querySelectorAll("button").forEach(button => {
+        button.addEventListener("click", () => setTopic(button.dataset.topic));
+      });
+    }
+
+    function renderTopicNetwork() {
+      const container = document.getElementById("topicNetwork");
+      if (!state.analysis) return;
+      if (!window.d3) {
+        container.innerHTML = `<div class="network-fallback">La red necesita cargar D3 desde CDN. Los filtros por topico siguen disponibles a la derecha.</div>`;
+        return;
+      }
+
+      const { nodes, links } = buildNetworkData();
+      const width = container.clientWidth || 760;
+      const height = window.matchMedia("(max-width: 900px)").matches ? 420 : 480;
+      container.innerHTML = "";
+      const svg = d3.select(container).append("svg")
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("role", "img")
+        .attr("aria-label", "Red de topicos y articulos");
+
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(d => d.source.type === "topic" ? 86 : 62).strength(.58))
+        .force("charge", d3.forceManyBody().strength(d => d.type === "topic" ? -420 : -115))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("collision", d3.forceCollide().radius(d => d.type === "topic" ? 28 : 11));
+
+      const link = svg.append("g")
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("class", d => `link ${state.selectedTopic && d.source.id === `topic:${state.selectedTopic}` ? "active" : ""}`)
+        .attr("stroke-width", d => Math.min(2.6, .7 + Math.sqrt(d.value) / 3));
+
+      const node = svg.append("g")
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+        .attr("class", d => `node ${d.type} ${d.id === `topic:${state.selectedTopic}` ? "active" : ""}`)
+        .attr("r", d => d.type === "topic" ? 10 + Math.sqrt(d.count) * 1.7 : 4 + Math.min(7, Math.sqrt(d.refs + 1)))
+        .on("click", (event, d) => {
+          if (d.type === "topic") {
+            setTopic(d.name);
+          } else if (d.url) {
+            window.open(d.url, "_blank", "noopener");
+          }
+        });
+
+      node.append("title")
+        .text(d => d.type === "topic" ? `${topicLabel(d.name)} (${d.count} articulos)` : `${d.title} (${d.year}, ${d.refs} refs)`);
+
+      const label = svg.append("g")
+        .selectAll("text")
+        .data(nodes.filter(d => d.type === "topic"))
+        .join("text")
+        .attr("class", "network-label")
+        .attr("text-anchor", "middle")
+        .text(d => d.label);
+
+      simulation.on("tick", () => {
+        nodes.forEach(d => {
+          d.x = Math.max(24, Math.min(width - 24, d.x));
+          d.y = Math.max(24, Math.min(height - 24, d.y));
+        });
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+        node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+        label
+          .attr("x", d => d.x)
+          .attr("y", d => d.y - 18);
+      });
+    }
+
     function render() {
       state.filtered = sortRows(state.articles.filter(matches));
       document.getElementById("visibleCount").textContent = state.filtered.length;
@@ -523,7 +780,11 @@
       box.innerHTML = terms.map(term => `<button type="button" data-term="${term}">${term}</button>`).join("");
       box.querySelectorAll("button").forEach(button => {
         button.addEventListener("click", () => {
+          state.selectedTopic = "";
+          document.getElementById("networkSelection").textContent = "Sin topico seleccionado.";
+          document.querySelectorAll(".topic-pill").forEach(item => item.classList.remove("active"));
           document.getElementById("q").value = button.dataset.term;
+          renderTopicNetwork();
           render();
         });
       });
@@ -542,11 +803,14 @@
         document.getElementById("loadedAt").textContent = `JSON cargado: ${state.articles.length} articulos`;
         options("journal", [...new Set(state.articles.map(d => d.journal))].filter(Boolean).sort());
         renderAnalysis(analysis);
+        renderTopicPills();
+        renderTopicNetwork();
         setupQuickSearches();
         ["q", "journal", "status", "minRefs", "sort"].forEach(id => {
           document.getElementById(id).addEventListener("input", render);
           document.getElementById(id).addEventListener("change", render);
         });
+        window.addEventListener("resize", () => renderTopicNetwork());
         render();
       });
   </script>

@@ -94,7 +94,7 @@ El lente `wealth and space` se define en `config/research_lenses.json` y genera 
 
 El explorador dedicado esta en `docs/wealth_space.html` y permite filtrar candidatos por texto, revista, decada y dimension.
 
-La exploracion inicial de multilatinas/transnacionales esta en `docs/transnational_bibliography.html` y usa `docs/data/transnational_bibliography.json`.
+La exploracion inicial de multilatinas/transnacionales esta en `docs/transnational_bibliography.html` y usa `docs/data/transnational_bibliography.json`. Incluye una red D3 de topicos y articulos para filtrar el segmento.
 
 El analisis detallado de ese segmento se genera con `scripts/08_transnational_segment_analysis.py` y publica agregados en `docs/data/transnational_analysis.json`.
 
