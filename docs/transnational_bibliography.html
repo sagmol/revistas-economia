@@ -179,6 +179,7 @@
     .node.topic { fill: var(--gold); }
     .node.article { fill: var(--cyan); opacity: .82; }
     .node.active { stroke: var(--text); stroke-width: 3; }
+    .node.dimmed { opacity: .16; }
 
     .link {
       stroke: #536067;
@@ -191,11 +192,15 @@
       stroke-width: 2.2;
     }
 
+    .link.dimmed { opacity: .06; }
+
     .network-label {
       fill: var(--text);
       font-size: 11px;
       pointer-events: none;
     }
+
+    .network-label.dimmed { opacity: .12; }
 
     .network-hint {
       color: var(--muted);
@@ -215,9 +220,62 @@
       color: var(--gold);
     }
 
+    .network-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 10px;
+    }
+
+    .network-tools button.active {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+
     .network-selection {
       color: #cbd5d8;
       font-size: .9rem;
+    }
+
+    .network-selection ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+
+    .network-selection li { margin: 6px 0; }
+
+    .network-selection a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    .network-selection a:hover { text-decoration: underline; }
+
+    .network-tooltip {
+      position: fixed;
+      z-index: 50;
+      pointer-events: none;
+      opacity: 0;
+      max-width: 300px;
+      background: rgba(13, 17, 23, .97);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: var(--text);
+      font-size: .84rem;
+      box-shadow: 0 14px 28px rgba(0,0,0,.28);
+      transition: opacity .12s;
+    }
+
+    .network-tooltip strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .network-tooltip span {
+      display: block;
+      color: var(--muted);
+      font-size: .78rem;
     }
 
     .network-fallback {
@@ -413,7 +471,7 @@
       <div class="network-layout">
         <div class="network-box" id="topicNetwork"></div>
         <div class="network-side">
-          <p class="network-hint">Selecciona un topico para filtrar la lista. Selecciona un articulo en la red para abrir el paper.</p>
+          <p class="network-hint">Los topicos estan anclados por zona. Pica una bolita pequena para abrir el paper; usa un topico para filtrar la lista.</p>
           <div id="topicPills" class="topic-list"></div>
           <div id="networkSelection" class="network-selection">Sin topico seleccionado.</div>
         </div>
@@ -613,6 +671,31 @@
       renderTopicNetwork();
     }
 
+    function hashValue(value) {
+      let hash = 0;
+      for (let i = 0; i < String(value).length; i++) {
+        hash = ((hash << 5) - hash) + String(value).charCodeAt(i);
+        hash |= 0;
+      }
+      return Math.abs(hash);
+    }
+
+    function topicPositions(topTopics, width, height) {
+      const cx = width / 2;
+      const cy = height / 2;
+      const rx = width * .34;
+      const ry = height * .30;
+      const positions = new Map();
+      topTopics.forEach((topic, index) => {
+        const angle = -Math.PI / 2 + (index / topTopics.length) * Math.PI * 2;
+        positions.set(topic, {
+          x: cx + Math.cos(angle) * rx,
+          y: cy + Math.sin(angle) * ry
+        });
+      });
+      return positions;
+    }
+
     function buildNetworkData() {
       const summaries = state.analysis?.article_summaries || [];
       const topicCounts = new Map((state.analysis?.term_families_articles || []).map(row => [row.name, Number(row.count)]));
@@ -638,6 +721,9 @@
         ...topTopics.map(topic => ({ id: `topic:${topic}`, type: "topic", name: topic, label: topicLabel(topic), count: topicCounts.get(topic) || 1 })),
         ...[...articleIds].map(id => {
           const article = articleById.get(id);
+          const primary = (article.families || [])
+            .filter(family => topTopics.includes(family.name))
+            .sort((a, b) => Number(b.count || 0) - Number(a.count || 0))[0];
           return {
             id: `article:${id}`,
             type: "article",
@@ -647,11 +733,13 @@
             url: article.url,
             refs: Number(article.reference_count || 0),
             year: article.year,
-            journal: article.journal
+            journal: article.journal,
+            primaryTopic: primary?.name || topTopics[0],
+            families: (article.families || []).map(family => family.name)
           };
         })
       ];
-      return { nodes, links };
+      return { nodes, links, topTopics };
     }
 
     function renderTopicPills() {
@@ -673,35 +761,105 @@
         return;
       }
 
-      const { nodes, links } = buildNetworkData();
+      const { nodes, links, topTopics } = buildNetworkData();
       const width = container.clientWidth || 760;
       const height = window.matchMedia("(max-width: 900px)").matches ? 420 : 480;
       container.innerHTML = "";
+      const tooltip = document.createElement("div");
+      tooltip.className = "network-tooltip";
+      container.appendChild(tooltip);
       const svg = d3.select(container).append("svg")
         .attr("viewBox", `0 0 ${width} ${height}`)
         .attr("role", "img")
         .attr("aria-label", "Red de topicos y articulos");
 
-      const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(d => d.source.type === "topic" ? 86 : 62).strength(.58))
-        .force("charge", d3.forceManyBody().strength(d => d.type === "topic" ? -420 : -115))
-        .force("center", d3.forceCenter(width / 2, height / 2))
-        .force("collision", d3.forceCollide().radius(d => d.type === "topic" ? 28 : 11));
+      const positions = topicPositions(topTopics, width, height);
+      nodes.forEach(node => {
+        if (node.type === "topic") {
+          const pos = positions.get(node.name);
+          node.x = pos.x;
+          node.y = pos.y;
+          node.fx = pos.x;
+          node.fy = pos.y;
+          return;
+        }
+        const pos = positions.get(node.primaryTopic) || { x: width / 2, y: height / 2 };
+        const seed = hashValue(node.article_id);
+        const angle = (seed % 360) * Math.PI / 180;
+        const radius = 34 + (seed % 84);
+        node.homeX = pos.x;
+        node.homeY = pos.y;
+        node.x = Math.max(24, Math.min(width - 24, pos.x + Math.cos(angle) * radius));
+        node.y = Math.max(24, Math.min(height - 24, pos.y + Math.sin(angle) * radius));
+      });
 
-      const link = svg.append("g")
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(d => d.source.type === "topic" ? 54 : 46).strength(.32))
+        .force("charge", d3.forceManyBody().strength(d => d.type === "topic" ? -520 : -46))
+        .force("x", d3.forceX(d => d.type === "topic" ? d.fx : d.homeX).strength(d => d.type === "topic" ? 1 : .085))
+        .force("y", d3.forceY(d => d.type === "topic" ? d.fy : d.homeY).strength(d => d.type === "topic" ? 1 : .085))
+        .force("collision", d3.forceCollide().radius(d => d.type === "topic" ? 30 : 8 + Math.min(7, Math.sqrt(d.refs + 1))).strength(.85));
+
+      const zoomLayer = svg.append("g");
+      svg.call(d3.zoom().scaleExtent([.55, 4]).on("zoom", event => {
+        zoomLayer.attr("transform", event.transform);
+      }));
+
+      const selectedTopicId = state.selectedTopic ? `topic:${state.selectedTopic}` : "";
+
+      function articleInTopic(d) {
+        return !state.selectedTopic || d.type === "topic" || (d.families || []).includes(state.selectedTopic);
+      }
+
+      function linkInTopic(d) {
+        return !state.selectedTopic || d.source.id === selectedTopicId || d.target.id === selectedTopicId;
+      }
+
+      const link = zoomLayer.append("g")
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("class", d => `link ${state.selectedTopic && d.source.id === `topic:${state.selectedTopic}` ? "active" : ""}`)
+        .attr("class", d => `link ${state.selectedTopic && d.source.id === selectedTopicId ? "active" : ""} ${linkInTopic(d) ? "" : "dimmed"}`)
         .attr("stroke-width", d => Math.min(2.6, .7 + Math.sqrt(d.value) / 3));
 
-      const node = svg.append("g")
+      const node = zoomLayer.append("g")
         .selectAll("circle")
         .data(nodes)
         .join("circle")
-        .attr("class", d => `node ${d.type} ${d.id === `topic:${state.selectedTopic}` ? "active" : ""}`)
+        .attr("class", d => `node ${d.type} ${d.id === selectedTopicId ? "active" : ""} ${articleInTopic(d) ? "" : "dimmed"}`)
         .attr("r", d => d.type === "topic" ? 10 + Math.sqrt(d.count) * 1.7 : 4 + Math.min(7, Math.sqrt(d.refs + 1)))
+        .call(d3.drag()
+          .on("start", (event, d) => {
+            if (!event.active) simulation.alphaTarget(.18).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+          })
+          .on("drag", (event, d) => {
+            d.fx = event.x;
+            d.fy = event.y;
+          })
+          .on("end", (event, d) => {
+            if (!event.active) simulation.alphaTarget(0);
+            if (d.type !== "topic") {
+              d.fx = null;
+              d.fy = null;
+            }
+          }))
+        .on("mouseover", (event, d) => {
+          tooltip.innerHTML = d.type === "topic"
+            ? `<strong>${escapeHtml(topicLabel(d.name))}</strong><span>${d.count} articulos. Clic para filtrar.</span>`
+            : `<strong>${escapeHtml(d.title)}</strong><span>${escapeHtml(d.journal)} · ${escapeHtml(d.year)} · ${d.refs} referencias</span><span>Clic para abrir el paper.</span>`;
+          tooltip.style.opacity = 1;
+        })
+        .on("mousemove", event => {
+          tooltip.style.left = `${Math.min(event.clientX + 14, window.innerWidth - 320)}px`;
+          tooltip.style.top = `${Math.max(12, event.clientY - 10)}px`;
+        })
+        .on("mouseout", () => {
+          tooltip.style.opacity = 0;
+        })
         .on("click", (event, d) => {
+          event.stopPropagation();
           if (d.type === "topic") {
             setTopic(d.name);
           } else if (d.url) {
@@ -712,15 +870,15 @@
       node.append("title")
         .text(d => d.type === "topic" ? `${topicLabel(d.name)} (${d.count} articulos)` : `${d.title} (${d.year}, ${d.refs} refs)`);
 
-      const label = svg.append("g")
+      const label = zoomLayer.append("g")
         .selectAll("text")
         .data(nodes.filter(d => d.type === "topic"))
         .join("text")
-        .attr("class", "network-label")
+        .attr("class", d => `network-label ${state.selectedTopic && d.id !== selectedTopicId ? "dimmed" : ""}`)
         .attr("text-anchor", "middle")
         .text(d => d.label);
 
-      simulation.on("tick", () => {
+      function updateNetworkPositions() {
         nodes.forEach(d => {
           d.x = Math.max(24, Math.min(width - 24, d.x));
           d.y = Math.max(24, Math.min(height - 24, d.y));
@@ -736,7 +894,11 @@
         label
           .attr("x", d => d.x)
           .attr("y", d => d.y - 18);
-      });
+      }
+
+      simulation.on("tick", updateNetworkPositions);
+      simulation.tick(180);
+      updateNetworkPositions();
     }
 
     function render() {

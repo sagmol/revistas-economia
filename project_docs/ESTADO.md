@@ -73,7 +73,7 @@ Archivos generados:
 
 `docs/wealth_space.html` agrega un explorador dedicado con filtros por busqueda textual, revista, decada y dimension.
 
-`docs/transnational_bibliography.html` agrega una primera exploracion de bibliografia extraida de PDFs disponibles para articulos que mencionan multilatinas, transnacionales o trasnacionales. La pagina incluye una red D3 de topicos y articulos: los topicos filtran la lista y los articulos abren el paper.
+`docs/transnational_bibliography.html` agrega una primera exploracion de bibliografia extraida de PDFs disponibles para articulos que mencionan multilatinas, transnacionales o trasnacionales. La pagina incluye una red D3 de topicos anclados y articulos: los topicos filtran la lista y cada articulo abre el paper original.
 
 `docs/data/transnational_analysis.json` agrega una capa analitica del segmento: revistas, decadas, familias tematicas, dimensiones, paises/espacios, autores citados, palabras en referencias y articulos pivote.
 
