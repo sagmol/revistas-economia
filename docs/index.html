@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revistas mexicanas de economia - UNAM</title>
+  <style>
+    :root {
+      --bg: #0f1214;
+      --band: #12181b;
+      --panel: #171d21;
+      --line: #2a343a;
+      --text: #edf2f4;
+      --muted: #9aa8ad;
+      --cyan: #59c3c3;
+      --gold: #e6b85c;
+      --rose: #d96c75;
+      --green: #7bbf7a;
+      --blue: #7aa2f7;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+
+    header {
+      padding: 44px 24px 30px;
+      border-bottom: 1px solid var(--line);
+      background: var(--band);
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 4.2rem);
+      line-height: 1;
+      font-weight: 500;
+      max-width: 980px;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 850px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 1.05rem;
+    }
+
+    main { padding: 28px 0 56px; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .metric, .section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .metric {
+      padding: 18px;
+      min-height: 104px;
+    }
+
+    .metric strong {
+      display: block;
+      font-family: Arial, sans-serif;
+      font-size: clamp(1.9rem, 4vw, 3.3rem);
+      line-height: 1;
+      color: var(--cyan);
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: .88rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 16px;
+    }
+
+    .section {
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .wide { grid-column: 1 / -1; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.08rem;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .note {
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: .9rem;
+      margin: 8px 0 0;
+    }
+
+    .bar {
+      display: grid;
+      grid-template-columns: minmax(150px, 270px) 1fr auto;
+      gap: 10px;
+      align-items: center;
+      margin: 8px 0;
+      font-family: Arial, sans-serif;
+      font-size: .9rem;
+    }
+
+    .track {
+      height: 10px;
+      background: #0d1113;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      width: var(--w);
+      background: linear-gradient(90deg, var(--cyan), var(--gold));
+    }
+
+    .fill.rose { background: var(--rose); }
+    .fill.green { background: var(--green); }
+    .fill.blue { background: var(--blue); }
+
+    .muted {
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 9px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: .84rem;
+    }
+
+    .svg-chart {
+      width: 100%;
+      height: 260px;
+      display: block;
+      background: #101519;
+      border: 1px solid #202a30;
+      border-radius: 6px;
+    }
+
+    .coverage {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .coverage h3 {
+      margin: 0 0 8px;
+      font-family: Arial, sans-serif;
+      font-size: .92rem;
+      color: var(--text);
+    }
+
+    .mini {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+
+    .lens-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .lens-card {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .lens-card strong {
+      display: block;
+      color: var(--gold);
+      font-size: 1.6rem;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .article-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .article-item {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .article-item a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .article-item a:hover { color: var(--cyan); }
+
+    .article-meta {
+      color: var(--muted);
+      font-size: .82rem;
+      margin-top: 3px;
+    }
+
+    @media (max-width: 840px) {
+      .metrics, .grid, .coverage, .lens-grid { grid-template-columns: 1fr; }
+      .bar { grid-template-columns: 1fr; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Revistas mexicanas de economia - UNAM</h1>
+      <p class="lead">Corpus bibliometrico de revistas universitarias con OAI-PMH validado: produccion, cobertura, autores, temas y una primera auditoria documental.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="metrics">
+      <div class="metric"><strong id="totalArticles">0</strong><span>registros OAI</span></div>
+      <div class="metric"><strong id="analyticArticles">0</strong><span>analiticos probables</span></div>
+      <div class="metric"><strong id="totalAuthors">0</strong><span>autores unicos</span></div>
+      <div class="metric"><strong id="yearRange">-</strong><span>rango temporal</span></div>
+    </section>
+
+    <section class="grid">
+      <div class="section">
+        <h2>Produccion por revista</h2>
+        <div id="journals" class="muted">Cargando datos...</div>
+      </div>
+
+      <div class="section">
+        <h2>Auditoria documental</h2>
+        <div id="auditBars" class="muted">Cargando auditoria...</div>
+        <p class="note">La clasificacion es heuristica; no elimina registros crudos.</p>
+      </div>
+
+      <div class="section wide">
+        <h2>Evolucion anual</h2>
+        <svg id="yearChart" class="svg-chart" role="img" aria-label="Produccion anual"></svg>
+        <p class="note">Linea clara: registros totales. Linea verde: analiticos probables.</p>
+      </div>
+
+      <div class="section">
+        <h2>Produccion por decada</h2>
+        <div id="decades" class="muted">Cargando datos...</div>
+      </div>
+
+      <div class="section">
+        <h2>Autores frecuentes</h2>
+        <div id="authors" class="muted">Cargando datos...</div>
+      </div>
+
+      <div class="section wide">
+        <h2>Cobertura de metadatos por revista</h2>
+        <div id="coverage" class="coverage"></div>
+        <p class="note">Estos porcentajes miden campos expuestos por OAI. No son un ranking de importancia: una revista historica puede tener menor cobertura porque sus numeros antiguos fueron cargados con metadatos incompletos.</p>
+      </div>
+
+      <div class="section wide">
+        <h2 id="subjectsTitle">Temas frecuentes</h2>
+        <div id="subjects" class="tags"></div>
+      </div>
+
+      <div class="section wide">
+        <h2>Research lens: wealth and space</h2>
+        <p class="note" id="wealthSpaceDescription">Cargando lente de investigacion...</p>
+        <p class="note"><a href="wealth_space.html">Abrir explorador de candidatos</a></p>
+        <div class="lens-grid">
+          <div class="lens-card"><strong id="wsTotal">0</strong><span class="muted">articulos candidatos</span></div>
+          <div class="lens-card"><div id="wsJournals" class="muted">Cargando revistas...</div></div>
+          <div class="lens-card"><div id="wsDimensions" class="muted">Cargando dimensiones...</div></div>
+        </div>
+        <div class="mini">
+          <h2>Terminos del lente</h2>
+          <div id="wsTerms" class="tags"></div>
+        </div>
+        <div class="mini">
+          <h2>Ejemplos para lectura</h2>
+          <div id="wsExamples" class="article-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function setText(id, value) {
+      document.getElementById(id).textContent = value;
+    }
+
+    function bars(containerId, rows, labelKey, valueKey = "count", maxRows = 12, color = "") {
+      const el = document.getElementById(containerId);
+      if (!rows || rows.length === 0) return;
+      const max = Math.max(...rows.map(d => d[valueKey]), 1);
+      el.className = "";
+      el.innerHTML = rows.slice(0, maxRows).map(d => `
+        <div class="bar">
+          <div>${d[labelKey]}</div>
+          <div class="track"><div class="fill ${color}" style="--w:${(d[valueKey] / max) * 100}%"></div></div>
+          <div>${d[valueKey]}</div>
+        </div>
+      `).join("");
+    }
+
+    function polyline(points, color, width = 2) {
+      return `<polyline fill="none" stroke="${color}" stroke-width="${width}" points="${points}" />`;
+    }
+
+    function drawYearChart(rows) {
+      const svg = document.getElementById("yearChart");
+      if (!rows || rows.length === 0) return;
+      const width = 1100, height = 260, pad = 34;
+      const years = rows.map(d => Number(d.year));
+      const maxY = Math.max(...rows.map(d => d.total), 1);
+      const minYear = Math.min(...years), maxYear = Math.max(...years);
+      const x = year => pad + ((year - minYear) / Math.max(maxYear - minYear, 1)) * (width - pad * 2);
+      const y = value => height - pad - (value / maxY) * (height - pad * 2);
+      const totalPoints = rows.map(d => `${x(Number(d.year)).toFixed(1)},${y(d.total).toFixed(1)}`).join(" ");
+      const analyticPoints = rows.map(d => `${x(Number(d.year)).toFixed(1)},${y(d.analytic_probable).toFixed(1)}`).join(" ");
+      const ticks = [minYear, 1990, 2000, 2010, 2020, maxYear]
+        .filter((v, i, arr) => v >= minYear && v <= maxYear && arr.indexOf(v) === i);
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      svg.innerHTML = `
+        <line x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}" stroke="#2a343a" />
+        <line x1="${pad}" y1="${pad}" x2="${pad}" y2="${height - pad}" stroke="#2a343a" />
+        ${ticks.map(t => `<text x="${x(t)}" y="${height - 10}" fill="#9aa8ad" font-family="Arial" font-size="12" text-anchor="middle">${t}</text>`).join("")}
+        <text x="${pad}" y="20" fill="#9aa8ad" font-family="Arial" font-size="12">${maxY}</text>
+        ${polyline(totalPoints, "#59c3c3", 2.5)}
+        ${polyline(analyticPoints, "#7bbf7a", 2.5)}
+      `;
+    }
+
+    Promise.all([
+      fetch(`data/summary.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`data/auditoria_corpus.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`data/descriptivos.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`data/wealth_space.json?v=${Date.now()}`).then(r => r.json())
+    ]).then(([summary, audit, desc, wealthSpace]) => {
+      setText("totalArticles", summary.total_articles || 0);
+      setText("totalAuthors", summary.total_authors || 0);
+      setText("analyticArticles", audit.classifications?.analitico_probable || 0);
+      setText("yearRange", `${audit.year_min}-${audit.year_max}`);
+
+      bars("journals", summary.by_journal, "journal");
+      bars("decades", desc.by_decade, "decade", "analytic_probable", 10, "green");
+      bars("authors", desc.top_authors_analytic, "author", "count", 10, "blue");
+      drawYearChart(desc.by_year);
+
+      const auditRows = [
+        { label: "Analiticos probables", value: audit.classifications?.analitico_probable || 0 },
+        { label: "Posibles no analiticos", value: audit.classifications?.posible_no_analitico || 0 }
+      ];
+      bars("auditBars", auditRows, "label", "value", 2, "rose");
+
+      const coverage = document.getElementById("coverage");
+      coverage.innerHTML = desc.coverage_by_journal.map(row => `
+        <div>
+          <h3>${row.journal}</h3>
+          <div class="mini">
+            <div class="bar"><div>Resumen OAI</div><div class="track"><div class="fill" style="--w:${row.description_pct}%"></div></div><div>${row.description_pct}%</div></div>
+            <div class="bar"><div>Materias OAI</div><div class="track"><div class="fill green" style="--w:${row.subjects_pct}%"></div></div><div>${row.subjects_pct}%</div></div>
+            <div class="bar"><div>Links</div><div class="track"><div class="fill blue" style="--w:${row.relations_pct}%"></div></div><div>${row.relations_pct}%</div></div>
+          </div>
+        </div>
+      `).join("");
+
+      const subjects = document.getElementById("subjects");
+      document.getElementById("subjectsTitle").textContent = desc.subjects_are_normalized
+        ? "Temas frecuentes normalizados"
+        : "Temas frecuentes";
+      subjects.innerHTML = (desc.top_subjects_analytic || []).slice(0, 32)
+        .map(d => `<span class="tag">${d.subject} (${d.count})</span>`)
+        .join("");
+
+      document.getElementById("wealthSpaceDescription").textContent = wealthSpace.lens.description;
+      setText("wsTotal", wealthSpace.total_candidates || 0);
+      bars("wsJournals", wealthSpace.by_journal, "journal", "count", 4, "green");
+      bars("wsDimensions", wealthSpace.dimension_counts, "dimension", "count", 4, "blue");
+      document.getElementById("wsTerms").innerHTML = (wealthSpace.top_terms || []).slice(0, 18)
+        .map(d => `<span class="tag">${d.term} (${d.count})</span>`)
+        .join("");
+      document.getElementById("wsExamples").innerHTML = (wealthSpace.examples || []).slice(0, 8)
+        .map(d => `
+          <div class="article-item">
+            <a href="${d.url || "#"}" target="_blank" rel="noopener">${d.title}</a>
+            <div class="article-meta">${d.journal} · ${d.year} · score ${d.score}</div>
+            <div class="article-meta">${d.matched_terms}</div>
+          </div>
+        `)
+        .join("");
+    }).catch(error => {
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

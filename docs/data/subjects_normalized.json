@@ -1,0 +1,566 @@
+{
+  "total_raw_links": 17184,
+  "total_normalized_subjects": 8665,
+  "top_subjects": [
+    {
+      "normalized_subject": "América Latina",
+      "category": "region",
+      "count": 252,
+      "variant_count": 10,
+      "top_variants": "América Latina (123) | Latin America (91) | América Latina. (16) | Latin America. (8) | América latina (5) | AMÉRICA LATINA (4) | AMERICA LATINA (2) | latin America (1)"
+    },
+    {
+      "normalized_subject": "México",
+      "category": "country",
+      "count": 157,
+      "variant_count": 5,
+      "top_variants": "México (89) | Mexico (53) | MÉXICO (8) | México. (5) | Mexico. (2)"
+    },
+    {
+      "normalized_subject": "Crecimiento económico",
+      "category": "concept",
+      "count": 157,
+      "variant_count": 11,
+      "top_variants": "crecimiento económico (55) | economic growth (54) | growth (15) | Economic growth (12) | CRECIMIENTO ECONÓMICO (10) | Growth (3) | CRECIMIENTO ECONOMICO (3) | economic growth. (2)"
+    },
+    {
+      "normalized_subject": "Neoliberalismo",
+      "category": "concept",
+      "count": 112,
+      "variant_count": 8,
+      "top_variants": "neoliberalismo (57) | neoliberalism (33) | Neoliberalismo (7) | neoliberalismo. (5) | Neoliberalism (5) | neoliberalism. (3) | Neoliberalism. (1) | NEOLIBERALISMO (1)"
+    },
+    {
+      "normalized_subject": "Estado",
+      "category": "concept",
+      "count": 109,
+      "variant_count": 8,
+      "top_variants": "Estado (53) | State (33) | Estado. (9) | State. (5) | ESTADO (4) | estado (3) | State . (1) | state (1)"
+    },
+    {
+      "normalized_subject": "Financiarización",
+      "category": "concept",
+      "count": 108,
+      "variant_count": 7,
+      "top_variants": "financiarización (30) | financialization (27) | Financialization (27) | Financiarización (21) | FINANCIARIZACION (1) | FINANCIARIZACIÓN (1) | “financialization” (1)"
+    },
+    {
+      "normalized_subject": "Crisis",
+      "category": "concept",
+      "count": 107,
+      "variant_count": 4,
+      "top_variants": "crisis (75) | Crisis (28) | crisis. (2) | CRISIS (2)"
+    },
+    {
+      "normalized_subject": "Democracia",
+      "category": "concept",
+      "count": 93,
+      "variant_count": 7,
+      "top_variants": "democracia (45) | democracy (29) | democracia. (8) | democracy. (6) | Democracia (2) | Democracy (2) | DEMOCRACIA (1)"
+    },
+    {
+      "normalized_subject": "Política monetaria",
+      "category": "concept",
+      "count": 92,
+      "variant_count": 9,
+      "top_variants": "política monetaria (38) | monetary policy (34) | Monetary policy (6) | Monetary Policy (4) | Política Monetaria (4) | Política monetaria (2) | POLÍTICA MONETARIA (2) | política monetaria. (1)"
+    },
+    {
+      "normalized_subject": "Argentina",
+      "category": "country",
+      "count": 86,
+      "variant_count": 3,
+      "top_variants": "Argentina (79) | ARGENTINA (6) | Argentina. (1)"
+    },
+    {
+      "normalized_subject": "Desarrollo económico",
+      "category": "concept",
+      "count": 84,
+      "variant_count": 8,
+      "top_variants": "economic development (39) | desarrollo económico (25) | DESARROLLO ECONÓMICO (6) | Economic development (4) | Desarrollo económico (3) | Economic Development (3) | Desarrollo Económico (2) | DESARROLLO ECONOMICO (2)"
+    },
+    {
+      "normalized_subject": "Pobreza",
+      "category": "concept",
+      "count": 83,
+      "variant_count": 7,
+      "top_variants": "pobreza (34) | poverty (28) | Pobreza (9) | POBREZA (6) | pobreza. (3) | Poverty (2) | poverty. (1)"
+    },
+    {
+      "normalized_subject": "Crisis financiera",
+      "category": "concept",
+      "count": 82,
+      "variant_count": 7,
+      "top_variants": "financial crisis (18) | Crisis Financiera (18) | Financial Crisis (17) | crisis financiera (12) | Crisis financiera (9) | Financial crisis (6) | CRISIS FINANCIERA (2)"
+    },
+    {
+      "normalized_subject": "Globalización",
+      "category": "concept",
+      "count": 75,
+      "variant_count": 8,
+      "top_variants": "globalization (25) | globalización (20) | Globalización (16) | Globalization (7) | GLOBALIZACION (3) | GLOBALIZACIÓN (2) | globalización. (1) | globalization. (1)"
+    },
+    {
+      "normalized_subject": "Brasil",
+      "category": "country",
+      "count": 72,
+      "variant_count": 4,
+      "top_variants": "Brasil (34) | Brazil (30) | Brasil. (7) | Brazil. (1)"
+    },
+    {
+      "normalized_subject": "Desarrollo",
+      "category": "concept",
+      "count": 71,
+      "variant_count": 6,
+      "top_variants": "development (25) | desarrollo (24) | Desarrollo (8) | DESARROLLO (6) | desarrollo. (4) | Development (4)"
+    },
+    {
+      "normalized_subject": "Inflación",
+      "category": "concept",
+      "count": 60,
+      "variant_count": 5,
+      "top_variants": "inflación (27) | inflation (19) | Inflation (9) | Inflación (3) | INFLACIÓN (2)"
+    },
+    {
+      "normalized_subject": "Dependencia",
+      "category": "concept",
+      "count": 53,
+      "variant_count": 8,
+      "top_variants": "dependencia (21) | dependency (11) | dependência (10) | Dependency (4) | dependence (3) | Dependencia (2) | Dependence (1) | DEPENDENCIA (1)"
+    },
+    {
+      "normalized_subject": "Empleo",
+      "category": "concept",
+      "count": 52,
+      "variant_count": 7,
+      "top_variants": "empleo (22) | employment (17) | Employment (4) | EMPLEO (4) | empleo. (2) | Empleo (2) | employment. (1)"
+    },
+    {
+      "normalized_subject": "Desigualdad",
+      "category": "concept",
+      "count": 50,
+      "variant_count": 5,
+      "top_variants": "desigualdad (17) | inequality (17) | Inequality (7) | DESIGUALDAD (5) | Desigualdad (4)"
+    },
+    {
+      "normalized_subject": "Migración",
+      "category": "concept",
+      "count": 46,
+      "variant_count": 5,
+      "top_variants": "migración (20) | migration (13) | Migration (7) | Migración (5) | MIGRACIÓN (1)"
+    },
+    {
+      "normalized_subject": "China",
+      "category": "country",
+      "count": 46,
+      "variant_count": 2,
+      "top_variants": "China (44) | CHINA (2)"
+    },
+    {
+      "normalized_subject": "Integración",
+      "category": "concept",
+      "count": 45,
+      "variant_count": 7,
+      "top_variants": "integration (18) | integración (13) | Integración (5) | INTEGRACIÓN (4) | integración. (2) | Integration (2) | INTEGRACION (1)"
+    },
+    {
+      "normalized_subject": "Estados Unidos",
+      "category": "country",
+      "count": 44,
+      "variant_count": 5,
+      "top_variants": "Estados Unidos (27) | United States (13) | Estados Unidos. (2) | United States. (1) | ESTADOS UNIDOS (1)"
+    },
+    {
+      "normalized_subject": "Inversión",
+      "category": "concept",
+      "count": 41,
+      "variant_count": 4,
+      "top_variants": "investment (22) | inversión (17) | INVERSIÓN (1) | inversion (1)"
+    },
+    {
+      "normalized_subject": "TLCAN",
+      "category": "agreement",
+      "count": 39,
+      "variant_count": 4,
+      "top_variants": "NAFTA (19) | TLCAN (18) | nafta (1) | tlcan (1)"
+    },
+    {
+      "normalized_subject": "Política fiscal",
+      "category": "concept",
+      "count": 38,
+      "variant_count": 7,
+      "top_variants": "política fiscal (16) | fiscal policy (13) | POLÍTICA FISCAL (3) | Fiscal policy (2) | Política fiscal (2) | Fiscal Policy (1) | Política Fiscal (1)"
+    },
+    {
+      "normalized_subject": "Capitalismo",
+      "category": "concept",
+      "count": 36,
+      "variant_count": 3,
+      "top_variants": "capitalismo (32) | Capitalismo (3) | CAPITALISMO (1)"
+    },
+    {
+      "normalized_subject": "Cuba",
+      "category": "country",
+      "count": 34,
+      "variant_count": 2,
+      "top_variants": "Cuba (33) | CUBA (1)"
+    },
+    {
+      "normalized_subject": "Cadenas globales de valor",
+      "category": "concept",
+      "count": 34,
+      "variant_count": 13,
+      "top_variants": "global value chains (11) | cadenas globales de valor (8) | Cadenas Globales de Valor (CGV) (3) | Global Value Chains (2) | cadenas globales de valor (CGV) (2) | cadenas globales de producción. (1) | cadena global de valor (1) | global value chain (1)"
+    },
+    {
+      "normalized_subject": "Venezuela",
+      "category": "country",
+      "count": 34,
+      "variant_count": 3,
+      "top_variants": "Venezuela (24) | Venezuela. (9) | VENEZUELA (1)"
+    },
+    {
+      "normalized_subject": "Economia",
+      "category": "unmapped",
+      "count": 33,
+      "variant_count": 4,
+      "top_variants": "economía (23) | economía. (7) | Economía (2) | ECONOMÍA (1)"
+    },
+    {
+      "normalized_subject": "Covid-19",
+      "category": "unmapped",
+      "count": 33,
+      "variant_count": 3,
+      "top_variants": "Covid-19 (17) | COVID-19 (13) | Covid-19. (3)"
+    },
+    {
+      "normalized_subject": "Mercado laboral",
+      "category": "concept",
+      "count": 32,
+      "variant_count": 4,
+      "top_variants": "labor market (16) | mercado laboral (12) | MERCADO LABORAL (3) | Mercado laboral (1)"
+    },
+    {
+      "normalized_subject": "Chile",
+      "category": "country",
+      "count": 28,
+      "variant_count": 2,
+      "top_variants": "Chile (27) | CHILE (1)"
+    },
+    {
+      "normalized_subject": "Adam Smith",
+      "category": "person",
+      "count": 27,
+      "variant_count": 1,
+      "top_variants": "Adam Smith (27)"
+    },
+    {
+      "normalized_subject": "Trabajo",
+      "category": "concept",
+      "count": 25,
+      "variant_count": 4,
+      "top_variants": "trabajo (18) | trabajo. (4) | Trabajo (2) | TRABAJO (1)"
+    },
+    {
+      "normalized_subject": "Economy",
+      "category": "unmapped",
+      "count": 25,
+      "variant_count": 3,
+      "top_variants": "economy (19) | economy. (5) | Economy (1)"
+    },
+    {
+      "normalized_subject": "Crecimiento",
+      "category": "unmapped",
+      "count": 24,
+      "variant_count": 4,
+      "top_variants": "crecimiento (16) | CRECIMIENTO (6) | crecimiento. (1) | Crecimiento (1)"
+    },
+    {
+      "normalized_subject": "CEPAL",
+      "category": "institution",
+      "count": 23,
+      "variant_count": 1,
+      "top_variants": "CEPAL (23)"
+    },
+    {
+      "normalized_subject": "Politica Economica",
+      "category": "unmapped",
+      "count": 22,
+      "variant_count": 6,
+      "top_variants": "política económica (15) | Política económica (2) | POLÍTICA ECONÓMICA (2) | política econômica (1) | POLITICA ECONOMICA (1) | Política Económica (1)"
+    },
+    {
+      "normalized_subject": "Crisis económica",
+      "category": "concept",
+      "count": 21,
+      "variant_count": 3,
+      "top_variants": "crisis económica (19) | crisis económica. (1) | Crisis económica (1)"
+    },
+    {
+      "normalized_subject": "Mercado",
+      "category": "unmapped",
+      "count": 21,
+      "variant_count": 3,
+      "top_variants": "mercado (13) | Mercado (5) | MERCADO (3)"
+    },
+    {
+      "normalized_subject": "Salarios",
+      "category": "unmapped",
+      "count": 21,
+      "variant_count": 2,
+      "top_variants": "salarios (19) | Salarios (2)"
+    },
+    {
+      "normalized_subject": "Teoría de la dependencia",
+      "category": "concept",
+      "count": 21,
+      "variant_count": 7,
+      "top_variants": "Teoría de la Dependencia (11) | teoría de la dependencia (4) | dependency theory (2) | Dependency Theory (1) | Teoría de la dependencia (1) | Dependency theory (1) | Theory of Dependency (1)"
+    },
+    {
+      "normalized_subject": "Income Distribution",
+      "category": "unmapped",
+      "count": 21,
+      "variant_count": 3,
+      "top_variants": "income distribution (19) | Income distribution (1) | Income Distribution (1)"
+    },
+    {
+      "normalized_subject": "Ciencias Sociales",
+      "category": "unmapped",
+      "count": 20,
+      "variant_count": 4,
+      "top_variants": "ciencias sociales (11) | ciencias sociales. (5) | Ciencias Sociales (2) | Ciencias sociales (2)"
+    },
+    {
+      "normalized_subject": "Innovacion",
+      "category": "unmapped",
+      "count": 20,
+      "variant_count": 4,
+      "top_variants": "innovación (16) | INNOVACIÓN (2) | INNOVACION (1) | Innovación (1)"
+    },
+    {
+      "normalized_subject": "Keynes",
+      "category": "person",
+      "count": 20,
+      "variant_count": 1,
+      "top_variants": "Keynes (20)"
+    },
+    {
+      "normalized_subject": "Minería",
+      "category": "sector",
+      "count": 20,
+      "variant_count": 3,
+      "top_variants": "minería (10) | mining (6) | Mining (4)"
+    },
+    {
+      "normalized_subject": "Economic Policy",
+      "category": "unmapped",
+      "count": 19,
+      "variant_count": 3,
+      "top_variants": "economic policy (14) | Economic policy (4) | Economic Policy (1)"
+    },
+    {
+      "normalized_subject": "Petróleo",
+      "category": "sector",
+      "count": 18,
+      "variant_count": 3,
+      "top_variants": "petróleo (11) | Petróleo (5) | petroleum (2)"
+    },
+    {
+      "normalized_subject": "Violencia",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 3,
+      "top_variants": "violencia (10) | violência (6) | Violencia (2)"
+    },
+    {
+      "normalized_subject": "Politica",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 3,
+      "top_variants": "política (14) | política. (3) | Política (1)"
+    },
+    {
+      "normalized_subject": "Politicas Publicas",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 4,
+      "top_variants": "políticas públicas (12) | políticas públicas. (2) | POLITICAS PUBLICAS (2) | POLÍTICAS PÚBLICAS (2)"
+    },
+    {
+      "normalized_subject": "Acumulación de capital",
+      "category": "concept",
+      "count": 18,
+      "variant_count": 5,
+      "top_variants": "acumulación de capital (8) | capital accumulation (7) | acumulación de capital. (1) | ACUMULACIÓN DE CAPITAL (1) | Capital accumulation (1)"
+    },
+    {
+      "normalized_subject": "Mercosur",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 2,
+      "top_variants": "MERCOSUR (13) | Mercosur (5)"
+    },
+    {
+      "normalized_subject": "Productividad",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 3,
+      "top_variants": "productividad (13) | PRODUCTIVIDAD (4) | productividad. (1)"
+    },
+    {
+      "normalized_subject": "Cambio Tecnologico",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 4,
+      "top_variants": "cambio tecnológico (11) | CAMBIO TECNOLÓGICO (4) | Cambio tecnológico (2) | CAMBIO TECNOLOGICO (1)"
+    },
+    {
+      "normalized_subject": "Tipo de Cambio",
+      "category": "unmapped",
+      "count": 18,
+      "variant_count": 3,
+      "top_variants": "tipo de cambio (16) | Tipo de Cambio (1) | TIPO DE CAMBIO (1)"
+    },
+    {
+      "normalized_subject": "Politica Social",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 5,
+      "top_variants": "política social (11) | Política social (3) | política social. (1) | POLÍTICA SOCIAL (1) | Política Social (1)"
+    },
+    {
+      "normalized_subject": "Socialismo",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 3,
+      "top_variants": "socialismo (12) | socialismo. (4) | SOCIALISMO (1)"
+    },
+    {
+      "normalized_subject": "Gramsci",
+      "category": "person",
+      "count": 17,
+      "variant_count": 1,
+      "top_variants": "Gramsci (17)"
+    },
+    {
+      "normalized_subject": "Sociedad Civil",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 2,
+      "top_variants": "sociedad civil (16) | sociedad civil. (1)"
+    },
+    {
+      "normalized_subject": "Region",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 6,
+      "top_variants": "región (6) | region (4) | región. (2) | REGIÓN (2) | Region (2) | Región (1)"
+    },
+    {
+      "normalized_subject": "Economic Crisis",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 3,
+      "top_variants": "economic crisis (14) | Economic crisis (2) | economic crisis. (1)"
+    },
+    {
+      "normalized_subject": "Productivity",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 3,
+      "top_variants": "productivity (15) | productivity. (1) | Productivity (1)"
+    },
+    {
+      "normalized_subject": "Ecuador",
+      "category": "country",
+      "count": 17,
+      "variant_count": 2,
+      "top_variants": "Ecuador (16) | ECUADOR (1)"
+    },
+    {
+      "normalized_subject": "Marx",
+      "category": "person",
+      "count": 17,
+      "variant_count": 1,
+      "top_variants": "Marx (17)"
+    },
+    {
+      "normalized_subject": "Exchange Rate",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 3,
+      "top_variants": "exchange rate (13) | Exchange rate (3) | Exchange Rate (1)"
+    },
+    {
+      "normalized_subject": "Distribucion del Ingreso",
+      "category": "unmapped",
+      "count": 17,
+      "variant_count": 4,
+      "top_variants": "distribución del ingreso (12) | DISTRIBUCIÓN DEL INGRESO (3) | Distribución del Ingreso (1) | DISTRIBUCION DEL INGRESO (1)"
+    },
+    {
+      "normalized_subject": "Relaciones Internacionales",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 5,
+      "top_variants": "relaciones internacionales. (7) | relaciones internacionales (5) | Relaciones Internacionales (2) | Relaciones internacionales (1) | RELACIONES INTERNACIONALES (1)"
+    },
+    {
+      "normalized_subject": "Capitalism",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 2,
+      "top_variants": "capitalism (13) | Capitalism (3)"
+    },
+    {
+      "normalized_subject": "Subdesarrollo",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 4,
+      "top_variants": "subdesarrollo (12) | Subdesarrollo (2) | subdesarrollo. (1) | SUBDESARROLLO (1)"
+    },
+    {
+      "normalized_subject": "Desempleo",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 3,
+      "top_variants": "desempleo (13) | Desempleo (2) | DESEMPLEO (1)"
+    },
+    {
+      "normalized_subject": "Tecnologia",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 4,
+      "top_variants": "tecnología (12) | Tecnología (2) | tecnología. (1) | TECNOLOGIA (1)"
+    },
+    {
+      "normalized_subject": "Public Policy",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 2,
+      "top_variants": "public policy (15) | Public policy (1)"
+    },
+    {
+      "normalized_subject": "Genero",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 4,
+      "top_variants": "género (12) | género. (2) | gênero (1) | Género (1)"
+    },
+    {
+      "normalized_subject": "Panel Data",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 2,
+      "top_variants": "panel data (15) | Panel Data (1)"
+    },
+    {
+      "normalized_subject": "Financial Crises",
+      "category": "unmapped",
+      "count": 16,
+      "variant_count": 3,
+      "top_variants": "Financial Crises (8) | financial crises (6) | Financial crises (2)"
+    }
+  ]
+}

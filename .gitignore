@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+logs/*.log
+data/raw/oai/*.json
+data/processed/*.csv
+data/processed/*.sqlite

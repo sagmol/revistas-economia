@@ -1,0 +1,798 @@
+{
+  "by_year": [
+    {
+      "year": "1969",
+      "total": 26,
+      "analytic_probable": 24
+    },
+    {
+      "year": "1970",
+      "total": 101,
+      "analytic_probable": 99
+    },
+    {
+      "year": "1971",
+      "total": 112,
+      "analytic_probable": 109
+    },
+    {
+      "year": "1972",
+      "total": 90,
+      "analytic_probable": 88
+    },
+    {
+      "year": "1973",
+      "total": 69,
+      "analytic_probable": 66
+    },
+    {
+      "year": "1974",
+      "total": 109,
+      "analytic_probable": 109
+    },
+    {
+      "year": "1975",
+      "total": 104,
+      "analytic_probable": 104
+    },
+    {
+      "year": "1976",
+      "total": 69,
+      "analytic_probable": 66
+    },
+    {
+      "year": "1977",
+      "total": 53,
+      "analytic_probable": 49
+    },
+    {
+      "year": "1978",
+      "total": 61,
+      "analytic_probable": 60
+    },
+    {
+      "year": "1979",
+      "total": 75,
+      "analytic_probable": 72
+    },
+    {
+      "year": "1980",
+      "total": 80,
+      "analytic_probable": 76
+    },
+    {
+      "year": "1981",
+      "total": 26,
+      "analytic_probable": 26
+    },
+    {
+      "year": "1982",
+      "total": 51,
+      "analytic_probable": 50
+    },
+    {
+      "year": "1983",
+      "total": 54,
+      "analytic_probable": 50
+    },
+    {
+      "year": "1984",
+      "total": 36,
+      "analytic_probable": 34
+    },
+    {
+      "year": "1985",
+      "total": 34,
+      "analytic_probable": 32
+    },
+    {
+      "year": "1986",
+      "total": 39,
+      "analytic_probable": 38
+    },
+    {
+      "year": "1987",
+      "total": 75,
+      "analytic_probable": 65
+    },
+    {
+      "year": "1988",
+      "total": 70,
+      "analytic_probable": 66
+    },
+    {
+      "year": "1989",
+      "total": 68,
+      "analytic_probable": 63
+    },
+    {
+      "year": "1990",
+      "total": 92,
+      "analytic_probable": 85
+    },
+    {
+      "year": "1991",
+      "total": 91,
+      "analytic_probable": 86
+    },
+    {
+      "year": "1992",
+      "total": 80,
+      "analytic_probable": 75
+    },
+    {
+      "year": "1993",
+      "total": 72,
+      "analytic_probable": 68
+    },
+    {
+      "year": "1994",
+      "total": 108,
+      "analytic_probable": 104
+    },
+    {
+      "year": "1995",
+      "total": 90,
+      "analytic_probable": 87
+    },
+    {
+      "year": "1996",
+      "total": 128,
+      "analytic_probable": 123
+    },
+    {
+      "year": "1997",
+      "total": 96,
+      "analytic_probable": 91
+    },
+    {
+      "year": "1998",
+      "total": 68,
+      "analytic_probable": 64
+    },
+    {
+      "year": "1999",
+      "total": 85,
+      "analytic_probable": 77
+    },
+    {
+      "year": "2000",
+      "total": 51,
+      "analytic_probable": 49
+    },
+    {
+      "year": "2001",
+      "total": 71,
+      "analytic_probable": 68
+    },
+    {
+      "year": "2002",
+      "total": 66,
+      "analytic_probable": 65
+    },
+    {
+      "year": "2003",
+      "total": 85,
+      "analytic_probable": 76
+    },
+    {
+      "year": "2004",
+      "total": 58,
+      "analytic_probable": 46
+    },
+    {
+      "year": "2005",
+      "total": 87,
+      "analytic_probable": 78
+    },
+    {
+      "year": "2006",
+      "total": 69,
+      "analytic_probable": 64
+    },
+    {
+      "year": "2007",
+      "total": 53,
+      "analytic_probable": 49
+    },
+    {
+      "year": "2008",
+      "total": 85,
+      "analytic_probable": 78
+    },
+    {
+      "year": "2009",
+      "total": 122,
+      "analytic_probable": 113
+    },
+    {
+      "year": "2010",
+      "total": 110,
+      "analytic_probable": 105
+    },
+    {
+      "year": "2011",
+      "total": 111,
+      "analytic_probable": 104
+    },
+    {
+      "year": "2012",
+      "total": 118,
+      "analytic_probable": 110
+    },
+    {
+      "year": "2013",
+      "total": 139,
+      "analytic_probable": 134
+    },
+    {
+      "year": "2014",
+      "total": 128,
+      "analytic_probable": 119
+    },
+    {
+      "year": "2015",
+      "total": 132,
+      "analytic_probable": 125
+    },
+    {
+      "year": "2016",
+      "total": 114,
+      "analytic_probable": 108
+    },
+    {
+      "year": "2017",
+      "total": 108,
+      "analytic_probable": 102
+    },
+    {
+      "year": "2018",
+      "total": 107,
+      "analytic_probable": 97
+    },
+    {
+      "year": "2019",
+      "total": 100,
+      "analytic_probable": 91
+    },
+    {
+      "year": "2020",
+      "total": 88,
+      "analytic_probable": 77
+    },
+    {
+      "year": "2021",
+      "total": 98,
+      "analytic_probable": 93
+    },
+    {
+      "year": "2022",
+      "total": 102,
+      "analytic_probable": 97
+    },
+    {
+      "year": "2023",
+      "total": 106,
+      "analytic_probable": 98
+    },
+    {
+      "year": "2024",
+      "total": 115,
+      "analytic_probable": 106
+    },
+    {
+      "year": "2025",
+      "total": 105,
+      "analytic_probable": 96
+    },
+    {
+      "year": "2026",
+      "total": 61,
+      "analytic_probable": 58
+    }
+  ],
+  "by_decade": [
+    {
+      "decade": "1960s",
+      "total": 26,
+      "analytic_probable": 24
+    },
+    {
+      "decade": "1970s",
+      "total": 843,
+      "analytic_probable": 822
+    },
+    {
+      "decade": "1980s",
+      "total": 533,
+      "analytic_probable": 500
+    },
+    {
+      "decade": "1990s",
+      "total": 910,
+      "analytic_probable": 860
+    },
+    {
+      "decade": "2000s",
+      "total": 747,
+      "analytic_probable": 686
+    },
+    {
+      "decade": "2010s",
+      "total": 1167,
+      "analytic_probable": 1095
+    },
+    {
+      "decade": "2020s",
+      "total": 675,
+      "analytic_probable": 625
+    }
+  ],
+  "by_journal_class": [
+    {
+      "journal": "Estudios Latinoamericanos",
+      "analytic_probable": 795,
+      "possible_non_analytic": 44,
+      "total": 839
+    },
+    {
+      "journal": "Investigacion Economica",
+      "analytic_probable": 471,
+      "possible_non_analytic": 26,
+      "total": 497
+    },
+    {
+      "journal": "Ola Financiera",
+      "analytic_probable": 404,
+      "possible_non_analytic": 54,
+      "total": 458
+    },
+    {
+      "journal": "Problemas del Desarrollo",
+      "analytic_probable": 2942,
+      "possible_non_analytic": 165,
+      "total": 3107
+    }
+  ],
+  "by_journal_decade": {
+    "Estudios Latinoamericanos": [
+      {
+        "decade": "1980s",
+        "count": 103
+      },
+      {
+        "decade": "1990s",
+        "count": 264
+      },
+      {
+        "decade": "2000s",
+        "count": 184
+      },
+      {
+        "decade": "2010s",
+        "count": 194
+      },
+      {
+        "decade": "2020s",
+        "count": 94
+      }
+    ],
+    "Investigacion Economica": [
+      {
+        "decade": "2000s",
+        "count": 28
+      },
+      {
+        "decade": "2010s",
+        "count": 274
+      },
+      {
+        "decade": "2020s",
+        "count": 195
+      }
+    ],
+    "Ola Financiera": [
+      {
+        "decade": "2000s",
+        "count": 38
+      },
+      {
+        "decade": "2010s",
+        "count": 254
+      },
+      {
+        "decade": "2020s",
+        "count": 166
+      }
+    ],
+    "Problemas del Desarrollo": [
+      {
+        "decade": "1960s",
+        "count": 26
+      },
+      {
+        "decade": "1970s",
+        "count": 843
+      },
+      {
+        "decade": "1980s",
+        "count": 430
+      },
+      {
+        "decade": "1990s",
+        "count": 646
+      },
+      {
+        "decade": "2000s",
+        "count": 497
+      },
+      {
+        "decade": "2010s",
+        "count": 445
+      },
+      {
+        "decade": "2020s",
+        "count": 220
+      }
+    ]
+  },
+  "coverage_by_journal": [
+    {
+      "journal": "Estudios Latinoamericanos",
+      "total": 839,
+      "description_pct": 99.2,
+      "subjects_pct": 98.3,
+      "relations_pct": 99.6,
+      "language_pct": 99.6
+    },
+    {
+      "journal": "Investigacion Economica",
+      "total": 497,
+      "description_pct": 97.0,
+      "subjects_pct": 46.9,
+      "relations_pct": 100.0,
+      "language_pct": 100.0
+    },
+    {
+      "journal": "Ola Financiera",
+      "total": 458,
+      "description_pct": 99.8,
+      "subjects_pct": 88.2,
+      "relations_pct": 100.0,
+      "language_pct": 100.0
+    },
+    {
+      "journal": "Problemas del Desarrollo",
+      "total": 3107,
+      "description_pct": 39.8,
+      "subjects_pct": 29.3,
+      "relations_pct": 99.3,
+      "language_pct": 99.3
+    }
+  ],
+  "top_authors_analytic": [
+    {
+      "author": "Girón, Alicia",
+      "count": 52
+    },
+    {
+      "author": "Bonilla Sánchez, Arturo",
+      "count": 48
+    },
+    {
+      "author": "Martínez Escamilla, Ramón",
+      "count": 32
+    },
+    {
+      "author": "González Salazar, Gloria",
+      "count": 31
+    },
+    {
+      "author": "Carmona de la Peña, Fernando",
+      "count": 31
+    },
+    {
+      "author": "Candia, José Miguel",
+      "count": 28
+    },
+    {
+      "author": "González Marín, María Luisa",
+      "count": 25
+    },
+    {
+      "author": "Morales, Josefina",
+      "count": 21
+    },
+    {
+      "author": "Sotelo Valencia, Adrián",
+      "count": 20
+    },
+    {
+      "author": "Calva, José Luis",
+      "count": 19
+    },
+    {
+      "author": "Bassols Batalla, Ángel",
+      "count": 19
+    },
+    {
+      "author": "Carmona, Fernando",
+      "count": 19
+    },
+    {
+      "author": "Guillén Romo, Arturo",
+      "count": 19
+    },
+    {
+      "author": "Ceceña Cervantes, José Luis",
+      "count": 19
+    },
+    {
+      "author": "Ortíz Wadgymar, Arturo",
+      "count": 18
+    },
+    {
+      "author": "Portos, Irma",
+      "count": 18
+    },
+    {
+      "author": "Torres Torres, Felipe",
+      "count": 18
+    },
+    {
+      "author": "Manrique, Irma",
+      "count": 18
+    },
+    {
+      "author": "González Lima, Héctor",
+      "count": 18
+    },
+    {
+      "author": "Ángeles Cornejo, Sarahí",
+      "count": 18
+    },
+    {
+      "author": "Calderón Rodríguez, José María",
+      "count": 17
+    },
+    {
+      "author": "Guerra Borges, Alfredo",
+      "count": 17
+    },
+    {
+      "author": "Torres Gaitán, Ricardo",
+      "count": 16
+    },
+    {
+      "author": "Aguilar Monteverde, Alonso",
+      "count": 16
+    },
+    {
+      "author": "Sosa Elízaga, Raquel",
+      "count": 15
+    },
+    {
+      "author": "Marshall, Wesley",
+      "count": 15
+    },
+    {
+      "author": "Parguez, Alain",
+      "count": 15
+    },
+    {
+      "author": "Rodríguez Chaurnet, Dinah",
+      "count": 15
+    },
+    {
+      "author": "Burgueño Lomelí, Fausto",
+      "count": 15
+    },
+    {
+      "author": "Álvarez Mosso, Lucía",
+      "count": 15
+    }
+  ],
+  "top_subjects_analytic": [
+    {
+      "subject": "América Latina",
+      "count": 247
+    },
+    {
+      "subject": "Crecimiento económico",
+      "count": 155
+    },
+    {
+      "subject": "México",
+      "count": 153
+    },
+    {
+      "subject": "Neoliberalismo",
+      "count": 110
+    },
+    {
+      "subject": "Estado",
+      "count": 107
+    },
+    {
+      "subject": "Financiarización",
+      "count": 107
+    },
+    {
+      "subject": "Crisis",
+      "count": 105
+    },
+    {
+      "subject": "Democracia",
+      "count": 92
+    },
+    {
+      "subject": "Política monetaria",
+      "count": 92
+    },
+    {
+      "subject": "Argentina",
+      "count": 85
+    },
+    {
+      "subject": "Crisis financiera",
+      "count": 82
+    },
+    {
+      "subject": "Desarrollo económico",
+      "count": 82
+    },
+    {
+      "subject": "Pobreza",
+      "count": 80
+    },
+    {
+      "subject": "Globalización",
+      "count": 74
+    },
+    {
+      "subject": "Brasil",
+      "count": 71
+    },
+    {
+      "subject": "Desarrollo",
+      "count": 69
+    },
+    {
+      "subject": "Inflación",
+      "count": 58
+    },
+    {
+      "subject": "Dependencia",
+      "count": 53
+    },
+    {
+      "subject": "Empleo",
+      "count": 52
+    },
+    {
+      "subject": "Migración",
+      "count": 46
+    },
+    {
+      "subject": "Desigualdad",
+      "count": 46
+    },
+    {
+      "subject": "China",
+      "count": 46
+    },
+    {
+      "subject": "Integración",
+      "count": 44
+    },
+    {
+      "subject": "Estados Unidos",
+      "count": 44
+    },
+    {
+      "subject": "Inversión",
+      "count": 41
+    },
+    {
+      "subject": "Política fiscal",
+      "count": 38
+    },
+    {
+      "subject": "TLCAN",
+      "count": 37
+    },
+    {
+      "subject": "Capitalismo",
+      "count": 35
+    },
+    {
+      "subject": "Cadenas globales de valor",
+      "count": 34
+    },
+    {
+      "subject": "Cuba",
+      "count": 33
+    },
+    {
+      "subject": "Economia",
+      "count": 33
+    },
+    {
+      "subject": "Venezuela",
+      "count": 33
+    },
+    {
+      "subject": "Mercado laboral",
+      "count": 32
+    },
+    {
+      "subject": "Covid-19",
+      "count": 31
+    },
+    {
+      "subject": "Chile",
+      "count": 28
+    },
+    {
+      "subject": "Economy",
+      "count": 25
+    },
+    {
+      "subject": "Crecimiento",
+      "count": 24
+    },
+    {
+      "subject": "CEPAL",
+      "count": 23
+    },
+    {
+      "subject": "Trabajo",
+      "count": 23
+    },
+    {
+      "subject": "Adam Smith",
+      "count": 23
+    },
+    {
+      "subject": "Politica Economica",
+      "count": 22
+    },
+    {
+      "subject": "Crisis económica",
+      "count": 21
+    },
+    {
+      "subject": "Mercado",
+      "count": 21
+    },
+    {
+      "subject": "Salarios",
+      "count": 21
+    },
+    {
+      "subject": "Teoría de la dependencia",
+      "count": 21
+    },
+    {
+      "subject": "Income Distribution",
+      "count": 21
+    },
+    {
+      "subject": "Innovacion",
+      "count": 20
+    },
+    {
+      "subject": "Keynes",
+      "count": 20
+    },
+    {
+      "subject": "Minería",
+      "count": 20
+    },
+    {
+      "subject": "Ciencias Sociales",
+      "count": 19
+    }
+  ],
+  "subjects_are_normalized": true
+}

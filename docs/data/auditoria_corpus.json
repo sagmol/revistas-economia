@@ -1,0 +1,961 @@
+{
+  "total_records": 4901,
+  "journals": [
+    {
+      "journal": "Problemas del Desarrollo",
+      "count": 3107
+    },
+    {
+      "journal": "Estudios Latinoamericanos",
+      "count": 839
+    },
+    {
+      "journal": "Investigacion Economica",
+      "count": 497
+    },
+    {
+      "journal": "Ola Financiera",
+      "count": 458
+    }
+  ],
+  "year_min": 1969,
+  "year_max": 2026,
+  "coverage": {
+    "title": {
+      "count": 4901,
+      "pct": 100.0
+    },
+    "year": {
+      "count": 4901,
+      "pct": 100.0
+    },
+    "description": {
+      "count": 3007,
+      "pct": 61.4
+    },
+    "relations": {
+      "count": 4876,
+      "pct": 99.5
+    },
+    "source": {
+      "count": 4901,
+      "pct": 100.0
+    },
+    "publisher": {
+      "count": 4901,
+      "pct": 100.0
+    },
+    "language": {
+      "count": 4877,
+      "pct": 99.5
+    },
+    "authors": {
+      "count": 4900,
+      "pct": 100.0
+    },
+    "subjects": {
+      "count": 2371,
+      "pct": 48.4
+    }
+  },
+  "classifications": {
+    "posible_no_analitico": 289,
+    "analitico_probable": 4612
+  },
+  "non_analytic_flags": {
+    "editorial": 200,
+    "indice": 25,
+    "presentacion": 24,
+    "documentos": 15,
+    "obituario": 11,
+    "nota": 10,
+    "resena": 10
+  },
+  "non_analytic_examples": {
+    "presentacion": [
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2009",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Núm. 24 (2009): Nueva época, julio-diciembre; 9-13"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2008",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Núm. 22 (2008): Nueva época, julio-diciembre"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Vol. 1 Núm. 2 (1987): enero-junio; 3"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Vol. 2 Núm. 3 (1987): julio-diciembre; 3"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1989",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Vol. 4 Núm. 6-7 (1989): enero-diciembre; 5"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1990",
+        "title": "Presentación del Encuentro Internacional de Latinoamericanistas \"América Latina a fines del siglo XX\". XXX Aniversario del CELA, septiembre de 1990",
+        "source": "Estudios Latinoamericanos; Vol. 5 Núm. 9 (1990): julio-diciembre; 23-26"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2003",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; Vol. 10 Núm. 20 (2003): Nueva época, Julio-diciembre; 5-8"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2006",
+        "title": "Presentación",
+        "source": "Estudios Latinoamericanos; 2006: Número Anual Extraordinario; 13-16"
+      }
+    ],
+    "documentos": [
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Comentarios a los documentos resolutivos del XVII Congreso de la Internacional Socialista",
+        "source": "Estudios Latinoamericanos; Vol. 1 Núm. 2 (1987): enero-junio; 21-33"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Documento del Grupo de los Ocho. Compromiso de Acapulco para la paz, el desarrollo y la democracia",
+        "source": "Estudios Latinoamericanos; Vol. 2 Núm. 3 (1987): julio-diciembre; 123-129"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Documento de Esquipulas II. Procedimiento para establecer la paz firme y duradera en Centroamérica",
+        "source": "Estudios Latinoamericanos; Vol. 2 Núm. 3 (1987): julio-diciembre; 119-122"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1990",
+        "title": "Documentos: El Premio Nobel de Economía 1990 para Harry Markowitz, William Sharpe y Merton Miller",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 21 Núm. 83 (1990)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1978",
+        "title": "Documentos y Reuniones. Venezuela: Contratos de tecnología y comercialización petrolera",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 9 Núm. 33 (1978)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1977",
+        "title": "Documentos y Reuniones.",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 8 Núm. 32 (1977)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1977",
+        "title": "Documentos y Reuniones. Primera reunión regional de consulta biblioteca ayucucho",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 8 Núm. 31 (1977)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1977",
+        "title": "Documentos y Reuniones: \"En las entrañas del monstruo\" La lucha chicana",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 8 Núm. 30 (1977)"
+      }
+    ],
+    "editorial": [
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Pensamiento neoconservador en América Latina. Agustín Cueva, et al. Tiempos conservadores: América Latina en la derechización de Occidente. Editorial El Conejo. Quito, Ecuador. 1987, 260 pp.",
+        "source": "Estudios Latinoamericanos; Vol. 2 Núm. 3 (1987): julio-diciembre; 114"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1987",
+        "title": "Guerra de baja intensidad contra Nicaragua. Benítez R., Lozano L, Bermúdez L. EE.UU contra Nicaragua. La guerra de baja intensidad en Centroamérica, Editorial Revolución, Madrid, España, 1987, 85pp.",
+        "source": "Estudios Latinoamericanos; Vol. 2 Núm. 3 (1987): julio-diciembre; 115-116"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1990",
+        "title": "Fernando Martínez Heredia, Desafíos del socialismo cubano, Editorial Mestiza y Centro de Estudios sobre América, México,1988, 105 pp.",
+        "source": "Estudios Latinoamericanos; Vol. 5 Núm. 8 (1990): enero-junio; 89"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2009",
+        "title": "José Antonio Ocampo, Reconstruir el futuro. Globalización, desarrollo y democracia en América Latina, Bogotá, CEPAL/Editorial Norma, 2004.",
+        "source": "Estudios Latinoamericanos; Núm. 23 (2009): Nueva época, enero-junio; 169-175"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2003",
+        "title": "Joseph E. Stlglitz, El malestar en la globalización, España, Editorial Taurus, tercera edición, 2002, 314 pp.",
+        "source": "Estudios Latinoamericanos; Vol. 10 Núm. 20 (2003): Nueva época, Julio-diciembre; 239-243"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2003",
+        "title": "Javier Lindenboim y Claudia Danani (coordinadores), Entre el trabajo y la política. Las reformas de las políticas sociales argentinas en perspectivo comparada, Buenos Aires, Editorial Biblos, 2003, 287 pp.",
+        "source": "Estudios Latinoamericanos; Vol. 10 Núm. 20 (2003): Nueva época, Julio-diciembre; 247-249"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2005",
+        "title": "Pablo González: Casanova, Las Nuevas Ciencias Sociales y las Humanidades. De la academia a la política, Madrid, Editorial Anthropos/lnstituto de Investigaciones Sociales, UNAM/UCM, 2004, 478 pp.",
+        "source": "Estudios Latinoamericanos; 2005: Especial, enero-diciembre; 295-297"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2005",
+        "title": "Luis Suárez Salazar, Madre América: un siglo de violencia y dolor (1898-1998), Frankfurt/La Habana, Editorial ZAMBON/ Editorial de Ciencias Sociales, 2003, 536 pp.",
+        "source": "Estudios Latinoamericanos; 2005: Especial, enero-diciembre; 299-307"
+      }
+    ],
+    "obituario": [
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2012",
+        "title": "Eduardo Ruiz Contardo In memoriam",
+        "source": "Estudios Latinoamericanos; Núm. 30 (2012): Nueva época, julio-diciembre.; 19-51"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "2020",
+        "title": "Between Lima and Mexico. Words for Ricardo Melgar, In memoriam",
+        "source": "Estudios Latinoamericanos; Núm. 45-46 (2020): Nueva época, enero-diciembre; 15-17"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2019",
+        "title": "JAIME ROS BOSCH (1950-2019), In Memoriam",
+        "source": "Investigación Económica; Vol. 78 No. 310 (2019); 3-5"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2020",
+        "title": "JULIO LÓPEZ GALLARDO (1941-2020), In Memoriam",
+        "source": "Investigación Económica; Vol. 79 No. 313 (2020); 3-6"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2024",
+        "title": "IN MEMORIAM, TONY THIRLWALL (21 APRIL 1941-8 NOVEMBER 2023)",
+        "source": "Investigación Económica; Vol. 83 No. 327 (2024); 3-5"
+      },
+      {
+        "journal": "Ola Financiera",
+        "year": "2022",
+        "title": "Eugenia Correa: In memoriam",
+        "source": "Ola Financiera; Vol. 15 No. 41 (2022); V-IX"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2005",
+        "title": "Paul M. Sweezy. Un gran marxista -In memoriam-",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 36 Núm. 140 (2005)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1983",
+        "title": "In Memoriam",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 14 Núm. 54/55 (1983)"
+      }
+    ],
+    "indice": [
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1991",
+        "title": "Estudios Latinoamericanos. Indice acumulativo Núms. 1 al 10 (Julio 1986-Junio 1991)",
+        "source": "Estudios Latinoamericanos; Vol. 6 Núm. 11-13 (1991): julio 1991-diciembre; 97-116"
+      },
+      {
+        "journal": "Estudios Latinoamericanos",
+        "year": "1999",
+        "title": "Índice de Estudios Latinoamericanos nueva época, núm. 1 al 11, 1994-1999",
+        "source": "Estudios Latinoamericanos; Vol. 7 Núm. 12-13 (1999): Nueva época, julio 1999-junio2000; 325-365"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2014",
+        "title": "MEDICIÓN DEL DESARROLLO HUMANO: UN ÍNDICE ALTERNATIVO AL IDH-2010. ESPECIAL REFERENCIA A LOS PAÍSES LATINOAMERICANOS",
+        "source": "Investigación Económica; Vol. 73 No. 288 (2014): ESP"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2014",
+        "title": "MEASURING HUMAN DEVELOPMENT: AN ALTERNATIVE INDEX TO THE HDI-2010. SPECIAL FOCUS ON LATIN AMERICAN COUNTRIES",
+        "source": "Investigación Económica; Vol. 73 No. 288 (2014): ENG"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2020",
+        "title": "ÍNDICE DE DESIGUALDAD Y CRECIMIENTO ECONÓMICO EN AMÉRICA LATINA",
+        "source": "Investigación Económica; Vol. 79 No. 314 (2020); 106-134"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2024",
+        "title": "AN ODDITY IN THE HUMAN DEVELOPMENT INDEX",
+        "source": "Investigación Económica; Vol. 83 No. 327 (2024); 55-79"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2001",
+        "title": "Índice Anual 2000",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 32 Núm. 124 (2001)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Índice de sustentabilidad industrial: refinería “Miguel Hidalgo”",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 137 (2004)"
+      }
+    ],
+    "nota": [
+      {
+        "journal": "Investigacion Economica",
+        "year": "2016",
+        "title": "Nota editorial",
+        "source": "Investigación Económica; Vol. 75 No. 296 (2016); 3"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2018",
+        "title": "NOTA EDITORIAL",
+        "source": "Investigación Económica; Vol. 77 No. 304 (2018); 3-4"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2019",
+        "title": "NOTA EDITORIAL",
+        "source": "Investigación Económica; Vol. 78 No. 308 (2019); 3-10"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2019",
+        "title": "NOTA EDITORIAL",
+        "source": "Investigación Económica; Vol. 78 No. 310 (2019); 6-10"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2020",
+        "title": "NOTA EDITORIAL",
+        "source": "Investigación Económica; Vol. 79 No. 311 (2020); 3"
+      },
+      {
+        "journal": "Investigacion Economica",
+        "year": "2020",
+        "title": "NOTA EDITORIAL",
+        "source": "Investigación Económica; Vol. 79 No. 312 (2020); 3-4"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1992",
+        "title": "El enfoque del desarrollo sustentable. Una nota introductoria",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 23 Núm. 91 (1992)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "1987",
+        "title": "Nota del director",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 18 Núm. 68 (1987)"
+      }
+    ],
+    "resena": [
+      {
+        "journal": "Investigacion Economica",
+        "year": "2017",
+        "title": "GLOBALIZACIÓN Y DESIGUALDAD SOCIAL CON PROPENSIONES RECESIVAS: ¿QUÉ HACER? RESEÑA DEL LIBRO MERCADOS ABIERTOS Y PACTOS SOCIALES. DEMOCRACIA ARRINCONADA DE DAVID IBARRA (México: Fondo de Cultura Económica/Facultad de Economía, UNAM, 2017)",
+        "source": "Investigación Económica; Vol. 76 No. 302 (2017); 165-169"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2002",
+        "title": "Reseña de la Memoria del XXI Seminario de Economía Agrícola del tercer Mundo",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 33 Núm. 128 (2002)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de Globalización y cambio tecnológico. México en el nuevo ciclo industrial mundial, de A. Dabat, M.A. Rivera y J. Wilkie (coordinadores)",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 137 (2004)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de Estrategia de conservación para el desarrollo, de la Comisión Nacional de Áreas Naturales Protegidas, SEMARNAP",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 137 (2004)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de La reforma laboral que necesitamos. ¿Cómo transitar a una auténtica modernización laboral?, de José Alfonso Bouzas Ortiz (coordinador)",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 138 (2004)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de Free Trade and Uneven Development: The North American Apparel Industry after NAFTA, de Gary Gereffi, David Spener, and Jennifer Bair (editores)",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 138 (2004)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de La migración de talentos en México, de Heriberta Castaños-Lomnitz (coordinadora)",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 138 (2004)"
+      },
+      {
+        "journal": "Problemas del Desarrollo",
+        "year": "2004",
+        "title": "Reseña de Mercado de trabajo y competitividad en los capitalismos emergentes de Europa Central y Oriental, de Fernando Luengo",
+        "source": "Problemas del Desarrollo. Revista Latinoamericana de Economía; Vol. 35 Núm. 139 (2004)"
+      }
+    ]
+  },
+  "duplicate_title_year_groups": 102,
+  "by_journal_year": {
+    "Estudios Latinoamericanos": [
+      {
+        "year": "1986",
+        "count": 13
+      },
+      {
+        "year": "1987",
+        "count": 35
+      },
+      {
+        "year": "1988",
+        "count": 30
+      },
+      {
+        "year": "1989",
+        "count": 25
+      },
+      {
+        "year": "1990",
+        "count": 33
+      },
+      {
+        "year": "1991",
+        "count": 28
+      },
+      {
+        "year": "1994",
+        "count": 38
+      },
+      {
+        "year": "1995",
+        "count": 26
+      },
+      {
+        "year": "1996",
+        "count": 41
+      },
+      {
+        "year": "1997",
+        "count": 34
+      },
+      {
+        "year": "1998",
+        "count": 27
+      },
+      {
+        "year": "1999",
+        "count": 37
+      },
+      {
+        "year": "2000",
+        "count": 11
+      },
+      {
+        "year": "2001",
+        "count": 24
+      },
+      {
+        "year": "2002",
+        "count": 28
+      },
+      {
+        "year": "2003",
+        "count": 29
+      },
+      {
+        "year": "2005",
+        "count": 35
+      },
+      {
+        "year": "2006",
+        "count": 19
+      },
+      {
+        "year": "2008",
+        "count": 23
+      },
+      {
+        "year": "2009",
+        "count": 15
+      },
+      {
+        "year": "2010",
+        "count": 19
+      },
+      {
+        "year": "2011",
+        "count": 11
+      },
+      {
+        "year": "2012",
+        "count": 19
+      },
+      {
+        "year": "2013",
+        "count": 21
+      },
+      {
+        "year": "2014",
+        "count": 20
+      },
+      {
+        "year": "2015",
+        "count": 19
+      },
+      {
+        "year": "2016",
+        "count": 19
+      },
+      {
+        "year": "2017",
+        "count": 23
+      },
+      {
+        "year": "2018",
+        "count": 21
+      },
+      {
+        "year": "2019",
+        "count": 22
+      },
+      {
+        "year": "2020",
+        "count": 12
+      },
+      {
+        "year": "2021",
+        "count": 9
+      },
+      {
+        "year": "2022",
+        "count": 19
+      },
+      {
+        "year": "2023",
+        "count": 20
+      },
+      {
+        "year": "2024",
+        "count": 24
+      },
+      {
+        "year": "2025",
+        "count": 10
+      }
+    ],
+    "Investigacion Economica": [
+      {
+        "year": "2009",
+        "count": 28
+      },
+      {
+        "year": "2010",
+        "count": 20
+      },
+      {
+        "year": "2011",
+        "count": 20
+      },
+      {
+        "year": "2012",
+        "count": 22
+      },
+      {
+        "year": "2013",
+        "count": 42
+      },
+      {
+        "year": "2014",
+        "count": 30
+      },
+      {
+        "year": "2015",
+        "count": 31
+      },
+      {
+        "year": "2016",
+        "count": 31
+      },
+      {
+        "year": "2017",
+        "count": 29
+      },
+      {
+        "year": "2018",
+        "count": 26
+      },
+      {
+        "year": "2019",
+        "count": 23
+      },
+      {
+        "year": "2020",
+        "count": 24
+      },
+      {
+        "year": "2021",
+        "count": 24
+      },
+      {
+        "year": "2022",
+        "count": 28
+      },
+      {
+        "year": "2023",
+        "count": 30
+      },
+      {
+        "year": "2024",
+        "count": 37
+      },
+      {
+        "year": "2025",
+        "count": 36
+      },
+      {
+        "year": "2026",
+        "count": 16
+      }
+    ],
+    "Ola Financiera": [
+      {
+        "year": "2008",
+        "count": 9
+      },
+      {
+        "year": "2009",
+        "count": 29
+      },
+      {
+        "year": "2010",
+        "count": 26
+      },
+      {
+        "year": "2011",
+        "count": 31
+      },
+      {
+        "year": "2012",
+        "count": 24
+      },
+      {
+        "year": "2013",
+        "count": 22
+      },
+      {
+        "year": "2014",
+        "count": 25
+      },
+      {
+        "year": "2015",
+        "count": 31
+      },
+      {
+        "year": "2016",
+        "count": 23
+      },
+      {
+        "year": "2017",
+        "count": 23
+      },
+      {
+        "year": "2018",
+        "count": 24
+      },
+      {
+        "year": "2019",
+        "count": 25
+      },
+      {
+        "year": "2020",
+        "count": 21
+      },
+      {
+        "year": "2021",
+        "count": 23
+      },
+      {
+        "year": "2022",
+        "count": 23
+      },
+      {
+        "year": "2023",
+        "count": 24
+      },
+      {
+        "year": "2024",
+        "count": 25
+      },
+      {
+        "year": "2025",
+        "count": 30
+      },
+      {
+        "year": "2026",
+        "count": 20
+      }
+    ],
+    "Problemas del Desarrollo": [
+      {
+        "year": "1969",
+        "count": 26
+      },
+      {
+        "year": "1970",
+        "count": 101
+      },
+      {
+        "year": "1971",
+        "count": 112
+      },
+      {
+        "year": "1972",
+        "count": 90
+      },
+      {
+        "year": "1973",
+        "count": 69
+      },
+      {
+        "year": "1974",
+        "count": 109
+      },
+      {
+        "year": "1975",
+        "count": 104
+      },
+      {
+        "year": "1976",
+        "count": 69
+      },
+      {
+        "year": "1977",
+        "count": 53
+      },
+      {
+        "year": "1978",
+        "count": 61
+      },
+      {
+        "year": "1979",
+        "count": 75
+      },
+      {
+        "year": "1980",
+        "count": 80
+      },
+      {
+        "year": "1981",
+        "count": 26
+      },
+      {
+        "year": "1982",
+        "count": 51
+      },
+      {
+        "year": "1983",
+        "count": 54
+      },
+      {
+        "year": "1984",
+        "count": 36
+      },
+      {
+        "year": "1985",
+        "count": 34
+      },
+      {
+        "year": "1986",
+        "count": 26
+      },
+      {
+        "year": "1987",
+        "count": 40
+      },
+      {
+        "year": "1988",
+        "count": 40
+      },
+      {
+        "year": "1989",
+        "count": 43
+      },
+      {
+        "year": "1990",
+        "count": 59
+      },
+      {
+        "year": "1991",
+        "count": 63
+      },
+      {
+        "year": "1992",
+        "count": 80
+      },
+      {
+        "year": "1993",
+        "count": 72
+      },
+      {
+        "year": "1994",
+        "count": 70
+      },
+      {
+        "year": "1995",
+        "count": 64
+      },
+      {
+        "year": "1996",
+        "count": 87
+      },
+      {
+        "year": "1997",
+        "count": 62
+      },
+      {
+        "year": "1998",
+        "count": 41
+      },
+      {
+        "year": "1999",
+        "count": 48
+      },
+      {
+        "year": "2000",
+        "count": 40
+      },
+      {
+        "year": "2001",
+        "count": 47
+      },
+      {
+        "year": "2002",
+        "count": 38
+      },
+      {
+        "year": "2003",
+        "count": 56
+      },
+      {
+        "year": "2004",
+        "count": 58
+      },
+      {
+        "year": "2005",
+        "count": 52
+      },
+      {
+        "year": "2006",
+        "count": 50
+      },
+      {
+        "year": "2007",
+        "count": 53
+      },
+      {
+        "year": "2008",
+        "count": 53
+      },
+      {
+        "year": "2009",
+        "count": 50
+      },
+      {
+        "year": "2010",
+        "count": 45
+      },
+      {
+        "year": "2011",
+        "count": 49
+      },
+      {
+        "year": "2012",
+        "count": 53
+      },
+      {
+        "year": "2013",
+        "count": 54
+      },
+      {
+        "year": "2014",
+        "count": 53
+      },
+      {
+        "year": "2015",
+        "count": 51
+      },
+      {
+        "year": "2016",
+        "count": 41
+      },
+      {
+        "year": "2017",
+        "count": 33
+      },
+      {
+        "year": "2018",
+        "count": 36
+      },
+      {
+        "year": "2019",
+        "count": 30
+      },
+      {
+        "year": "2020",
+        "count": 31
+      },
+      {
+        "year": "2021",
+        "count": 42
+      },
+      {
+        "year": "2022",
+        "count": 32
+      },
+      {
+        "year": "2023",
+        "count": 32
+      },
+      {
+        "year": "2024",
+        "count": 29
+      },
+      {
+        "year": "2025",
+        "count": 29
+      },
+      {
+        "year": "2026",
+        "count": 25
+      }
+    ]
+  }
+}

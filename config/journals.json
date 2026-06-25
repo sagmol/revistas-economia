@@ -1,0 +1,72 @@
+{
+  "project": "revistas_economia_unam",
+  "updated": "2026-06-23",
+  "journals": [
+    {
+      "id": "problemas_desarrollo",
+      "name": "Problemas del Desarrollo",
+      "subtitle": "Revista Latinoamericana de Economia",
+      "institution": "Instituto de Investigaciones Economicas, UNAM",
+      "publisher_group": "UNAM",
+      "platform": "ojs3_custom_domain",
+      "homepage": "https://www.probdes.iiec.unam.mx/index.php/pde",
+      "archive_url": "https://www.probdes.iiec.unam.mx/index.php/pde/issue/archive",
+      "oai_endpoint": "https://www.probdes.iiec.unam.mx/index.php/pde/oai",
+      "status": "active_oai_validated",
+      "source_strategy": "oai",
+      "notes": "Dominio propio con estructura OJS. OAI-PMH validado en la primera ingesta."
+    },
+    {
+      "id": "investigacion_economica",
+      "name": "Investigacion Economica",
+      "institution": "Facultad de Economia, UNAM",
+      "publisher_group": "UNAM",
+      "platform": "ojs3",
+      "homepage": "https://revistas.unam.mx/index.php/rie",
+      "archive_url": "https://revistas.unam.mx/index.php/rie/issue/archive",
+      "oai_endpoint": "https://revistas.unam.mx/index.php/rie/oai",
+      "status": "initial_endpoint",
+      "source_strategy": "oai"
+    },
+    {
+      "id": "estudios_latinoamericanos",
+      "name": "Estudios Latinoamericanos",
+      "institution": "Centro de Estudios Latinoamericanos, FCPyS, UNAM",
+      "publisher_group": "UNAM",
+      "platform": "ojs3",
+      "homepage": "https://revistas.unam.mx/index.php/rel",
+      "archive_url": "https://revistas.unam.mx/index.php/rel/issue/archive",
+      "oai_endpoint": "https://revistas.unam.mx/index.php/rel/oai",
+      "status": "initial_endpoint",
+      "source_strategy": "oai",
+      "notes": "Agregada como revista UNAM afin por estudios latinoamericanos/economia politica."
+    },
+    {
+      "id": "ola_financiera",
+      "name": "Ola Financiera",
+      "institution": "Instituto de Investigaciones Economicas y Facultad de Economia, UNAM",
+      "publisher_group": "UNAM",
+      "platform": "ojs3",
+      "homepage": "https://revistas.unam.mx/index.php/rof",
+      "archive_url": "https://revistas.unam.mx/index.php/rof/issue/archive",
+      "oai_endpoint": "https://revistas.unam.mx/index.php/rof/oai",
+      "status": "initial_endpoint",
+      "source_strategy": "oai"
+    },
+    {
+      "id": "economia_unam",
+      "name": "Economia UNAM",
+      "institution": "Facultad de Economia, FES Aragon, FES Acatlan e Instituto de Investigaciones Economicas, UNAM",
+      "publisher_group": "UNAM",
+      "platform": "ojs3",
+      "homepage": "https://www.revistas.unam.mx/index.php/ecu",
+      "archive_url": "https://www.revistas.unam.mx/index.php/ecu/issue/archive",
+      "elsevier_url": "https://www.elsevier.es/es-revista-economia-unam-115",
+      "oai_endpoint": null,
+      "issn_print": "1665-952X",
+      "status": "excluded_no_oai",
+      "source_strategy": "elsevier_or_archive_scraper",
+      "notes": "Fuente localizada desde Elsevier, que enlaza al archivo en Revistas UNAM. El endpoint /ecu/oai devuelve 404 y el archivo OJS respondio 403 al acceso automatizado; queda fuera del corte OAI inicial."
+    }
+  ]
+}

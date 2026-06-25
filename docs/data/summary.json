@@ -1,0 +1,1055 @@
+{
+  "total_articles": 4901,
+  "total_authors": 3403,
+  "total_subjects": 9180,
+  "by_journal": [
+    {
+      "journal": "Problemas del Desarrollo",
+      "count": 3107
+    },
+    {
+      "journal": "Estudios Latinoamericanos",
+      "count": 839
+    },
+    {
+      "journal": "Investigacion Economica",
+      "count": 497
+    },
+    {
+      "journal": "Ola Financiera",
+      "count": 458
+    }
+  ],
+  "by_year": [
+    {
+      "year": "1969",
+      "count": 26
+    },
+    {
+      "year": "1970",
+      "count": 101
+    },
+    {
+      "year": "1971",
+      "count": 112
+    },
+    {
+      "year": "1972",
+      "count": 90
+    },
+    {
+      "year": "1973",
+      "count": 69
+    },
+    {
+      "year": "1974",
+      "count": 109
+    },
+    {
+      "year": "1975",
+      "count": 104
+    },
+    {
+      "year": "1976",
+      "count": 69
+    },
+    {
+      "year": "1977",
+      "count": 53
+    },
+    {
+      "year": "1978",
+      "count": 61
+    },
+    {
+      "year": "1979",
+      "count": 75
+    },
+    {
+      "year": "1980",
+      "count": 80
+    },
+    {
+      "year": "1981",
+      "count": 26
+    },
+    {
+      "year": "1982",
+      "count": 51
+    },
+    {
+      "year": "1983",
+      "count": 54
+    },
+    {
+      "year": "1984",
+      "count": 36
+    },
+    {
+      "year": "1985",
+      "count": 34
+    },
+    {
+      "year": "1986",
+      "count": 39
+    },
+    {
+      "year": "1987",
+      "count": 75
+    },
+    {
+      "year": "1988",
+      "count": 70
+    },
+    {
+      "year": "1989",
+      "count": 68
+    },
+    {
+      "year": "1990",
+      "count": 92
+    },
+    {
+      "year": "1991",
+      "count": 91
+    },
+    {
+      "year": "1992",
+      "count": 80
+    },
+    {
+      "year": "1993",
+      "count": 72
+    },
+    {
+      "year": "1994",
+      "count": 108
+    },
+    {
+      "year": "1995",
+      "count": 90
+    },
+    {
+      "year": "1996",
+      "count": 128
+    },
+    {
+      "year": "1997",
+      "count": 96
+    },
+    {
+      "year": "1998",
+      "count": 68
+    },
+    {
+      "year": "1999",
+      "count": 85
+    },
+    {
+      "year": "2000",
+      "count": 51
+    },
+    {
+      "year": "2001",
+      "count": 71
+    },
+    {
+      "year": "2002",
+      "count": 66
+    },
+    {
+      "year": "2003",
+      "count": 85
+    },
+    {
+      "year": "2004",
+      "count": 58
+    },
+    {
+      "year": "2005",
+      "count": 87
+    },
+    {
+      "year": "2006",
+      "count": 69
+    },
+    {
+      "year": "2007",
+      "count": 53
+    },
+    {
+      "year": "2008",
+      "count": 85
+    },
+    {
+      "year": "2009",
+      "count": 122
+    },
+    {
+      "year": "2010",
+      "count": 110
+    },
+    {
+      "year": "2011",
+      "count": 111
+    },
+    {
+      "year": "2012",
+      "count": 118
+    },
+    {
+      "year": "2013",
+      "count": 139
+    },
+    {
+      "year": "2014",
+      "count": 128
+    },
+    {
+      "year": "2015",
+      "count": 132
+    },
+    {
+      "year": "2016",
+      "count": 114
+    },
+    {
+      "year": "2017",
+      "count": 108
+    },
+    {
+      "year": "2018",
+      "count": 107
+    },
+    {
+      "year": "2019",
+      "count": 100
+    },
+    {
+      "year": "2020",
+      "count": 88
+    },
+    {
+      "year": "2021",
+      "count": 98
+    },
+    {
+      "year": "2022",
+      "count": 102
+    },
+    {
+      "year": "2023",
+      "count": 106
+    },
+    {
+      "year": "2024",
+      "count": 115
+    },
+    {
+      "year": "2025",
+      "count": 105
+    },
+    {
+      "year": "2026",
+      "count": 61
+    }
+  ],
+  "by_journal_year": {
+    "Estudios Latinoamericanos": [
+      {
+        "year": "1986",
+        "count": 13
+      },
+      {
+        "year": "1987",
+        "count": 35
+      },
+      {
+        "year": "1988",
+        "count": 30
+      },
+      {
+        "year": "1989",
+        "count": 25
+      },
+      {
+        "year": "1990",
+        "count": 33
+      },
+      {
+        "year": "1991",
+        "count": 28
+      },
+      {
+        "year": "1994",
+        "count": 38
+      },
+      {
+        "year": "1995",
+        "count": 26
+      },
+      {
+        "year": "1996",
+        "count": 41
+      },
+      {
+        "year": "1997",
+        "count": 34
+      },
+      {
+        "year": "1998",
+        "count": 27
+      },
+      {
+        "year": "1999",
+        "count": 37
+      },
+      {
+        "year": "2000",
+        "count": 11
+      },
+      {
+        "year": "2001",
+        "count": 24
+      },
+      {
+        "year": "2002",
+        "count": 28
+      },
+      {
+        "year": "2003",
+        "count": 29
+      },
+      {
+        "year": "2005",
+        "count": 35
+      },
+      {
+        "year": "2006",
+        "count": 19
+      },
+      {
+        "year": "2008",
+        "count": 23
+      },
+      {
+        "year": "2009",
+        "count": 15
+      },
+      {
+        "year": "2010",
+        "count": 19
+      },
+      {
+        "year": "2011",
+        "count": 11
+      },
+      {
+        "year": "2012",
+        "count": 19
+      },
+      {
+        "year": "2013",
+        "count": 21
+      },
+      {
+        "year": "2014",
+        "count": 20
+      },
+      {
+        "year": "2015",
+        "count": 19
+      },
+      {
+        "year": "2016",
+        "count": 19
+      },
+      {
+        "year": "2017",
+        "count": 23
+      },
+      {
+        "year": "2018",
+        "count": 21
+      },
+      {
+        "year": "2019",
+        "count": 22
+      },
+      {
+        "year": "2020",
+        "count": 12
+      },
+      {
+        "year": "2021",
+        "count": 9
+      },
+      {
+        "year": "2022",
+        "count": 19
+      },
+      {
+        "year": "2023",
+        "count": 20
+      },
+      {
+        "year": "2024",
+        "count": 24
+      },
+      {
+        "year": "2025",
+        "count": 10
+      }
+    ],
+    "Investigacion Economica": [
+      {
+        "year": "2009",
+        "count": 28
+      },
+      {
+        "year": "2010",
+        "count": 20
+      },
+      {
+        "year": "2011",
+        "count": 20
+      },
+      {
+        "year": "2012",
+        "count": 22
+      },
+      {
+        "year": "2013",
+        "count": 42
+      },
+      {
+        "year": "2014",
+        "count": 30
+      },
+      {
+        "year": "2015",
+        "count": 31
+      },
+      {
+        "year": "2016",
+        "count": 31
+      },
+      {
+        "year": "2017",
+        "count": 29
+      },
+      {
+        "year": "2018",
+        "count": 26
+      },
+      {
+        "year": "2019",
+        "count": 23
+      },
+      {
+        "year": "2020",
+        "count": 24
+      },
+      {
+        "year": "2021",
+        "count": 24
+      },
+      {
+        "year": "2022",
+        "count": 28
+      },
+      {
+        "year": "2023",
+        "count": 30
+      },
+      {
+        "year": "2024",
+        "count": 37
+      },
+      {
+        "year": "2025",
+        "count": 36
+      },
+      {
+        "year": "2026",
+        "count": 16
+      }
+    ],
+    "Ola Financiera": [
+      {
+        "year": "2008",
+        "count": 9
+      },
+      {
+        "year": "2009",
+        "count": 29
+      },
+      {
+        "year": "2010",
+        "count": 26
+      },
+      {
+        "year": "2011",
+        "count": 31
+      },
+      {
+        "year": "2012",
+        "count": 24
+      },
+      {
+        "year": "2013",
+        "count": 22
+      },
+      {
+        "year": "2014",
+        "count": 25
+      },
+      {
+        "year": "2015",
+        "count": 31
+      },
+      {
+        "year": "2016",
+        "count": 23
+      },
+      {
+        "year": "2017",
+        "count": 23
+      },
+      {
+        "year": "2018",
+        "count": 24
+      },
+      {
+        "year": "2019",
+        "count": 25
+      },
+      {
+        "year": "2020",
+        "count": 21
+      },
+      {
+        "year": "2021",
+        "count": 23
+      },
+      {
+        "year": "2022",
+        "count": 23
+      },
+      {
+        "year": "2023",
+        "count": 24
+      },
+      {
+        "year": "2024",
+        "count": 25
+      },
+      {
+        "year": "2025",
+        "count": 30
+      },
+      {
+        "year": "2026",
+        "count": 20
+      }
+    ],
+    "Problemas del Desarrollo": [
+      {
+        "year": "1969",
+        "count": 26
+      },
+      {
+        "year": "1970",
+        "count": 101
+      },
+      {
+        "year": "1971",
+        "count": 112
+      },
+      {
+        "year": "1972",
+        "count": 90
+      },
+      {
+        "year": "1973",
+        "count": 69
+      },
+      {
+        "year": "1974",
+        "count": 109
+      },
+      {
+        "year": "1975",
+        "count": 104
+      },
+      {
+        "year": "1976",
+        "count": 69
+      },
+      {
+        "year": "1977",
+        "count": 53
+      },
+      {
+        "year": "1978",
+        "count": 61
+      },
+      {
+        "year": "1979",
+        "count": 75
+      },
+      {
+        "year": "1980",
+        "count": 80
+      },
+      {
+        "year": "1981",
+        "count": 26
+      },
+      {
+        "year": "1982",
+        "count": 51
+      },
+      {
+        "year": "1983",
+        "count": 54
+      },
+      {
+        "year": "1984",
+        "count": 36
+      },
+      {
+        "year": "1985",
+        "count": 34
+      },
+      {
+        "year": "1986",
+        "count": 26
+      },
+      {
+        "year": "1987",
+        "count": 40
+      },
+      {
+        "year": "1988",
+        "count": 40
+      },
+      {
+        "year": "1989",
+        "count": 43
+      },
+      {
+        "year": "1990",
+        "count": 59
+      },
+      {
+        "year": "1991",
+        "count": 63
+      },
+      {
+        "year": "1992",
+        "count": 80
+      },
+      {
+        "year": "1993",
+        "count": 72
+      },
+      {
+        "year": "1994",
+        "count": 70
+      },
+      {
+        "year": "1995",
+        "count": 64
+      },
+      {
+        "year": "1996",
+        "count": 87
+      },
+      {
+        "year": "1997",
+        "count": 62
+      },
+      {
+        "year": "1998",
+        "count": 41
+      },
+      {
+        "year": "1999",
+        "count": 48
+      },
+      {
+        "year": "2000",
+        "count": 40
+      },
+      {
+        "year": "2001",
+        "count": 47
+      },
+      {
+        "year": "2002",
+        "count": 38
+      },
+      {
+        "year": "2003",
+        "count": 56
+      },
+      {
+        "year": "2004",
+        "count": 58
+      },
+      {
+        "year": "2005",
+        "count": 52
+      },
+      {
+        "year": "2006",
+        "count": 50
+      },
+      {
+        "year": "2007",
+        "count": 53
+      },
+      {
+        "year": "2008",
+        "count": 53
+      },
+      {
+        "year": "2009",
+        "count": 50
+      },
+      {
+        "year": "2010",
+        "count": 45
+      },
+      {
+        "year": "2011",
+        "count": 49
+      },
+      {
+        "year": "2012",
+        "count": 53
+      },
+      {
+        "year": "2013",
+        "count": 54
+      },
+      {
+        "year": "2014",
+        "count": 53
+      },
+      {
+        "year": "2015",
+        "count": 51
+      },
+      {
+        "year": "2016",
+        "count": 41
+      },
+      {
+        "year": "2017",
+        "count": 33
+      },
+      {
+        "year": "2018",
+        "count": 36
+      },
+      {
+        "year": "2019",
+        "count": 30
+      },
+      {
+        "year": "2020",
+        "count": 31
+      },
+      {
+        "year": "2021",
+        "count": 42
+      },
+      {
+        "year": "2022",
+        "count": 32
+      },
+      {
+        "year": "2023",
+        "count": 32
+      },
+      {
+        "year": "2024",
+        "count": 29
+      },
+      {
+        "year": "2025",
+        "count": 29
+      },
+      {
+        "year": "2026",
+        "count": 25
+      }
+    ]
+  },
+  "top_authors": [
+    {
+      "author": "Girón, Alicia",
+      "count": 66
+    },
+    {
+      "author": "Bonilla Sánchez, Arturo",
+      "count": 51
+    },
+    {
+      "author": "Financiera, Ola",
+      "count": 49
+    },
+    {
+      "author": "Rodríguez y Rodríguez, Salvador",
+      "count": 45
+    },
+    {
+      "author": "Candia, José Miguel",
+      "count": 35
+    },
+    {
+      "author": "Martínez Escamilla, Ramón",
+      "count": 32
+    },
+    {
+      "author": "Carmona de la Peña, Fernando",
+      "count": 32
+    },
+    {
+      "author": "González Salazar, Gloria",
+      "count": 31
+    },
+    {
+      "author": "Carmona, Fernando",
+      "count": 28
+    },
+    {
+      "author": "Dirección de la Revista, La",
+      "count": 27
+    },
+    {
+      "author": "González Marín, María Luisa",
+      "count": 25
+    },
+    {
+      "author": "González Lima, Héctor",
+      "count": 24
+    },
+    {
+      "author": "Perrotini Hernández, Ignacio",
+      "count": 23
+    },
+    {
+      "author": "Guerra Borges, Alfredo",
+      "count": 23
+    },
+    {
+      "author": "Morales, Josefina",
+      "count": 21
+    },
+    {
+      "author": "Calderón Rodríguez, José María",
+      "count": 20
+    },
+    {
+      "author": "Sotelo Valencia, Adrián",
+      "count": 20
+    },
+    {
+      "author": "Ceceña Gámez, José Luis",
+      "count": 20
+    },
+    {
+      "author": "Calva, José Luis",
+      "count": 19
+    },
+    {
+      "author": "Bassols Batalla, Ángel",
+      "count": 19
+    },
+    {
+      "author": "Guillén Romo, Arturo",
+      "count": 19
+    },
+    {
+      "author": "Ceceña Cervantes, José Luis",
+      "count": 19
+    },
+    {
+      "author": "Ortíz Wadgymar, Arturo",
+      "count": 18
+    },
+    {
+      "author": "Portos, Irma",
+      "count": 18
+    },
+    {
+      "author": "Torres Torres, Felipe",
+      "count": 18
+    }
+  ],
+  "top_subjects": [
+    {
+      "subject": "América Latina",
+      "count": 123
+    },
+    {
+      "subject": "Latin America",
+      "count": 91
+    },
+    {
+      "subject": "México",
+      "count": 89
+    },
+    {
+      "subject": "Argentina",
+      "count": 79
+    },
+    {
+      "subject": "crisis",
+      "count": 75
+    },
+    {
+      "subject": "neoliberalismo",
+      "count": 57
+    },
+    {
+      "subject": "crecimiento económico",
+      "count": 55
+    },
+    {
+      "subject": "economic growth",
+      "count": 54
+    },
+    {
+      "subject": "Estado",
+      "count": 53
+    },
+    {
+      "subject": "Mexico",
+      "count": 53
+    },
+    {
+      "subject": "democracia",
+      "count": 45
+    },
+    {
+      "subject": "China",
+      "count": 44
+    },
+    {
+      "subject": "economic development",
+      "count": 39
+    },
+    {
+      "subject": "política monetaria",
+      "count": 38
+    },
+    {
+      "subject": "Brasil",
+      "count": 34
+    },
+    {
+      "subject": "pobreza",
+      "count": 34
+    },
+    {
+      "subject": "monetary policy",
+      "count": 34
+    },
+    {
+      "subject": "Cuba",
+      "count": 33
+    },
+    {
+      "subject": "neoliberalism",
+      "count": 33
+    },
+    {
+      "subject": "State",
+      "count": 33
+    },
+    {
+      "subject": "capitalismo",
+      "count": 32
+    },
+    {
+      "subject": "financiarización",
+      "count": 30
+    },
+    {
+      "subject": "Brazil",
+      "count": 30
+    },
+    {
+      "subject": "democracy",
+      "count": 29
+    },
+    {
+      "subject": "poverty",
+      "count": 28
+    },
+    {
+      "subject": "Crisis",
+      "count": 28
+    },
+    {
+      "subject": "Chile",
+      "count": 27
+    },
+    {
+      "subject": "Estados Unidos",
+      "count": 27
+    },
+    {
+      "subject": "inflación",
+      "count": 27
+    },
+    {
+      "subject": "financialization",
+      "count": 27
+    },
+    {
+      "subject": "Financialization",
+      "count": 27
+    },
+    {
+      "subject": "Adam Smith",
+      "count": 27
+    },
+    {
+      "subject": "development",
+      "count": 25
+    },
+    {
+      "subject": "globalization",
+      "count": 25
+    },
+    {
+      "subject": "desarrollo económico",
+      "count": 25
+    },
+    {
+      "subject": "desarrollo",
+      "count": 24
+    },
+    {
+      "subject": "Venezuela",
+      "count": 24
+    },
+    {
+      "subject": "CEPAL",
+      "count": 23
+    },
+    {
+      "subject": "economía",
+      "count": 23
+    },
+    {
+      "subject": "investment",
+      "count": 22
+    }
+  ]
+}

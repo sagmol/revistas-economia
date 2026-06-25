@@ -1,0 +1,218 @@
+raw_key,normalized_subject,category,keep,notes
+america latina,América Latina,region,1,Unifica español/ingles y puntuacion
+latin america,América Latina,region,1,Unifica español/ingles
+mexico,México,country,1,Unifica acento
+brasil,Brasil,country,1,Unifica español/ingles
+brazil,Brasil,country,1,Unifica español/ingles
+estados unidos,Estados Unidos,country,1,Unifica español/ingles
+united states,Estados Unidos,country,1,Unifica español/ingles
+china,China,country,1,
+argentina,Argentina,country,1,
+chile,Chile,country,1,
+cuba,Cuba,country,1,
+venezuela,Venezuela,country,1,
+ecuador,Ecuador,country,1,
+india,India,country,1,
+financiarizacion,Financiarización,concept,1,Unifica español/ingles
+financialization,Financiarización,concept,1,Unifica español/ingles
+neoliberalismo,Neoliberalismo,concept,1,Unifica español/ingles
+neoliberalism,Neoliberalismo,concept,1,Unifica español/ingles
+crecimiento economico,Crecimiento económico,concept,1,Unifica español/ingles
+economic growth,Crecimiento económico,concept,1,Unifica español/ingles
+growth,Crecimiento económico,concept,1,Mapeo amplio; revisar si introduce ruido
+desarrollo economico,Desarrollo económico,concept,1,Unifica español/ingles
+economic development,Desarrollo económico,concept,1,Unifica español/ingles
+development,Desarrollo,concept,1,Concepto general
+desarrollo,Desarrollo,concept,1,Concepto general
+politica monetaria,Política monetaria,concept,1,Unifica español/ingles
+monetary policy,Política monetaria,concept,1,Unifica español/ingles
+politica fiscal,Política fiscal,concept,1,Unifica español/ingles
+fiscal policy,Política fiscal,concept,1,Unifica español/ingles
+inflacion,Inflación,concept,1,Unifica español/ingles
+inflation,Inflación,concept,1,Unifica español/ingles
+crisis,Crisis,concept,1,Unifica mayusculas
+crisis economica,Crisis económica,concept,1,
+crisis financiera,Crisis financiera,concept,1,Unifica español/ingles
+financial crisis,Crisis financiera,concept,1,Unifica español/ingles
+pobreza,Pobreza,concept,1,Unifica español/ingles
+poverty,Pobreza,concept,1,Unifica español/ingles
+democracia,Democracia,concept,1,Unifica español/ingles
+democracy,Democracia,concept,1,Unifica español/ingles
+estado,Estado,concept,1,Unifica español/ingles
+state,Estado,concept,1,Unifica español/ingles
+capitalismo,Capitalismo,concept,1,
+globalizacion,Globalización,concept,1,Unifica español/ingles
+globalization,Globalización,concept,1,Unifica español/ingles
+migracion,Migración,concept,1,Unifica español/ingles
+migration,Migración,concept,1,Unifica español/ingles
+empleo,Empleo,concept,1,Unifica español/ingles
+employment,Empleo,concept,1,Unifica español/ingles
+trabajo,Trabajo,concept,1,
+labor market,Mercado laboral,concept,1,Unifica español/ingles
+mercado laboral,Mercado laboral,concept,1,Unifica español/ingles
+desigualdad,Desigualdad,concept,1,Unifica español/ingles
+inequality,Desigualdad,concept,1,Unifica español/ingles
+inversion,Inversión,concept,1,Unifica español/ingles
+investment,Inversión,concept,1,Unifica español/ingles
+integracion,Integración,concept,1,Unifica español/ingles
+integration,Integración,concept,1,Unifica español/ingles
+tlcan,TLCAN,agreement,1,Unifica español/ingles
+nafta,TLCAN,agreement,1,Unifica español/ingles
+cepal,CEPAL,institution,1,
+adam smith,Adam Smith,person,1,
+keynes,Keynes,person,1,
+gramsci,Gramsci,person,1,
+marx,Marx,person,1,
+karl polanyi,Karl Polanyi,person,1,
+editorial,Editorial,document_type,0,No es tema analitico
+cadenas globales de valor,Cadenas globales de valor,concept,1,Insercion periferica y cadenas globales
+cadena global de valor,Cadenas globales de valor,concept,1,
+cadenas globales de valor cgv,Cadenas globales de valor,concept,1,
+cadenas globales de produccion,Cadenas globales de valor,concept,1,
+cadenas globales de mercancias,Cadenas globales de valor,concept,1,
+cadenas de valor,Cadenas globales de valor,concept,1,
+cadena de valor,Cadenas globales de valor,concept,1,
+global value chains,Cadenas globales de valor,concept,1,
+global value chain,Cadenas globales de valor,concept,1,
+global commodity chains,Cadenas globales de valor,concept,1,
+dependencia,Dependencia,concept,1,Unifica teoria dependencia/dependency
+dependency,Dependencia,concept,1,
+dependence,Dependencia,concept,1,
+teoria de la dependencia,Teoría de la dependencia,concept,1,
+dependency theory,Teoría de la dependencia,concept,1,
+theory of dependency,Teoría de la dependencia,concept,1,
+teoria marxista de la dependencia,Teoría marxista de la dependencia,concept,1,
+marxist theory of dependency,Teoría marxista de la dependencia,concept,1,
+dialectica de la dependencia,Dialéctica de la dependencia,concept,1,
+dialectic of dependency,Dialéctica de la dependencia,concept,1,
+centro-periferia,Centro-periferia,concept,1,
+periferia,Periferia,concept,1,
+paises perifericos,Países periféricos,concept,1,
+regiones perifericas,Regiones periféricas,concept,1,
+condicion periferica,Condición periférica,concept,1,
+insercion periferica,Inserción periférica,concept,1,
+insercion subordinada,Inserción subordinada,concept,1,
+subordinacion,Subordinación,concept,1,
+subordination,Subordinación,concept,1,
+subordinacion financiera,Subordinación financiera,concept,1,
+financial subordination,Subordinación financiera,concept,1,
+capitalismo dependiente,Capitalismo dependiente,concept,1,
+dependent capitalism,Capitalismo dependiente,concept,1,
+trasnacionales,Transnacionales,actor,1,Unifica transnacional/trasnacional
+transnacionales,Transnacionales,actor,1,
+empresas transnacionales,Empresas transnacionales,actor,1,
+empresas trasnacionales,Empresas transnacionales,actor,1,
+corporaciones transnacionales,Corporaciones transnacionales,actor,1,
+corporaciones trasnacionales,Corporaciones transnacionales,actor,1,
+capital transnacional,Capital transnacional,actor,1,
+capital trasnacional,Capital transnacional,actor,1,
+multilatinas,Multilatinas,actor,1,
+poder,Poder,concept,1,
+poder economico,Poder económico,concept,1,
+poder de mercado,Poder de mercado,concept,1,
+desviacion de poder,Desviación de poder,concept,1,
+colonialidad del poder,Colonialidad del poder,concept,1,
+des colonialidad del poder,Colonialidad del poder,concept,1,
+desigualdad de la riqueza,Desigualdad de la riqueza,concept,1,
+distribucion de la riqueza,Distribución de la riqueza,concept,1,
+concentracion de la riqueza,Concentración de la riqueza,concept,1,
+concentracion del ingreso y riqueza,Concentración del ingreso y riqueza,concept,1,
+riqueza,Riqueza,concept,1,
+wealth,Riqueza,concept,1,
+extractivismo,Extractivismo,concept,1,
+extractivism,Extractivismo,concept,1,
+neoextractivismo,Neoextractivismo,concept,1,
+agroextractivismo,Agroextractivismo,concept,1,
+agro-extractivism,Agroextractivismo,concept,1,
+mineria,Minería,sector,1,
+mining,Minería,sector,1,
+mega mineria,Megaminería,sector,1,
+large-scale mining,Megaminería,sector,1,
+mineria global,Minería global,sector,1,
+global mining,Minería global,sector,1,
+mineria financiarizada,Minería financiarizada,sector,1,
+financialized mining,Minería financiarizada,sector,1,
+mineria del cobre,Minería del cobre,sector,1,
+copper mining,Minería del cobre,sector,1,
+grupos mineros,Grupos mineros,actor,1,
+mining groups,Grupos mineros,actor,1,
+concesion minera,Concesión minera,concept,1,
+mining concession,Concesión minera,concept,1,
+petroleo,Petróleo,sector,1,
+petroleum,Petróleo,sector,1,
+hidrocarburos,Hidrocarburos,sector,1,
+gas natural,Gas natural,sector,1,
+natural gas,Gas natural,sector,1,
+industria petrolera,Industria petrolera,sector,1,
+petroleum industry,Industria petrolera,sector,1,
+imperialismo petrolero,Imperialismo petrolero,concept,1,
+imperialismo petroleiro,Imperialismo petrolero,concept,1,
+energia,Energía,sector,1,
+energy,Energía,sector,1,
+sector energia,Sector energía,sector,1,
+energia renovable,Energías renovables,sector,1,
+energias renovables,Energías renovables,sector,1,
+renewable energy,Energías renovables,sector,1,
+energia electrica,Energía eléctrica,sector,1,
+energia eolica,Energía eólica,sector,1,
+recursos naturales,Recursos naturales,concept,1,
+natural resources,Recursos naturales,concept,1,
+recursos naturais,Recursos naturales,concept,1,
+recursos minerales,Recursos minerales,sector,1,
+mineral resources,Recursos minerales,sector,1,
+recursos naturales no renovables,Recursos naturales no renovables,sector,1,
+non-renewable natural resources,Recursos naturales no renovables,sector,1,
+medio ambiente,Medio ambiente,concept,1,
+environment,Medio ambiente,concept,1,
+ambiente,Medio ambiente,concept,1,
+ecologia,Ecología,concept,1,
+ecology,Ecología,concept,1,
+economia ecologica,Economía ecológica,concept,1,
+ecological economics,Economía ecológica,concept,1,
+ecologia politica,Ecología política,concept,1,
+ecological policy,Ecología política,concept,1,
+crisis ecologica,Crisis ecológica,concept,1,
+ecological crisis,Crisis ecológica,concept,1,
+crisis ambiental,Crisis ambiental,concept,1,
+deuda ecologica,Deuda ecológica,concept,1,
+ecological debt,Deuda ecológica,concept,1,
+degradacion ambiental,Degradación ambiental,concept,1,
+deterioro ambiental,Deterioro ambiental,concept,1,
+impacto ambiental,Impacto ambiental,concept,1,
+contaminacion ambiental,Contaminación ambiental,concept,1,
+contaminacion,Contaminación,concept,1,
+naturaleza,Naturaleza,concept,1,
+nature,Naturaleza,concept,1,
+financiarizacion de la naturaleza,Financiarización de la naturaleza,concept,1,
+financialization of nature,Financiarización de la naturaleza,concept,1,
+agua,Agua,resource,1,
+water,Agua,resource,1,
+agua publica,Agua pública,resource,1,
+derecho al agua,Derecho al agua,resource,1,
+mercado de agua,Mercado de agua,resource,1,
+agua y saneamiento,Agua y saneamiento,resource,1,
+conflicto,Conflicto,concept,1,
+conflict,Conflicto,concept,1,
+conflictos,Conflictos,concept,1,
+conflicto social,Conflicto social,concept,1,
+social conflict,Conflicto social,concept,1,
+conflictos sociales,Conflictos sociales,concept,1,
+social conflicts,Conflictos sociales,concept,1,
+conflicto agrario,Conflicto agrario,concept,1,
+conflictos socioambientales,Conflictos socioambientales,concept,1,
+socio-environmental conflicts,Conflictos socioambientales,concept,1,
+conflictos ecologico-distributivos,Conflictos ecológico-distributivos,concept,1,
+ecological-distributive conflicts,Conflictos ecológico-distributivos,concept,1,
+despojo,Despojo,concept,1,
+acumulacion por desposesion,Acumulación por desposesión,concept,1,
+accumulation by dispossession,Acumulación por desposesión,concept,1,
+saqueo de recursos naturales,Saqueo de recursos naturales,concept,1,
+looting of natural resources,Saqueo de recursos naturales,concept,1,
+pilhagem de recursos naturais,Saqueo de recursos naturales,concept,1,
+acumulacion de capital,Acumulación de capital,concept,1,
+capital accumulation,Acumulación de capital,concept,1,
+acumulacion capitalista,Acumulación capitalista,concept,1,
+capitalist accumulation,Acumulación capitalista,concept,1,
+regimen de acumulacion,Régimen de acumulación,concept,1,
+modelo de acumulacion,Modelo de acumulación,concept,1,
+patron de acumulacion,Patrón de acumulación,concept,1,
